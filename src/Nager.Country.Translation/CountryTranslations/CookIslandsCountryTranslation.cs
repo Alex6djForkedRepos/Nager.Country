@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Кукови Острови"),
             new TranslationInfo(LanguageCode.MN, "Күүкийн арлууд"),
             new TranslationInfo(LanguageCode.NB, "Cookøyene"),
+            new TranslationInfo(LanguageCode.NO, "Cookøyene"),
             new TranslationInfo(LanguageCode.NL, "Cookeilanden"),
             new TranslationInfo(LanguageCode.NN, "Cookøyane"),
             new TranslationInfo(LanguageCode.PL, "Wyspy Cooka"),

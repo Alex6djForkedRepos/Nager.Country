@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Централноафриканска Република"),
             new TranslationInfo(LanguageCode.MN, "Төв Африкийн Бүгд Найрамдах Улс"),
             new TranslationInfo(LanguageCode.NB, "Den sentralafrikanske republikk"),
+            new TranslationInfo(LanguageCode.NO, "Den sentralafrikanske republikk"),
             new TranslationInfo(LanguageCode.NL, "Centraal-Afrikaanse Republiek"),
             new TranslationInfo(LanguageCode.NN, "Den sentralafrikanske republikken"),
             new TranslationInfo(LanguageCode.PL, "Republika Środkowoafrykańska"),

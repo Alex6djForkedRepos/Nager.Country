@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Судан"),
             new TranslationInfo(LanguageCode.MN, "Судан"),
             new TranslationInfo(LanguageCode.NB, "Sudan"),
+            new TranslationInfo(LanguageCode.NO, "Sudan"),
             new TranslationInfo(LanguageCode.NL, "Soedan"),
             new TranslationInfo(LanguageCode.NN, "Sudan"),
             new TranslationInfo(LanguageCode.PL, "Sudan"),

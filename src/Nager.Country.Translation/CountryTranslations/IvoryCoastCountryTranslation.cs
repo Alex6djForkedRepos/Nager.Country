@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Брегот на Слоновата Коска"),
             new TranslationInfo(LanguageCode.MN, "Кот д’Ивуар"),
             new TranslationInfo(LanguageCode.NB, "Elfenbenskysten"),
+            new TranslationInfo(LanguageCode.NO, "Elfenbenskysten"),
             new TranslationInfo(LanguageCode.NL, "Ivoorkust"),
             new TranslationInfo(LanguageCode.NN, "Elfenbeinskysten"),
             new TranslationInfo(LanguageCode.PL, "Wybrzeże Kości Słoniowej"),

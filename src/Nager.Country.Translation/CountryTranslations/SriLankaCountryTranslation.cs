@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Шри Ланка"),
             new TranslationInfo(LanguageCode.MN, "Шри Ланка"),
             new TranslationInfo(LanguageCode.NB, "Sri Lanka"),
+            new TranslationInfo(LanguageCode.NO, "Sri Lanka"),
             new TranslationInfo(LanguageCode.NL, "Sri Lanka"),
             new TranslationInfo(LanguageCode.NN, "Sri Lanka"),
             new TranslationInfo(LanguageCode.PL, "Sri Lanka"),

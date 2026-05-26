@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Екваторска Гвинеја"),
             new TranslationInfo(LanguageCode.MN, "Экваторын Гвиней"),
             new TranslationInfo(LanguageCode.NB, "Ekvatorial-Guinea"),
+            new TranslationInfo(LanguageCode.NO, "Ekvatorial-Guinea"),
             new TranslationInfo(LanguageCode.NL, "Equatoriaal-Guinea"),
             new TranslationInfo(LanguageCode.NN, "Ekvatorial-Guinea"),
             new TranslationInfo(LanguageCode.PL, "Gwinea Równikowa"),

@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Американски Девствени Острови"),
             new TranslationInfo(LanguageCode.MN, "АНУ-ын Виржиний Арлууд"),
             new TranslationInfo(LanguageCode.NB, "Jomfruøyene (USA)"),
+            new TranslationInfo(LanguageCode.NO, "Jomfruøyene (USA)"),
             new TranslationInfo(LanguageCode.NL, "Maagdeneilanden, Amerikaanse"),
             new TranslationInfo(LanguageCode.NN, "Jomfruøyane (USA)"),
             new TranslationInfo(LanguageCode.PL, "Wyspy Dziewicze Stanów Zjednoczonych"),

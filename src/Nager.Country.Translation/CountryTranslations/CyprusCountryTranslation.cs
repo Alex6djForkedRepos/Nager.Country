@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Кипар"),
             new TranslationInfo(LanguageCode.MN, "Кипр"),
             new TranslationInfo(LanguageCode.NB, "Kypros"),
+            new TranslationInfo(LanguageCode.NO, "Kypros"),
             new TranslationInfo(LanguageCode.NL, "Cyprus"),
             new TranslationInfo(LanguageCode.NN, "Kypros"),
             new TranslationInfo(LanguageCode.PL, "Cypr"),

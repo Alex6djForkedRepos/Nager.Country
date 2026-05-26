@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Сао Томе и Принсипе"),
             new TranslationInfo(LanguageCode.MN, "Сан-Томе ба Принсипи"),
             new TranslationInfo(LanguageCode.NB, "São Tomé og Príncipe"),
+            new TranslationInfo(LanguageCode.NO, "São Tomé og Príncipe"),
             new TranslationInfo(LanguageCode.NL, "São Tomé en Principe"),
             new TranslationInfo(LanguageCode.NN, "São Tomé og Príncipe"),
             new TranslationInfo(LanguageCode.PL, "Wyspy Świętego Tomasza i Książęca"),

@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Танзанија"),
             new TranslationInfo(LanguageCode.MN, "Танзани"),
             new TranslationInfo(LanguageCode.NB, "Tanzania"),
+            new TranslationInfo(LanguageCode.NO, "Tanzania"),
             new TranslationInfo(LanguageCode.NL, "Tanzania, Verenigde Republiek"),
             new TranslationInfo(LanguageCode.NN, "Tanzania"),
             new TranslationInfo(LanguageCode.PL, "Tanzania"),

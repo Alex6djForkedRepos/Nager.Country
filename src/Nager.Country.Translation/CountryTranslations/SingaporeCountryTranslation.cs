@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Сингапур"),
             new TranslationInfo(LanguageCode.MN, "Сингапур"),
             new TranslationInfo(LanguageCode.NB, "Singapore"),
+            new TranslationInfo(LanguageCode.NO, "Singapore"),
             new TranslationInfo(LanguageCode.NL, "Singapore"),
             new TranslationInfo(LanguageCode.NN, "Singapore"),
             new TranslationInfo(LanguageCode.PL, "Singapur"),

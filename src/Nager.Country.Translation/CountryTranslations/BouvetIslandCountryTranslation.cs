@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Остров Буве"),
             new TranslationInfo(LanguageCode.MN, "Буветын арлууд"),
             new TranslationInfo(LanguageCode.NB, "Bouvetøya"),
+            new TranslationInfo(LanguageCode.NO, "Bouvetøya"),
             new TranslationInfo(LanguageCode.NL, "Bouvet Eiland"),
             new TranslationInfo(LanguageCode.NN, "Bouvetøya"),
             new TranslationInfo(LanguageCode.PL, "Wyspa Bouveta"),

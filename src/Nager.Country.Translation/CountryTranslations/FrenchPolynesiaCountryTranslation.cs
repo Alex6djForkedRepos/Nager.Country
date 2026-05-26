@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Француска Полинезија"),
             new TranslationInfo(LanguageCode.MN, "Францын Полинез"),
             new TranslationInfo(LanguageCode.NB, "Fransk Polynesia"),
+            new TranslationInfo(LanguageCode.NO, "Fransk Polynesia"),
             new TranslationInfo(LanguageCode.NL, "Frans-Polynesië"),
             new TranslationInfo(LanguageCode.NN, "Fransk Polynesia"),
             new TranslationInfo(LanguageCode.PL, "Polinezja Francuska"),

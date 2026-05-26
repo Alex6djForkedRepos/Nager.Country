@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Маврициус"),
             new TranslationInfo(LanguageCode.MN, "Мавритус"),
             new TranslationInfo(LanguageCode.NB, "Mauritius"),
+            new TranslationInfo(LanguageCode.NO, "Mauritius"),
             new TranslationInfo(LanguageCode.NL, "Mauritius"),
             new TranslationInfo(LanguageCode.NN, "Mauritius"),
             new TranslationInfo(LanguageCode.PL, "Mauritius"),

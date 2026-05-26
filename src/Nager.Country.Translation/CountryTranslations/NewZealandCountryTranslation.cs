@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Нов Зеланд"),
             new TranslationInfo(LanguageCode.MN, "Шинэ Зеланд"),
             new TranslationInfo(LanguageCode.NB, "New Zealand"),
+            new TranslationInfo(LanguageCode.NO, "New Zealand"),
             new TranslationInfo(LanguageCode.NL, "Nieuw-Zeeland"),
             new TranslationInfo(LanguageCode.NN, "New Zealand"),
             new TranslationInfo(LanguageCode.PL, "Nowa Zelandia"),

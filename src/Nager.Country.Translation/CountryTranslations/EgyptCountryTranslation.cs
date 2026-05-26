@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Египет"),
             new TranslationInfo(LanguageCode.MN, "Египет"),
             new TranslationInfo(LanguageCode.NB, "Egypt"),
+            new TranslationInfo(LanguageCode.NO, "Egypt"),
             new TranslationInfo(LanguageCode.NL, "Egypte"),
             new TranslationInfo(LanguageCode.NN, "Egypt"),
             new TranslationInfo(LanguageCode.PL, "Egipt"),

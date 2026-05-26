@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Бермуди"),
             new TranslationInfo(LanguageCode.MN, "Бермуд"),
             new TranslationInfo(LanguageCode.NB, "Bermuda"),
+            new TranslationInfo(LanguageCode.NO, "Bermuda"),
             new TranslationInfo(LanguageCode.NL, "Bermuda"),
             new TranslationInfo(LanguageCode.NN, "Bermuda"),
             new TranslationInfo(LanguageCode.PL, "Bermudy"),

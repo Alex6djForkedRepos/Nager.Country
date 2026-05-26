@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Гвинеја-Бисау"),
             new TranslationInfo(LanguageCode.MN, "Гвиней-Бисау"),
             new TranslationInfo(LanguageCode.NB, "Guinea-Bissau"),
+            new TranslationInfo(LanguageCode.NO, "Guinea-Bissau"),
             new TranslationInfo(LanguageCode.NL, "Guinee-Bissau"),
             new TranslationInfo(LanguageCode.NN, "Guinea-Bissau"),
             new TranslationInfo(LanguageCode.PL, "Gwinea Bissau"),

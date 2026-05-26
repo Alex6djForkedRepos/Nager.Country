@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Доминиканска Република"),
             new TranslationInfo(LanguageCode.MN, "Бүгд Найрамдах Доминикан Улс"),
             new TranslationInfo(LanguageCode.NB, "Den dominikanske republikk"),
+            new TranslationInfo(LanguageCode.NO, "Den dominikanske republikk"),
             new TranslationInfo(LanguageCode.NL, "Dominicaanse Republiek"),
             new TranslationInfo(LanguageCode.NN, "Den dominikanske republikken"),
             new TranslationInfo(LanguageCode.PL, "Dominikana"),

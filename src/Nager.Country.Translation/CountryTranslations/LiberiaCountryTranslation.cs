@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Либерија"),
             new TranslationInfo(LanguageCode.MN, "Либери"),
             new TranslationInfo(LanguageCode.NB, "Liberia"),
+            new TranslationInfo(LanguageCode.NO, "Liberia"),
             new TranslationInfo(LanguageCode.NL, "Liberia"),
             new TranslationInfo(LanguageCode.NN, "Liberia"),
             new TranslationInfo(LanguageCode.PL, "Liberia"),

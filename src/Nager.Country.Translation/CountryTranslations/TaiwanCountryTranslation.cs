@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Тајван"),
             new TranslationInfo(LanguageCode.MN, "Тайвань"),
             new TranslationInfo(LanguageCode.NB, "Taiwan"),
+            new TranslationInfo(LanguageCode.NO, "Taiwan"),
             new TranslationInfo(LanguageCode.NL, "Taiwan"),
             new TranslationInfo(LanguageCode.NN, "Taiwan"),
             new TranslationInfo(LanguageCode.PL, "Tajwan"),

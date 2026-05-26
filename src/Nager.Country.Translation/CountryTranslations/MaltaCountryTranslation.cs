@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Малта"),
             new TranslationInfo(LanguageCode.MN, "Мальта"),
             new TranslationInfo(LanguageCode.NB, "Malta"),
+            new TranslationInfo(LanguageCode.NO, "Malta"),
             new TranslationInfo(LanguageCode.NL, "Malta"),
             new TranslationInfo(LanguageCode.NN, "Malta"),
             new TranslationInfo(LanguageCode.PL, "Malta"),

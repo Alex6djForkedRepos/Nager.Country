@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Реунион"),
             new TranslationInfo(LanguageCode.MN, "Реюньон"),
             new TranslationInfo(LanguageCode.NB, "Réunion"),
+            new TranslationInfo(LanguageCode.NO, "Réunion"),
             new TranslationInfo(LanguageCode.NL, "Réunion"),
             new TranslationInfo(LanguageCode.NN, "Réunion"),
             new TranslationInfo(LanguageCode.PL, "Reunion"),

@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Северни Маријански Острови"),
             new TranslationInfo(LanguageCode.MN, "Хойд Марианы арлууд"),
             new TranslationInfo(LanguageCode.NB, "Nord-Marianene"),
+            new TranslationInfo(LanguageCode.NO, "Nord-Marianene"),
             new TranslationInfo(LanguageCode.NL, "Noordelijke Marianen"),
             new TranslationInfo(LanguageCode.NN, "Nord-Marianane"),
             new TranslationInfo(LanguageCode.PL, "Mariany Północne"),

@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Холандија"),
             new TranslationInfo(LanguageCode.MN, "Нидерланд"),
             new TranslationInfo(LanguageCode.NB, "Nederland"),
+            new TranslationInfo(LanguageCode.NO, "Nederland"),
             new TranslationInfo(LanguageCode.NL, "Nederland"),
             new TranslationInfo(LanguageCode.NN, "Nederland"),
             new TranslationInfo(LanguageCode.PL, "Holandia"),

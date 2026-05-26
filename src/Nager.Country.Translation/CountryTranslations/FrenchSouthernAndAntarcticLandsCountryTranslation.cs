@@ -41,6 +41,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Француски Јужни Територии"),
             new TranslationInfo(LanguageCode.MN, "Францын өмнөд газар нутаг"),
             new TranslationInfo(LanguageCode.NB, "Søre franske territorier"),
+            new TranslationInfo(LanguageCode.NO, "Søre franske territorier"),
             new TranslationInfo(LanguageCode.NL, "Franse Zuidelijke Gebieden"),
             new TranslationInfo(LanguageCode.NN, "Søre franske territorier"),
             new TranslationInfo(LanguageCode.PL, "Francuskie Terytoria Południowe i Antarktyczne"),

@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Босна и Херцеговина"),
             new TranslationInfo(LanguageCode.MN, "Босни Герцеговин"),
             new TranslationInfo(LanguageCode.NB, "Bosnia-Hercegovina"),
+            new TranslationInfo(LanguageCode.NO, "Bosnia-Hercegovina"),
             new TranslationInfo(LanguageCode.NL, "Bosnië-Herzegovina"),
             new TranslationInfo(LanguageCode.NN, "Bosnia-Hercegovina"),
             new TranslationInfo(LanguageCode.PL, "Bośnia i Hercegowina"),

@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Свети Мартин"),
             new TranslationInfo(LanguageCode.MN, "Синт Мартен"),
             new TranslationInfo(LanguageCode.NB, "Sint Maarten (Nederlandsk del)"),
+            new TranslationInfo(LanguageCode.NO, "Sint Maarten (Nederlandsk del)"),
             new TranslationInfo(LanguageCode.NL, "Sint Maarten (Nederlands deel)"),
             new TranslationInfo(LanguageCode.NN, "Sint Maarten (Nederlandsk del)"),
             new TranslationInfo(LanguageCode.PL, "Sint Maarten"),

@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Словачка"),
             new TranslationInfo(LanguageCode.MN, "Словак"),
             new TranslationInfo(LanguageCode.NB, "Slovakia"),
+            new TranslationInfo(LanguageCode.NO, "Slovakia"),
             new TranslationInfo(LanguageCode.NL, "Slowakije"),
             new TranslationInfo(LanguageCode.NN, "Slovakia"),
             new TranslationInfo(LanguageCode.PL, "Słowacja"),

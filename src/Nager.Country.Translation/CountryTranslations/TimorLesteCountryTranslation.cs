@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Источен Тимор (Тимор Лесте)"),
             new TranslationInfo(LanguageCode.MN, "Тимор-Лесте"),
             new TranslationInfo(LanguageCode.NB, "Øst-Timor"),
+            new TranslationInfo(LanguageCode.NO, "Øst-Timor"),
             new TranslationInfo(LanguageCode.NL, "Timor Leste"),
             new TranslationInfo(LanguageCode.NN, "Aust-Timor"),
             new TranslationInfo(LanguageCode.PL, "Timor Wschodni"),

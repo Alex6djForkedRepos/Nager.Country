@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Хонг Конг С.А.Р Кина"),
             new TranslationInfo(LanguageCode.MN, "Хонг Конг"),
             new TranslationInfo(LanguageCode.NB, "Hongkong"),
+            new TranslationInfo(LanguageCode.NO, "Hongkong"),
             new TranslationInfo(LanguageCode.NL, "Hong Kong"),
             new TranslationInfo(LanguageCode.NN, "Hongkong"),
             new TranslationInfo(LanguageCode.PL, "Hongkong"),

@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Колумбија"),
             new TranslationInfo(LanguageCode.MN, "Колумб"),
             new TranslationInfo(LanguageCode.NB, "Colombia"),
+            new TranslationInfo(LanguageCode.NO, "Colombia"),
             new TranslationInfo(LanguageCode.NL, "Colombia"),
             new TranslationInfo(LanguageCode.NN, "Colombia"),
             new TranslationInfo(LanguageCode.PL, "Kolumbia"),

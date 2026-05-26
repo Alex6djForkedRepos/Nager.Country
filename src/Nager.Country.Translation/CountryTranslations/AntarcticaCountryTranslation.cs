@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Антарктик"),
             new TranslationInfo(LanguageCode.MN, "Антарктик"),
             new TranslationInfo(LanguageCode.NB, "Antarktis"),
+            new TranslationInfo(LanguageCode.NO, "Antarktis"),
             new TranslationInfo(LanguageCode.NL, "Antarctica"),
             new TranslationInfo(LanguageCode.NN, "Antarktis"),
             new TranslationInfo(LanguageCode.PL, "Antarktyka"),

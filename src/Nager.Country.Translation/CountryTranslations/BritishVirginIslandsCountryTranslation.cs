@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Британски Девствени Острови"),
             new TranslationInfo(LanguageCode.MN, "Британийн Виржиний Арлууд"),
             new TranslationInfo(LanguageCode.NB, "Jomfruøyene (Britisk)"),
+            new TranslationInfo(LanguageCode.NO, "Jomfruøyene (Britisk)"),
             new TranslationInfo(LanguageCode.NL, "Maagdeneilanden, Britse"),
             new TranslationInfo(LanguageCode.NN, "Jomfruøyane (Britisk)"),
             new TranslationInfo(LanguageCode.PL, "Brytyjskie Wyspy Dziewicze"),

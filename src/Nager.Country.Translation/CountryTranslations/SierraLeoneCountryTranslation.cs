@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Сиера Леоне"),
             new TranslationInfo(LanguageCode.MN, "Сьерра-Леоне"),
             new TranslationInfo(LanguageCode.NB, "Sierra Leone"),
+            new TranslationInfo(LanguageCode.NO, "Sierra Leone"),
             new TranslationInfo(LanguageCode.NL, "Sierra Leone"),
             new TranslationInfo(LanguageCode.NN, "Sierra Leone"),
             new TranslationInfo(LanguageCode.PL, "Sierra Leone"),

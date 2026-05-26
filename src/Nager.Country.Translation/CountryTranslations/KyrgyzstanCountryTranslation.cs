@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Киргистан"),
             new TranslationInfo(LanguageCode.MN, "Кыргызстан"),
             new TranslationInfo(LanguageCode.NB, "Kirgisistan"),
+            new TranslationInfo(LanguageCode.NO, "Kirgisistan"),
             new TranslationInfo(LanguageCode.NL, "Kirgizstan"),
             new TranslationInfo(LanguageCode.NN, "Kirgisistan"),
             new TranslationInfo(LanguageCode.PL, "Kirgistan"),

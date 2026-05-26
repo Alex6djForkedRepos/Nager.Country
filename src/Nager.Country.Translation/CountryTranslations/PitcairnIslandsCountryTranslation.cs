@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Питкернски Острови"),
             new TranslationInfo(LanguageCode.MN, "Питкэрн арлууд"),
             new TranslationInfo(LanguageCode.NB, "Pitcairn"),
+            new TranslationInfo(LanguageCode.NO, "Pitcairn"),
             new TranslationInfo(LanguageCode.NL, "Pitcairn"),
             new TranslationInfo(LanguageCode.NN, "Pitcairn"),
             new TranslationInfo(LanguageCode.PL, "Pitcairn"),

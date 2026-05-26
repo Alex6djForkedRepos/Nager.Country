@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Кенија"),
             new TranslationInfo(LanguageCode.MN, "Кени"),
             new TranslationInfo(LanguageCode.NB, "Kenya"),
+            new TranslationInfo(LanguageCode.NO, "Kenya"),
             new TranslationInfo(LanguageCode.NL, "Kenia"),
             new TranslationInfo(LanguageCode.NN, "Kenya"),
             new TranslationInfo(LanguageCode.PL, "Kenia"),

@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Белорусија"),
             new TranslationInfo(LanguageCode.MN, "Беларусь"),
             new TranslationInfo(LanguageCode.NB, "Hviterussland"),
+            new TranslationInfo(LanguageCode.NO, "Hviterussland"),
             new TranslationInfo(LanguageCode.NL, "Wit-Rusland"),
             new TranslationInfo(LanguageCode.NN, "Kviterussland"),
             new TranslationInfo(LanguageCode.PL, "Białoruś"),

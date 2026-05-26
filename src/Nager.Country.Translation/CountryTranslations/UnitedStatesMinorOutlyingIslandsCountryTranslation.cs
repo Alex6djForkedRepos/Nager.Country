@@ -41,6 +41,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Американски територии во Пацификот"),
             new TranslationInfo(LanguageCode.MN, "АНУ-ын тойрсон арлууд"),
             new TranslationInfo(LanguageCode.NB, "USA, mindre, utenforliggende øyer"),
+            new TranslationInfo(LanguageCode.NO, "USA, mindre, utenforliggende øyer"),
             new TranslationInfo(LanguageCode.NL, "Amerikaanse Kleinere Afgelegen Eilanden"),
             new TranslationInfo(LanguageCode.NN, "USA, mindre, utanforliggande øyar"),
             new TranslationInfo(LanguageCode.PL, "Dalekie Wyspy Mniejsze Stanów Zjednoczonych"),

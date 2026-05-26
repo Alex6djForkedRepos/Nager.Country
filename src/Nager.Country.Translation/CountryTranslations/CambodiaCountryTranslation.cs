@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Камбоџа"),
             new TranslationInfo(LanguageCode.MN, "Камбож"),
             new TranslationInfo(LanguageCode.NB, "Kambodsja"),
+            new TranslationInfo(LanguageCode.NO, "Kambodsja"),
             new TranslationInfo(LanguageCode.NL, "Cambodja"),
             new TranslationInfo(LanguageCode.NN, "Kambodsja"),
             new TranslationInfo(LanguageCode.PL, "Kambodża"),

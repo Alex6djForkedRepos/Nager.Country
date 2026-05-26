@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Еквадор"),
             new TranslationInfo(LanguageCode.MN, "Эквадор"),
             new TranslationInfo(LanguageCode.NB, "Ecuador"),
+            new TranslationInfo(LanguageCode.NO, "Ecuador"),
             new TranslationInfo(LanguageCode.NL, "Ecuador"),
             new TranslationInfo(LanguageCode.NN, "Ecuador"),
             new TranslationInfo(LanguageCode.PL, "Ekwador"),

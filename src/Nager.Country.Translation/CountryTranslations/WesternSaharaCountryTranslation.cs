@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Западна Сахара"),
             new TranslationInfo(LanguageCode.MN, "Баруун Сахар"),
             new TranslationInfo(LanguageCode.NB, "Vest-Sahara"),
+            new TranslationInfo(LanguageCode.NO, "Vest-Sahara"),
             new TranslationInfo(LanguageCode.NL, "Westelijke Sahara"),
             new TranslationInfo(LanguageCode.NN, "Vest-Sahara"),
             new TranslationInfo(LanguageCode.PL, "Sahara Zachodnia"),

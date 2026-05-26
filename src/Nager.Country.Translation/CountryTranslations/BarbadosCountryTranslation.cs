@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Барбадос"),
             new TranslationInfo(LanguageCode.MN, "Барбадос"),
             new TranslationInfo(LanguageCode.NB, "Barbados"),
+            new TranslationInfo(LanguageCode.NO, "Barbados"),
             new TranslationInfo(LanguageCode.NL, "Barbados"),
             new TranslationInfo(LanguageCode.NN, "Barbados"),
             new TranslationInfo(LanguageCode.PL, "Barbados"),

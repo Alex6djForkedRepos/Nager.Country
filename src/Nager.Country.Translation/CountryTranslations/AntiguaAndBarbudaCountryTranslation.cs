@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Антигва и Барбуда"),
             new TranslationInfo(LanguageCode.MN, "Антигуа ба Барбуда"),
             new TranslationInfo(LanguageCode.NB, "Antigua og Barbuda"),
+            new TranslationInfo(LanguageCode.NO, "Antigua og Barbuda"),
             new TranslationInfo(LanguageCode.NL, "Antigua en Barbuda"),
             new TranslationInfo(LanguageCode.NN, "Antigua og Barbuda"),
             new TranslationInfo(LanguageCode.PL, "Antigua i Barbuda"),

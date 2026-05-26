@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Тринидад и Тобаго"),
             new TranslationInfo(LanguageCode.MN, "Тринидад Тобаго"),
             new TranslationInfo(LanguageCode.NB, "Trinidad og Tobago"),
+            new TranslationInfo(LanguageCode.NO, "Trinidad og Tobago"),
             new TranslationInfo(LanguageCode.NL, "Trinidad en Tobago"),
             new TranslationInfo(LanguageCode.NN, "Trinidad og Tobago"),
             new TranslationInfo(LanguageCode.PL, "Trynidad i Tobago"),

@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Чиле"),
             new TranslationInfo(LanguageCode.MN, "Чили"),
             new TranslationInfo(LanguageCode.NB, "Chile"),
+            new TranslationInfo(LanguageCode.NO, "Chile"),
             new TranslationInfo(LanguageCode.NL, "Chili"),
             new TranslationInfo(LanguageCode.NN, "Chile"),
             new TranslationInfo(LanguageCode.PL, "Chile"),

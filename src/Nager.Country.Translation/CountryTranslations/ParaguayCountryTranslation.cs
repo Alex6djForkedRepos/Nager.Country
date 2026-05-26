@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Парагвај"),
             new TranslationInfo(LanguageCode.MN, "Парагвай"),
             new TranslationInfo(LanguageCode.NB, "Paraguay"),
+            new TranslationInfo(LanguageCode.NO, "Paraguay"),
             new TranslationInfo(LanguageCode.NL, "Paraguay"),
             new TranslationInfo(LanguageCode.NN, "Paraguay"),
             new TranslationInfo(LanguageCode.PL, "Paragwaj"),

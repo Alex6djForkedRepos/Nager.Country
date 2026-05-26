@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Токелау"),
             new TranslationInfo(LanguageCode.MN, "Токелау"),
             new TranslationInfo(LanguageCode.NB, "Tokelau"),
+            new TranslationInfo(LanguageCode.NO, "Tokelau"),
             new TranslationInfo(LanguageCode.NL, "Tokelau"),
             new TranslationInfo(LanguageCode.NN, "Tokelau"),
             new TranslationInfo(LanguageCode.PL, "Tokelau"),

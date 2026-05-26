@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Португалија"),
             new TranslationInfo(LanguageCode.MN, "Португаль"),
             new TranslationInfo(LanguageCode.NB, "Portugal"),
+            new TranslationInfo(LanguageCode.NO, "Portugal"),
             new TranslationInfo(LanguageCode.NL, "Portugal"),
             new TranslationInfo(LanguageCode.NN, "Portugal"),
             new TranslationInfo(LanguageCode.PL, "Portugalia"),

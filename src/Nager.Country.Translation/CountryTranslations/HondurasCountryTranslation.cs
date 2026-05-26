@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Хондурас"),
             new TranslationInfo(LanguageCode.MN, "Гондурас"),
             new TranslationInfo(LanguageCode.NB, "Honduras"),
+            new TranslationInfo(LanguageCode.NO, "Honduras"),
             new TranslationInfo(LanguageCode.NL, "Honduras"),
             new TranslationInfo(LanguageCode.NN, "Honduras"),
             new TranslationInfo(LanguageCode.PL, "Honduras"),

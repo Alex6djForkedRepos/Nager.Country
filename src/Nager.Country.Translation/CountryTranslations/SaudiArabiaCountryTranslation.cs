@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Саудиска Арабија"),
             new TranslationInfo(LanguageCode.MN, "Саудын Араб"),
             new TranslationInfo(LanguageCode.NB, "Saudi-Arabia"),
+            new TranslationInfo(LanguageCode.NO, "Saudi-Arabia"),
             new TranslationInfo(LanguageCode.NL, "Saudi-Arabië"),
             new TranslationInfo(LanguageCode.NN, "Saudi-Arabia"),
             new TranslationInfo(LanguageCode.PL, "Arabia Saudyjska"),

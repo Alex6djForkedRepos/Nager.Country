@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Фиџи"),
             new TranslationInfo(LanguageCode.MN, "Фижи"),
             new TranslationInfo(LanguageCode.NB, "Fiji"),
+            new TranslationInfo(LanguageCode.NO, "Fiji"),
             new TranslationInfo(LanguageCode.NL, "Fiji"),
             new TranslationInfo(LanguageCode.NN, "Fiji"),
             new TranslationInfo(LanguageCode.PL, "Fidżi"),

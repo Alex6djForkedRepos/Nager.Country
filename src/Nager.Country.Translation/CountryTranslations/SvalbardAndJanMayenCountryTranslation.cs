@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Свалбард и Жан Мејен"),
             new TranslationInfo(LanguageCode.MN, "Свалбард ба Ян Майен"),
             new TranslationInfo(LanguageCode.NB, "Svalbard og Jan Mayen"),
+            new TranslationInfo(LanguageCode.NO, "Svalbard og Jan Mayen"),
             new TranslationInfo(LanguageCode.NL, "Spitsbergen en Jan Mayen"),
             new TranslationInfo(LanguageCode.NN, "Svalbard og Jan Mayen"),
             new TranslationInfo(LanguageCode.PL, "Svalbard i Jan Mayen"),

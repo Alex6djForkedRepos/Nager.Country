@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Лесото"),
             new TranslationInfo(LanguageCode.MN, "Лесото"),
             new TranslationInfo(LanguageCode.NB, "Lesotho"),
+            new TranslationInfo(LanguageCode.NO, "Lesotho"),
             new TranslationInfo(LanguageCode.NL, "Lesotho"),
             new TranslationInfo(LanguageCode.NN, "Lesotho"),
             new TranslationInfo(LanguageCode.PL, "Lesotho"),

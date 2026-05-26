@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Молдавија"),
             new TranslationInfo(LanguageCode.MN, "Молдав"),
             new TranslationInfo(LanguageCode.NB, "Moldova"),
+            new TranslationInfo(LanguageCode.NO, "Moldova"),
             new TranslationInfo(LanguageCode.NL, "Moldavië"),
             new TranslationInfo(LanguageCode.NN, "Moldova"),
             new TranslationInfo(LanguageCode.PL, "Mołdawia"),

@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Јужна Џорџија и Јужни Сендвички Острови"),
             new TranslationInfo(LanguageCode.MN, "Өмнөд Жоржиа ба Өмнөд Сэндвичийн Арлууд"),
             new TranslationInfo(LanguageCode.NB, "Sør-Georgia og de søre Sandwichøyene"),
+            new TranslationInfo(LanguageCode.NO, "Sør-Georgia og de søre Sandwichøyene"),
             new TranslationInfo(LanguageCode.NL, "Zuid-Georgia en de Zuidelijke Sandwicheilanden"),
             new TranslationInfo(LanguageCode.NN, "Sør-Georgia og de søre Sandwichøyane"),
             new TranslationInfo(LanguageCode.PL, "Georgia Południowa i Sandwich Południowy"),

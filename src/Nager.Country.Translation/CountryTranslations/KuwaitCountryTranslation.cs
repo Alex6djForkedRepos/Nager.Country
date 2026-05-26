@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Кувајт"),
             new TranslationInfo(LanguageCode.MN, "Кувейт"),
             new TranslationInfo(LanguageCode.NB, "Kuwait"),
+            new TranslationInfo(LanguageCode.NO, "Kuwait"),
             new TranslationInfo(LanguageCode.NL, "Koeweit"),
             new TranslationInfo(LanguageCode.NN, "Kuwait"),
             new TranslationInfo(LanguageCode.PL, "Kuwejt"),

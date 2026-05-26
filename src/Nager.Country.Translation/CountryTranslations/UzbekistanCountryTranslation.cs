@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Узбекистан"),
             new TranslationInfo(LanguageCode.MN, "Узбекистан"),
             new TranslationInfo(LanguageCode.NB, "Usbekistan"),
+            new TranslationInfo(LanguageCode.NO, "Usbekistan"),
             new TranslationInfo(LanguageCode.NL, "Oezbekistan"),
             new TranslationInfo(LanguageCode.NN, "Usbekistan"),
             new TranslationInfo(LanguageCode.PL, "Uzbekistan"),

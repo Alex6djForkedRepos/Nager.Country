@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Монсерат"),
             new TranslationInfo(LanguageCode.MN, "Монтсеррат"),
             new TranslationInfo(LanguageCode.NB, "Montserrat"),
+            new TranslationInfo(LanguageCode.NO, "Montserrat"),
             new TranslationInfo(LanguageCode.NL, "Montserrat"),
             new TranslationInfo(LanguageCode.NN, "Montserrat"),
             new TranslationInfo(LanguageCode.PL, "Montserrat"),

@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Оландски Острови"),
             new TranslationInfo(LanguageCode.MN, "Аландын Арлууд"),
             new TranslationInfo(LanguageCode.NB, "Åland"),
+            new TranslationInfo(LanguageCode.NO, "Åland"),
             new TranslationInfo(LanguageCode.NL, "Åland"),
             new TranslationInfo(LanguageCode.NN, "Åland"),
             new TranslationInfo(LanguageCode.PL, "Wyspy Alandzkie"),

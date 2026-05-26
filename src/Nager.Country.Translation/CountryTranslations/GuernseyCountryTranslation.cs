@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Гернзи"),
             new TranslationInfo(LanguageCode.MN, "Гернси"),
             new TranslationInfo(LanguageCode.NB, "Guernsey"),
+            new TranslationInfo(LanguageCode.NO, "Guernsey"),
             new TranslationInfo(LanguageCode.NL, "Guernsey"),
             new TranslationInfo(LanguageCode.NN, "Guernsey"),
             new TranslationInfo(LanguageCode.PL, "Guernsey"),

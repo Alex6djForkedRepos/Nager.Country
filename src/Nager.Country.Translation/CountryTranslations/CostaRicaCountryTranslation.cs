@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Костарика"),
             new TranslationInfo(LanguageCode.MN, "Коста Рика"),
             new TranslationInfo(LanguageCode.NB, "Costa Rica"),
+            new TranslationInfo(LanguageCode.NO, "Costa Rica"),
             new TranslationInfo(LanguageCode.NL, "Costa Rica"),
             new TranslationInfo(LanguageCode.NN, "Costa Rica"),
             new TranslationInfo(LanguageCode.PL, "Kostaryka"),

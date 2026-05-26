@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Камерун"),
             new TranslationInfo(LanguageCode.MN, "Камерун"),
             new TranslationInfo(LanguageCode.NB, "Kamerun"),
+            new TranslationInfo(LanguageCode.NO, "Kamerun"),
             new TranslationInfo(LanguageCode.NL, "Kameroen"),
             new TranslationInfo(LanguageCode.NN, "Kamerun"),
             new TranslationInfo(LanguageCode.PL, "Kamerun"),

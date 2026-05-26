@@ -41,6 +41,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Француска Гвајана"),
             new TranslationInfo(LanguageCode.MN, "Францын Гайана"),
             new TranslationInfo(LanguageCode.NB, "Fransk Guyana"),
+            new TranslationInfo(LanguageCode.NO, "Fransk Guyana"),
             new TranslationInfo(LanguageCode.NL, "Frans-Guyana"),
             new TranslationInfo(LanguageCode.NN, "Fransk Guyana"),
             new TranslationInfo(LanguageCode.PL, "Gujana Francuska"),

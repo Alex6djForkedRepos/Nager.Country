@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Папуа Нова Гвинеја"),
             new TranslationInfo(LanguageCode.MN, "Папуа Шинэ Гвиней"),
             new TranslationInfo(LanguageCode.NB, "Papua Ny-Guinea"),
+            new TranslationInfo(LanguageCode.NO, "Papua Ny-Guinea"),
             new TranslationInfo(LanguageCode.NL, "Papoea-Nieuw-Guinea"),
             new TranslationInfo(LanguageCode.NN, "Papua Ny-Guinea"),
             new TranslationInfo(LanguageCode.PL, "Papua-Nowa Gwinea"),

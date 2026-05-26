@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Обединети Арапски Емирати"),
             new TranslationInfo(LanguageCode.MN, "Арабын Нэгдсэн Эмират"),
             new TranslationInfo(LanguageCode.NB, "De forente arabiske emirater"),
+            new TranslationInfo(LanguageCode.NO, "De forente arabiske emirater"),
             new TranslationInfo(LanguageCode.NL, "Verenigde Arabische Emiraten"),
             new TranslationInfo(LanguageCode.NN, "Dei sameinte arabiske emirata"),
             new TranslationInfo(LanguageCode.PL, "Zjednoczone Emiraty Arabskie"),

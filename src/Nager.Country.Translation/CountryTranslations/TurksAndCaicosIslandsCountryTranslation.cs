@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Острови Туркс и Каикос"),
             new TranslationInfo(LanguageCode.MN, "Турк ба Кайкосын Арлууд"),
             new TranslationInfo(LanguageCode.NB, "Turks- og Caicosøyene"),
+            new TranslationInfo(LanguageCode.NO, "Turks- og Caicosøyene"),
             new TranslationInfo(LanguageCode.NL, "Turks- en Caicoseilanden"),
             new TranslationInfo(LanguageCode.NN, "Turks- og Caicosøyane"),
             new TranslationInfo(LanguageCode.PL, "Turks i Caicos"),

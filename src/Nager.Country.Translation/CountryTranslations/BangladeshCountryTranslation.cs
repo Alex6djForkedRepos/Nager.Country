@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Бангладеш"),
             new TranslationInfo(LanguageCode.MN, "Бангладеш"),
             new TranslationInfo(LanguageCode.NB, "Bangladesh"),
+            new TranslationInfo(LanguageCode.NO, "Bangladesh"),
             new TranslationInfo(LanguageCode.NL, "Bangladesh"),
             new TranslationInfo(LanguageCode.NN, "Bangladesh"),
             new TranslationInfo(LanguageCode.PL, "Bangladesz"),

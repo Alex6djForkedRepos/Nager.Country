@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Ирак"),
             new TranslationInfo(LanguageCode.MN, "Ирак"),
             new TranslationInfo(LanguageCode.NB, "Irak"),
+            new TranslationInfo(LanguageCode.NO, "Irak"),
             new TranslationInfo(LanguageCode.NL, "Irak"),
             new TranslationInfo(LanguageCode.NN, "Irak"),
             new TranslationInfo(LanguageCode.PL, "Irak"),

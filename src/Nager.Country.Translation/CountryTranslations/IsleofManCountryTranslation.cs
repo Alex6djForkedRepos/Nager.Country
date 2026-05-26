@@ -41,6 +41,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Остров Ман"),
             new TranslationInfo(LanguageCode.MN, "Мэн Арал"),
             new TranslationInfo(LanguageCode.NB, "Man"),
+            new TranslationInfo(LanguageCode.NO, "Man"),
             new TranslationInfo(LanguageCode.NL, "Man Eiland"),
             new TranslationInfo(LanguageCode.NN, "Man"),
             new TranslationInfo(LanguageCode.PL, "Wyspa Man"),

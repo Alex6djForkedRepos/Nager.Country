@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Мексико"),
             new TranslationInfo(LanguageCode.MN, "Мексик"),
             new TranslationInfo(LanguageCode.NB, "Mexico"),
+            new TranslationInfo(LanguageCode.NO, "Mexico"),
             new TranslationInfo(LanguageCode.NL, "Mexico"),
             new TranslationInfo(LanguageCode.NN, "Mexico"),
             new TranslationInfo(LanguageCode.PL, "Meksyk"),

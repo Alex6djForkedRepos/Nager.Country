@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Норфолшки Остров"),
             new TranslationInfo(LanguageCode.MN, "Норфолк арлууд"),
             new TranslationInfo(LanguageCode.NB, "Norfolk Island"),
+            new TranslationInfo(LanguageCode.NO, "Norfolk Island"),
             new TranslationInfo(LanguageCode.NL, "Norfolk"),
             new TranslationInfo(LanguageCode.NN, "Norfolk Island"),
             new TranslationInfo(LanguageCode.PL, "Norfolk"),

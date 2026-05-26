@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Јужна Кореја"),
             new TranslationInfo(LanguageCode.MN, "Өмнөд Солонгос"),
             new TranslationInfo(LanguageCode.NB, "Sør-Korea"),
+            new TranslationInfo(LanguageCode.NO, "Sør-Korea"),
             new TranslationInfo(LanguageCode.NL, "Zuid-Korea"),
             new TranslationInfo(LanguageCode.NN, "Sør-Korea"),
             new TranslationInfo(LanguageCode.PL, "Korea Południowa"),

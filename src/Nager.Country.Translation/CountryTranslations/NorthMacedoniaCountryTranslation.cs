@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Северна Македонија"),
             new TranslationInfo(LanguageCode.MN, "Хойд Македон"),
             new TranslationInfo(LanguageCode.NB, "Nord-Makedonia"),
+            new TranslationInfo(LanguageCode.NO, "Nord-Makedonia"),
             new TranslationInfo(LanguageCode.NL, "Noord-Macedonië"),
             new TranslationInfo(LanguageCode.NN, "Nord-Makedonia"),
             new TranslationInfo(LanguageCode.PL, "Macedonia Północna"),

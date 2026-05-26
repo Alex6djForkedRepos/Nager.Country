@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Јамајка"),
             new TranslationInfo(LanguageCode.MN, "Ямайк"),
             new TranslationInfo(LanguageCode.NB, "Jamaica"),
+            new TranslationInfo(LanguageCode.NO, "Jamaica"),
             new TranslationInfo(LanguageCode.NL, "Jamaica"),
             new TranslationInfo(LanguageCode.NN, "Jamaica"),
             new TranslationInfo(LanguageCode.PL, "Jamajka"),

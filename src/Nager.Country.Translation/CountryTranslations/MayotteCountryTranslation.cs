@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Мајот"),
             new TranslationInfo(LanguageCode.MN, "Майотте"),
             new TranslationInfo(LanguageCode.NB, "Mayotte"),
+            new TranslationInfo(LanguageCode.NO, "Mayotte"),
             new TranslationInfo(LanguageCode.NL, "Mayotte"),
             new TranslationInfo(LanguageCode.NN, "Mayotte"),
             new TranslationInfo(LanguageCode.PL, "Majotta"),

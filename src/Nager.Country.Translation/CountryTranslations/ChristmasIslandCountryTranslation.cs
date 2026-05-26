@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Божиќен Остров"),
             new TranslationInfo(LanguageCode.MN, "Зул сарын арал"),
             new TranslationInfo(LanguageCode.NB, "Christmasøya"),
+            new TranslationInfo(LanguageCode.NO, "Christmasøya"),
             new TranslationInfo(LanguageCode.NL, "Christmaseiland"),
             new TranslationInfo(LanguageCode.NN, "Christmasøya"),
             new TranslationInfo(LanguageCode.PL, "Wyspa Bożego Narodzenia"),

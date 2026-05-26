@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Свети Винсент и Гренадините"),
             new TranslationInfo(LanguageCode.MN, "Сэнт Винсэнт ба Гренадин"),
             new TranslationInfo(LanguageCode.NB, "Saint Vincent og Grenadinene"),
+            new TranslationInfo(LanguageCode.NO, "Saint Vincent og Grenadinene"),
             new TranslationInfo(LanguageCode.NL, "Saint Vincent en de Grenadines"),
             new TranslationInfo(LanguageCode.NN, "Saint Vincent og Grenadinane"),
             new TranslationInfo(LanguageCode.PL, "Saint Vincent i Grenadyny"),

@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Американска Самоа"),
             new TranslationInfo(LanguageCode.MN, "Америкийн Самоа"),
             new TranslationInfo(LanguageCode.NB, "Amerikansk Samoa"),
+            new TranslationInfo(LanguageCode.NO, "Amerikansk Samoa"),
             new TranslationInfo(LanguageCode.NL, "Amerikaans-Samoa"),
             new TranslationInfo(LanguageCode.NN, "Amerikansk Samoa"),
             new TranslationInfo(LanguageCode.PL, "Samoa Amerykańskie"),

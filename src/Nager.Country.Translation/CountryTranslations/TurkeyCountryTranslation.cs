@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Турција"),
             new TranslationInfo(LanguageCode.MN, "Турк"),
             new TranslationInfo(LanguageCode.NB, "Tyrkia"),
+            new TranslationInfo(LanguageCode.NO, "Tyrkia"),
             new TranslationInfo(LanguageCode.NL, "Turkije"),
             new TranslationInfo(LanguageCode.NN, "Tyrkia"),
             new TranslationInfo(LanguageCode.PL, "Turcja"),

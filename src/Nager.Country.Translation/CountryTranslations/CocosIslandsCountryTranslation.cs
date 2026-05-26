@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Кокосови (Килиншки) Острови"),
             new TranslationInfo(LanguageCode.MN, "Кокос (Кийлинг) арлууд"),
             new TranslationInfo(LanguageCode.NB, "Kokosøyene"),
+            new TranslationInfo(LanguageCode.NO, "Kokosøyene"),
             new TranslationInfo(LanguageCode.NL, "Cocoseilanden"),
             new TranslationInfo(LanguageCode.NN, "Kokosøyane"),
             new TranslationInfo(LanguageCode.PL, "Wyspy Kokosowe"),

@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Сомалија"),
             new TranslationInfo(LanguageCode.MN, "Сомали"),
             new TranslationInfo(LanguageCode.NB, "Somalia"),
+            new TranslationInfo(LanguageCode.NO, "Somalia"),
             new TranslationInfo(LanguageCode.NL, "Somalië"),
             new TranslationInfo(LanguageCode.NN, "Somalia"),
             new TranslationInfo(LanguageCode.PL, "Somalia"),

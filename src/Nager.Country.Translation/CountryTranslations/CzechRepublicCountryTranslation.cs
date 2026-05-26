@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Чешка"),
             new TranslationInfo(LanguageCode.MN, "Чех"),
             new TranslationInfo(LanguageCode.NB, "Tsjekkia"),
+            new TranslationInfo(LanguageCode.NO, "Tsjekkia"),
             new TranslationInfo(LanguageCode.NL, "Tsjechië"),
             new TranslationInfo(LanguageCode.NN, "Tsjekkia"),
             new TranslationInfo(LanguageCode.PL, "Czechy"),

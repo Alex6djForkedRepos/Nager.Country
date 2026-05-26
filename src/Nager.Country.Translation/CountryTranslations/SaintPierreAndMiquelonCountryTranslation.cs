@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Сент Пјер и Микелан"),
             new TranslationInfo(LanguageCode.MN, "Сэнт Пьер ба Микелон"),
             new TranslationInfo(LanguageCode.NB, "Saint-Pierre-et-Miquelon"),
+            new TranslationInfo(LanguageCode.NO, "Saint-Pierre-et-Miquelon"),
             new TranslationInfo(LanguageCode.NL, "Saint-Pierre en Miquelon"),
             new TranslationInfo(LanguageCode.NN, "Saint-Pierre-et-Miquelon"),
             new TranslationInfo(LanguageCode.PL, "Saint-Pierre i Miquelon"),

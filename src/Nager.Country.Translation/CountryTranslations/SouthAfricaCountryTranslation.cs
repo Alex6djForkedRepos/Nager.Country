@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Јужноафриканска Република"),
             new TranslationInfo(LanguageCode.MN, "Өмнөд Африк тив"),
             new TranslationInfo(LanguageCode.NB, "Sør-Afrika"),
+            new TranslationInfo(LanguageCode.NO, "Sør-Afrika"),
             new TranslationInfo(LanguageCode.NL, "Zuid-Afrika"),
             new TranslationInfo(LanguageCode.NN, "Sør-Afrika"),
             new TranslationInfo(LanguageCode.PL, "Południowa Afryka"),

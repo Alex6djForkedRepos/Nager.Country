@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Конго-Бразавил"),
             new TranslationInfo(LanguageCode.MN, "Конго Браззавиль"),
             new TranslationInfo(LanguageCode.NB, "Kongo-Brazzaville"),
+            new TranslationInfo(LanguageCode.NO, "Kongo-Brazzaville"),
             new TranslationInfo(LanguageCode.NL, "Congo, Volksrepubliek"),
             new TranslationInfo(LanguageCode.NN, "Kongo-Brazzaville"),
             new TranslationInfo(LanguageCode.PL, "Kongo"),

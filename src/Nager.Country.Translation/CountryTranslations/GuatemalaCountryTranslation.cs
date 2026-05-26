@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Гватемала"),
             new TranslationInfo(LanguageCode.MN, "Гватемал"),
             new TranslationInfo(LanguageCode.NB, "Guatemala"),
+            new TranslationInfo(LanguageCode.NO, "Guatemala"),
             new TranslationInfo(LanguageCode.NL, "Guatemala"),
             new TranslationInfo(LanguageCode.NN, "Guatemala"),
             new TranslationInfo(LanguageCode.PL, "Gwatemala"),

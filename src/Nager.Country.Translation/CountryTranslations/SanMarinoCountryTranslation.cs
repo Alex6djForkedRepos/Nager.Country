@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Сан Марино"),
             new TranslationInfo(LanguageCode.MN, "Сан-Марино"),
             new TranslationInfo(LanguageCode.NB, "San Marino"),
+            new TranslationInfo(LanguageCode.NO, "San Marino"),
             new TranslationInfo(LanguageCode.NL, "San Marino"),
             new TranslationInfo(LanguageCode.NN, "San Marino"),
             new TranslationInfo(LanguageCode.PL, "San Marino"),

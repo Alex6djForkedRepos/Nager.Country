@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Белизе"),
             new TranslationInfo(LanguageCode.MN, "Белиз"),
             new TranslationInfo(LanguageCode.NB, "Belize"),
+            new TranslationInfo(LanguageCode.NO, "Belize"),
             new TranslationInfo(LanguageCode.NL, "Belize"),
             new TranslationInfo(LanguageCode.NN, "Belize"),
             new TranslationInfo(LanguageCode.PL, "Belize"),

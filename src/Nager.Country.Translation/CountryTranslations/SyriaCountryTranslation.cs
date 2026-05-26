@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Сирија"),
             new TranslationInfo(LanguageCode.MN, "Сири"),
             new TranslationInfo(LanguageCode.NB, "Syria"),
+            new TranslationInfo(LanguageCode.NO, "Syria"),
             new TranslationInfo(LanguageCode.NL, "Syrië"),
             new TranslationInfo(LanguageCode.NN, "Syria"),
             new TranslationInfo(LanguageCode.PL, "Syria"),

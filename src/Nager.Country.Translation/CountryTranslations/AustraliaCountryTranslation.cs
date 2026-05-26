@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Австралија"),
             new TranslationInfo(LanguageCode.MN, "Австрали"),
             new TranslationInfo(LanguageCode.NB, "Australia"),
+            new TranslationInfo(LanguageCode.NO, "Australia"),
             new TranslationInfo(LanguageCode.NL, "Australië"),
             new TranslationInfo(LanguageCode.NN, "Australia"),
             new TranslationInfo(LanguageCode.PL, "Australia"),

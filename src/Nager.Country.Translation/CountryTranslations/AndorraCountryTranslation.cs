@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Андора"),
             new TranslationInfo(LanguageCode.MN, "Андорра"),
             new TranslationInfo(LanguageCode.NB, "Andorra"),
+            new TranslationInfo(LanguageCode.NO, "Andorra"),
             new TranslationInfo(LanguageCode.NL, "Andorra"),
             new TranslationInfo(LanguageCode.NN, "Andorra"),
             new TranslationInfo(LanguageCode.PL, "Andora"),

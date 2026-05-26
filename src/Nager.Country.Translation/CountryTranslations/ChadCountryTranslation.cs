@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Чад"),
             new TranslationInfo(LanguageCode.MN, "Чад"),
             new TranslationInfo(LanguageCode.NB, "Tsjad"),
+            new TranslationInfo(LanguageCode.NO, "Tsjad"),
             new TranslationInfo(LanguageCode.NL, "Tsjaad"),
             new TranslationInfo(LanguageCode.NN, "Tsjad"),
             new TranslationInfo(LanguageCode.PL, "Czad"),

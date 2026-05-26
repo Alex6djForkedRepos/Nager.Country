@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Гвадалупе"),
             new TranslationInfo(LanguageCode.MN, "Гваделуп"),
             new TranslationInfo(LanguageCode.NB, "Guadeloupe"),
+            new TranslationInfo(LanguageCode.NO, "Guadeloupe"),
             new TranslationInfo(LanguageCode.NL, "Guadeloupe"),
             new TranslationInfo(LanguageCode.NN, "Guadeloupe"),
             new TranslationInfo(LanguageCode.PL, "Gwadelupa"),

@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Ниује"),
             new TranslationInfo(LanguageCode.MN, "Ниуэ"),
             new TranslationInfo(LanguageCode.NB, "Niue"),
+            new TranslationInfo(LanguageCode.NO, "Niue"),
             new TranslationInfo(LanguageCode.NL, "Niue"),
             new TranslationInfo(LanguageCode.NN, "Niue"),
             new TranslationInfo(LanguageCode.PL, "Niue"),

@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Коморски Острови"),
             new TranslationInfo(LanguageCode.MN, "Коморос"),
             new TranslationInfo(LanguageCode.NB, "Komorene"),
+            new TranslationInfo(LanguageCode.NO, "Komorene"),
             new TranslationInfo(LanguageCode.NL, "Comoren"),
             new TranslationInfo(LanguageCode.NN, "Komorane"),
             new TranslationInfo(LanguageCode.PL, "Komory"),

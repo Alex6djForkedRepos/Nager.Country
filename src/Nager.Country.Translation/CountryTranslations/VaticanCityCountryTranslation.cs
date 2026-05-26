@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Ватикан"),
             new TranslationInfo(LanguageCode.MN, "Ватикан хот улс"),
             new TranslationInfo(LanguageCode.NB, "Vatikanstaten"),
+            new TranslationInfo(LanguageCode.NO, "Vatikanstaten"),
             new TranslationInfo(LanguageCode.NL, "Heilige Stoel"),
             new TranslationInfo(LanguageCode.NN, "Vatikanstaten"),
             new TranslationInfo(LanguageCode.PL, "Watykan"),

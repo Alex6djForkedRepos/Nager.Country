@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Суринам"),
             new TranslationInfo(LanguageCode.MN, "Суринам"),
             new TranslationInfo(LanguageCode.NB, "Surinam"),
+            new TranslationInfo(LanguageCode.NO, "Surinam"),
             new TranslationInfo(LanguageCode.NL, "Suriname"),
             new TranslationInfo(LanguageCode.NN, "Surinam"),
             new TranslationInfo(LanguageCode.PL, "Surinam"),

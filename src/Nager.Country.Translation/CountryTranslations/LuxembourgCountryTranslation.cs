@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Луксембург"),
             new TranslationInfo(LanguageCode.MN, "Люксембург"),
             new TranslationInfo(LanguageCode.NB, "Luxembourg"),
+            new TranslationInfo(LanguageCode.NO, "Luxembourg"),
             new TranslationInfo(LanguageCode.NL, "Luxemburg"),
             new TranslationInfo(LanguageCode.NN, "Luxembourg"),
             new TranslationInfo(LanguageCode.PL, "Luksemburg"),

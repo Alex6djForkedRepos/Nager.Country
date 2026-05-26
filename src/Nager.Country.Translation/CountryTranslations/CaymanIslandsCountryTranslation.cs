@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Кајмански Острови"),
             new TranslationInfo(LanguageCode.MN, "Кайманы Арлууд"),
             new TranslationInfo(LanguageCode.NB, "Caymanøyene"),
+            new TranslationInfo(LanguageCode.NO, "Caymanøyene"),
             new TranslationInfo(LanguageCode.NL, "Kaaimaneilanden"),
             new TranslationInfo(LanguageCode.NN, "Caymanøyane"),
             new TranslationInfo(LanguageCode.PL, "Kajmany"),

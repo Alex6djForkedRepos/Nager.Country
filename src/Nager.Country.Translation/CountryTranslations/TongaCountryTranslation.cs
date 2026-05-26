@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Тонга"),
             new TranslationInfo(LanguageCode.MN, "Тонга"),
             new TranslationInfo(LanguageCode.NB, "Tonga"),
+            new TranslationInfo(LanguageCode.NO, "Tonga"),
             new TranslationInfo(LanguageCode.NL, "Tonga"),
             new TranslationInfo(LanguageCode.NN, "Tonga"),
             new TranslationInfo(LanguageCode.PL, "Tonga"),

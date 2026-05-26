@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Сејшели"),
             new TranslationInfo(LanguageCode.MN, "Сейшел"),
             new TranslationInfo(LanguageCode.NB, "Seychellene"),
+            new TranslationInfo(LanguageCode.NO, "Seychellene"),
             new TranslationInfo(LanguageCode.NL, "Seychellen"),
             new TranslationInfo(LanguageCode.NN, "Seychellane"),
             new TranslationInfo(LanguageCode.PL, "Seszele"),

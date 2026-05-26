@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Тувалу"),
             new TranslationInfo(LanguageCode.MN, "Тувалу"),
             new TranslationInfo(LanguageCode.NB, "Tuvalu"),
+            new TranslationInfo(LanguageCode.NO, "Tuvalu"),
             new TranslationInfo(LanguageCode.NL, "Tuvalu"),
             new TranslationInfo(LanguageCode.NN, "Tuvalu"),
             new TranslationInfo(LanguageCode.PL, "Tuvalu"),

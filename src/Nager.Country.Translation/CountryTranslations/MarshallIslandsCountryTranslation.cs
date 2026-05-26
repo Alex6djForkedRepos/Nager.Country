@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Маршалски Острови"),
             new TranslationInfo(LanguageCode.MN, "Маршаллын арлууд"),
             new TranslationInfo(LanguageCode.NB, "Marshalløyene"),
+            new TranslationInfo(LanguageCode.NO, "Marshalløyene"),
             new TranslationInfo(LanguageCode.NL, "Marshalleilanden"),
             new TranslationInfo(LanguageCode.NN, "Marshalløyane"),
             new TranslationInfo(LanguageCode.PL, "Wyspy Marshalla"),

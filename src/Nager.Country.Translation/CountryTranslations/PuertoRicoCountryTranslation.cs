@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Порторико"),
             new TranslationInfo(LanguageCode.MN, "Пуэрто Рико"),
             new TranslationInfo(LanguageCode.NB, "Puerto Rico"),
+            new TranslationInfo(LanguageCode.NO, "Puerto Rico"),
             new TranslationInfo(LanguageCode.NL, "Puerto Rico"),
             new TranslationInfo(LanguageCode.NN, "Puerto Rico"),
             new TranslationInfo(LanguageCode.PL, "Portoryko"),

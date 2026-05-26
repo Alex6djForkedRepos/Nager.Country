@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Сенегал"),
             new TranslationInfo(LanguageCode.MN, "Сенегал"),
             new TranslationInfo(LanguageCode.NB, "Senegal"),
+            new TranslationInfo(LanguageCode.NO, "Senegal"),
             new TranslationInfo(LanguageCode.NL, "Senegal"),
             new TranslationInfo(LanguageCode.NN, "Senegal"),
             new TranslationInfo(LanguageCode.PL, "Senegal"),

@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Соломонски Острови"),
             new TranslationInfo(LanguageCode.MN, "Соломоны Арлууд"),
             new TranslationInfo(LanguageCode.NB, "Salomonøyene"),
+            new TranslationInfo(LanguageCode.NO, "Salomonøyene"),
             new TranslationInfo(LanguageCode.NL, "Salomonseilanden"),
             new TranslationInfo(LanguageCode.NN, "Salomonøyane"),
             new TranslationInfo(LanguageCode.PL, "Wyspy Salomona"),

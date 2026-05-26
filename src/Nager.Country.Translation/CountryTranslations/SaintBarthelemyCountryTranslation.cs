@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Свети Вартоломеј"),
             new TranslationInfo(LanguageCode.MN, "Сент Бартельми"),
             new TranslationInfo(LanguageCode.NB, "Saint-Barthélemy"),
+            new TranslationInfo(LanguageCode.NO, "Saint-Barthélemy"),
             new TranslationInfo(LanguageCode.NL, "Saint Barthélemy"),
             new TranslationInfo(LanguageCode.NN, "Saint-Barthélemy"),
             new TranslationInfo(LanguageCode.PL, "Saint-Barthélemy"),

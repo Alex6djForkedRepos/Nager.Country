@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Фолкландски Острови"),
             new TranslationInfo(LanguageCode.MN, "Фолькландын Арлууд"),
             new TranslationInfo(LanguageCode.NB, "Falklandsøyene"),
+            new TranslationInfo(LanguageCode.NO, "Falklandsøyene"),
             new TranslationInfo(LanguageCode.NL, "Falklandeilanden"),
             new TranslationInfo(LanguageCode.NN, "Falklandsøyane"),
             new TranslationInfo(LanguageCode.PL, "Falklandy"),

@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Соединети Американски Држави"),
             new TranslationInfo(LanguageCode.MN, "Америкийн Нэгдсэн Улс"),
             new TranslationInfo(LanguageCode.NB, "USA"),
+            new TranslationInfo(LanguageCode.NO, "USA"),
             new TranslationInfo(LanguageCode.NL, "Verenigde Staten van Amerika"),
             new TranslationInfo(LanguageCode.NN, "USA"),
             new TranslationInfo(LanguageCode.PL, "Stany Zjednoczone"),

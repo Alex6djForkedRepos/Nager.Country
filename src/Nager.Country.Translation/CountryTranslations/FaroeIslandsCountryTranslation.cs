@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Фарски Острови"),
             new TranslationInfo(LanguageCode.MN, "Фароэ Арлууд"),
             new TranslationInfo(LanguageCode.NB, "Færøyene"),
+            new TranslationInfo(LanguageCode.NO, "Færøyene"),
             new TranslationInfo(LanguageCode.NL, "Faeröer"),
             new TranslationInfo(LanguageCode.NN, "Færøyane"),
             new TranslationInfo(LanguageCode.PL, "Wyspy Owcze"),

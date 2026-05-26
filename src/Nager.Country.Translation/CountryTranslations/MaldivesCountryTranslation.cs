@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Малдиви"),
             new TranslationInfo(LanguageCode.MN, "Мальдив"),
             new TranslationInfo(LanguageCode.NB, "Maldivene"),
+            new TranslationInfo(LanguageCode.NO, "Maldivene"),
             new TranslationInfo(LanguageCode.NL, "Maldiven"),
             new TranslationInfo(LanguageCode.NN, "Maldivane"),
             new TranslationInfo(LanguageCode.PL, "Malediwy"),

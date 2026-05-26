@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Латвија"),
             new TranslationInfo(LanguageCode.MN, "Латви"),
             new TranslationInfo(LanguageCode.NB, "Latvia"),
+            new TranslationInfo(LanguageCode.NO, "Latvia"),
             new TranslationInfo(LanguageCode.NL, "Letland"),
             new TranslationInfo(LanguageCode.NN, "Latvia"),
             new TranslationInfo(LanguageCode.PL, "Łotwa"),

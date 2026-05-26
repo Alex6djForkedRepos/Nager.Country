@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Палестински територии"),
             new TranslationInfo(LanguageCode.MN, "Палестины нутаг дэвсгэрүүд"),
             new TranslationInfo(LanguageCode.NB, "De okkuperte palestinske områdene"),
+            new TranslationInfo(LanguageCode.NO, "De okkuperte palestinske områdene"),
             new TranslationInfo(LanguageCode.NL, "Palestina"),
             new TranslationInfo(LanguageCode.NN, "Dei okkuperte palestinske områda"),
             new TranslationInfo(LanguageCode.PL, "Palestyna"),

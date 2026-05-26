@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Свети Кристофер и Невис"),
             new TranslationInfo(LanguageCode.MN, "Сент-Киттс ба Невис"),
             new TranslationInfo(LanguageCode.NB, "Saint Kitts og Nevis"),
+            new TranslationInfo(LanguageCode.NO, "Saint Kitts og Nevis"),
             new TranslationInfo(LanguageCode.NL, "Saint Kitts en Nevis"),
             new TranslationInfo(LanguageCode.NN, "Saint Kitts og Nevis"),
             new TranslationInfo(LanguageCode.PL, "Saint Kitts i Nevis"),

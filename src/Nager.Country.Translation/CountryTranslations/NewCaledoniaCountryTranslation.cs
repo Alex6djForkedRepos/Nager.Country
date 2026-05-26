@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Нова Каледонија"),
             new TranslationInfo(LanguageCode.MN, "Шинэ Каледони"),
             new TranslationInfo(LanguageCode.NB, "Ny-Caledonia"),
+            new TranslationInfo(LanguageCode.NO, "Ny-Caledonia"),
             new TranslationInfo(LanguageCode.NL, "Nieuw-Caledonië"),
             new TranslationInfo(LanguageCode.NN, "Ny-Caledonia"),
             new TranslationInfo(LanguageCode.PL, "Nowa Kaledonia"),

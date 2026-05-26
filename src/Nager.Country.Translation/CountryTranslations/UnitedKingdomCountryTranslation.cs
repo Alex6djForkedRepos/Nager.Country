@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Обединето Кралство"),
             new TranslationInfo(LanguageCode.MN, "Их Британи"),
             new TranslationInfo(LanguageCode.NB, "Storbritannia"),
+            new TranslationInfo(LanguageCode.NO, "Storbritannia"),
             new TranslationInfo(LanguageCode.NL, "Verenigd Koninkrijk"),
             new TranslationInfo(LanguageCode.NN, "Storbritannia"),
             new TranslationInfo(LanguageCode.PL, "Wielka Brytania"),

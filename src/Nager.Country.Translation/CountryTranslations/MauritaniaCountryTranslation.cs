@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Мавританија"),
             new TranslationInfo(LanguageCode.MN, "Мавритани"),
             new TranslationInfo(LanguageCode.NB, "Mauritania"),
+            new TranslationInfo(LanguageCode.NO, "Mauritania"),
             new TranslationInfo(LanguageCode.NL, "Mauritanië"),
             new TranslationInfo(LanguageCode.NN, "Mauritania"),
             new TranslationInfo(LanguageCode.PL, "Mauretania"),

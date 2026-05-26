@@ -42,6 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MK, "Зелен ’Рт"),
             new TranslationInfo(LanguageCode.MN, "Капе Верде"),
             new TranslationInfo(LanguageCode.NB, "Kapp Verde"),
+            new TranslationInfo(LanguageCode.NO, "Kapp Verde"),
             new TranslationInfo(LanguageCode.NL, "Kaapverdië"),
             new TranslationInfo(LanguageCode.NN, "Kapp Verde"),
             new TranslationInfo(LanguageCode.PL, "Republika Zielonego Przylądka"),
