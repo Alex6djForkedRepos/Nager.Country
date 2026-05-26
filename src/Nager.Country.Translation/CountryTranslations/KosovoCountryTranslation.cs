@@ -18,7 +18,11 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.NB, "Kosovo"),
             new TranslationInfo(LanguageCode.NO, "Kosovo"),
             new TranslationInfo(LanguageCode.NN, "Kosovo"),
+            new TranslationInfo(LanguageCode.PL, "Kosowo"),
             new TranslationInfo(LanguageCode.PT, "Kosovo"),
+            new TranslationInfo(LanguageCode.RO, "Kosovo"),
+            new TranslationInfo(LanguageCode.TR, "Kosova"),
+            new TranslationInfo(LanguageCode.UK, "Косово"),
         };
     }
 }
