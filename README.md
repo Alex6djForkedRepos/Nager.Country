@@ -12,9 +12,9 @@ The dataset includes **250 countries and territories** with detailed information
 - 🌐 Country borders
 - 🌏 Translations in multiple languages
 
-## 📦 Access
+## 📦 Access & Installation
 
-You can access the data in two formats:
+You can access the data in two ways:
 
 - Via [NuGet package](https://www.nuget.org/packages/Nager.Country) – ideal for .NET applications  
 - As a downloadable ZIP archive containing structured JSON files ([latest zip package](https://github.com/nager/Nager.Country/releases/latest/download/countries.zip))
