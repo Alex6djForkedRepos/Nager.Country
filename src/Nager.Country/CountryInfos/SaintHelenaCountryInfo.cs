@@ -6,7 +6,7 @@
     public sealed class SaintHelenaCountryInfo : ICountryInfo
     {
         /// <inheritdoc/>
-        public string CommonName => "Saint Helena, Ascension and Tristan da Cunha";
+        public string CommonName => "Saint Helena";
 
         /// <inheritdoc/>
         public string OfficialName => "Saint Helena, Ascension and Tristan da Cunha";
