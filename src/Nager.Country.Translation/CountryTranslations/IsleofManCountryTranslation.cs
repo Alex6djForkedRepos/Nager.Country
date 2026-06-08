@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Isle of Man
@@ -6,8 +6,8 @@ namespace Nager.Country.Translation.CountryTranslations
     public class IsleofManCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "جزيرة مان"),
             new TranslationInfo(LanguageCode.AZ, "Men adası"),
             new TranslationInfo(LanguageCode.BE, "Востраў Мэн"),
@@ -21,13 +21,13 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.EN, "Isle of Man"),
             new TranslationInfo(LanguageCode.ES, "Isla de Man"),
             new TranslationInfo(LanguageCode.ET, "Mani saar"),
-            new TranslationInfo(LanguageCode.FA, "جزیرهٔ من"),
+            new TranslationInfo(LanguageCode.FA, "جزیرهٔ مَن"),
             new TranslationInfo(LanguageCode.FI, "Mansaari"),
             new TranslationInfo(LanguageCode.FR, "Île de Man"),
             new TranslationInfo(LanguageCode.HE, "האי מאן"),
             new TranslationInfo(LanguageCode.HI, "आइल ऑफ मैन"),
             new TranslationInfo(LanguageCode.HR, "Otok Man"),
-            new TranslationInfo(LanguageCode.HU, "Man-sziget"),
+            new TranslationInfo(LanguageCode.HU, "Man"),
             new TranslationInfo(LanguageCode.HY, "Մեն կղզի"),
             new TranslationInfo(LanguageCode.ID, "Isle of Man"),
             new TranslationInfo(LanguageCode.IT, "Isola di Man"),
@@ -42,7 +42,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MN, "Мэн Арал"),
             new TranslationInfo(LanguageCode.NB, "Man"),
             new TranslationInfo(LanguageCode.NO, "Man"),
-            new TranslationInfo(LanguageCode.NL, "Man Eiland"),
+            new TranslationInfo(LanguageCode.NL, "Isle of Man"),
             new TranslationInfo(LanguageCode.NN, "Man"),
             new TranslationInfo(LanguageCode.PL, "Wyspa Man"),
             new TranslationInfo(LanguageCode.PT, "Ilha de Man"),
@@ -56,6 +56,6 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.UK, "Острів Мен"),
             new TranslationInfo(LanguageCode.UZ, "Men oroli"),
             new TranslationInfo(LanguageCode.ZH, "马恩岛"),
-        };
+        ];
     }
 }

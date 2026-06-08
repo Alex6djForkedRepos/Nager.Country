@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Guyana
@@ -6,8 +6,8 @@ namespace Nager.Country.Translation.CountryTranslations
     public class GuyanaCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "غيانا"),
             new TranslationInfo(LanguageCode.AZ, "Qayana"),
             new TranslationInfo(LanguageCode.BE, "Гаяна"),
@@ -22,7 +22,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.ES, "Guyana"),
             new TranslationInfo(LanguageCode.ET, "Guyana"),
             new TranslationInfo(LanguageCode.FA, "گویان"),
-            new TranslationInfo(LanguageCode.FI, "Guyana"),
+            new TranslationInfo(LanguageCode.FI, "Guayana"),
             new TranslationInfo(LanguageCode.FR, "Guyana"),
             new TranslationInfo(LanguageCode.HE, "גיאנה"),
             new TranslationInfo(LanguageCode.HI, "गुयाना"),
@@ -49,7 +49,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.PT, "Guiana"),
             new TranslationInfo(LanguageCode.RO, "Guyana"),
             new TranslationInfo(LanguageCode.RU, "Гайана"),
-            new TranslationInfo(LanguageCode.SK, "Guayana"),
+            new TranslationInfo(LanguageCode.SK, "Guyana"),
             new TranslationInfo(LanguageCode.SL, "Gvajana"),
             new TranslationInfo(LanguageCode.SR, "Гвајана"),
             new TranslationInfo(LanguageCode.SV, "Guyana"),
@@ -57,6 +57,6 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.UK, "Гаяна"),
             new TranslationInfo(LanguageCode.UZ, "Gayana"),
             new TranslationInfo(LanguageCode.ZH, "圭亚那"),
-        };
+        ];
     }
 }

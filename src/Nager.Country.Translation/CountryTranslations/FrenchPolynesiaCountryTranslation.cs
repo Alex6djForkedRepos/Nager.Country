@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// French Polynesia
@@ -6,8 +6,8 @@ namespace Nager.Country.Translation.CountryTranslations
     public class FrenchPolynesiaCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "بولينزيا الفرنسية"),
             new TranslationInfo(LanguageCode.AZ, "Fransa Polineziyası"),
             new TranslationInfo(LanguageCode.BE, "Французская Палінезія"),
@@ -21,7 +21,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.EN, "French Polynesia"),
             new TranslationInfo(LanguageCode.ES, "Polinesia Francesa"),
             new TranslationInfo(LanguageCode.ET, "Prantsuse Polüneesia"),
-            new TranslationInfo(LanguageCode.FA, "پلی‌نزی فرانسه"),
+            new TranslationInfo(LanguageCode.FA, "پُلی‌نِزی فرانسه"),
             new TranslationInfo(LanguageCode.FI, "Ranskan Polynesia"),
             new TranslationInfo(LanguageCode.FR, "Polynésie française"),
             new TranslationInfo(LanguageCode.HE, "פולינזיה הצרפתית"),
@@ -56,9 +56,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.TR, "Fransız Polinezyası"),
             new TranslationInfo(LanguageCode.UK, "Французька Полінезія"),
             new TranslationInfo(LanguageCode.UZ, "Fransuz Polineziyasi"),
-            new TranslationInfo(LanguageCode.ZH, "法属玻里尼西亚"),
-        
-       
-       };
+            new TranslationInfo(LanguageCode.ZH, "法属波利尼西亚"),
+        ];
     }
 }

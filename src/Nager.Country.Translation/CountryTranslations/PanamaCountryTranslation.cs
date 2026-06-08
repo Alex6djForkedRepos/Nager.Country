@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Panama
@@ -6,8 +6,8 @@ namespace Nager.Country.Translation.CountryTranslations
     public class PanamaCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "بنما"),
             new TranslationInfo(LanguageCode.AZ, "Panama"),
             new TranslationInfo(LanguageCode.BE, "Панама"),
@@ -31,7 +31,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.HY, "Պանամա"),
             new TranslationInfo(LanguageCode.ID, "Panama"),
             new TranslationInfo(LanguageCode.IS, "Panama"),
-            new TranslationInfo(LanguageCode.IT, "Panamá"),
+            new TranslationInfo(LanguageCode.IT, "Panama"),
             new TranslationInfo(LanguageCode.JA, "パナマ"),
             new TranslationInfo(LanguageCode.KA, "პანამა"),
             new TranslationInfo(LanguageCode.KK, "Панама"),
@@ -57,6 +57,6 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.UK, "Панама"),
             new TranslationInfo(LanguageCode.UZ, "Panama"),
             new TranslationInfo(LanguageCode.ZH, "巴拿马"),
-        };
+        ];
     }
 }

@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Maldives
@@ -6,9 +6,9 @@ namespace Nager.Country.Translation.CountryTranslations
     public class MaldivesCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
-            new TranslationInfo(LanguageCode.AR, "جزر المالديف"),
+        public TranslationInfo[] Translations =>
+        [
+            new TranslationInfo(LanguageCode.AR, "المالديف"),
             new TranslationInfo(LanguageCode.AZ, "Maldiv adaları"),
             new TranslationInfo(LanguageCode.BE, "Мальдывы"),
             new TranslationInfo(LanguageCode.BG, "Малдиви"),
@@ -17,7 +17,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.CS, "Maledivy"),
             new TranslationInfo(LanguageCode.DA, "Maldiverne"),
             new TranslationInfo(LanguageCode.DE, "Malediven"),
-            new TranslationInfo(LanguageCode.EL, "Μαλβίδες"),
+            new TranslationInfo(LanguageCode.EL, "Μαλδίβες"),
             new TranslationInfo(LanguageCode.EN, "Maldives"),
             new TranslationInfo(LanguageCode.ES, "Maldivas"),
             new TranslationInfo(LanguageCode.ET, "Maldiivid"),
@@ -29,7 +29,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.HR, "Maldivi"),
             new TranslationInfo(LanguageCode.HU, "Maldív-szigetek"),
             new TranslationInfo(LanguageCode.HY, "Մալդիվներ"),
-            new TranslationInfo(LanguageCode.ID, "Maldives"),
+            new TranslationInfo(LanguageCode.ID, "Maladewa"),
             new TranslationInfo(LanguageCode.IS, "Maldívur"),
             new TranslationInfo(LanguageCode.IT, "Maldive"),
             new TranslationInfo(LanguageCode.JA, "モルディブ"),
@@ -38,7 +38,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.KO, "몰디브"),
             new TranslationInfo(LanguageCode.KY, "Малдив аралдары"),
             new TranslationInfo(LanguageCode.LT, "Maldyvai"),
-            new TranslationInfo(LanguageCode.LV, "Maldīvija"),
+            new TranslationInfo(LanguageCode.LV, "Maldīvas"),
             new TranslationInfo(LanguageCode.MK, "Малдиви"),
             new TranslationInfo(LanguageCode.MN, "Мальдив"),
             new TranslationInfo(LanguageCode.NB, "Maldivene"),
@@ -54,9 +54,9 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.SR, "Малдиви"),
             new TranslationInfo(LanguageCode.SV, "Maldiverna"),
             new TranslationInfo(LanguageCode.TR, "Maldivler"),
-            new TranslationInfo(LanguageCode.UK, "Мальдівы"),
+            new TranslationInfo(LanguageCode.UK, "Мальдіви"),
             new TranslationInfo(LanguageCode.UZ, "Maldiv orollari"),
-            new TranslationInfo(LanguageCode.ZH, "马尔地夫"),
-        };
+            new TranslationInfo(LanguageCode.ZH, "马尔代夫"),
+        ];
     }
 }

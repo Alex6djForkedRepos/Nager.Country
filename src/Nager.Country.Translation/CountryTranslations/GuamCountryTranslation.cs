@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Guam
@@ -6,8 +6,8 @@ namespace Nager.Country.Translation.CountryTranslations
     public class GuamCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "غوام"),
             new TranslationInfo(LanguageCode.AZ, "Quam"),
             new TranslationInfo(LanguageCode.BE, "Гуам"),
@@ -21,7 +21,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.EN, "Guam"),
             new TranslationInfo(LanguageCode.ES, "Guam"),
             new TranslationInfo(LanguageCode.ET, "Guam"),
-            new TranslationInfo(LanguageCode.FA, "گوام"),
+            new TranslationInfo(LanguageCode.FA, "گوآم"),
             new TranslationInfo(LanguageCode.FI, "Guam"),
             new TranslationInfo(LanguageCode.FR, "Guam"),
             new TranslationInfo(LanguageCode.HE, "גואם"),
@@ -57,6 +57,6 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.UK, "Гуам"),
             new TranslationInfo(LanguageCode.UZ, "Guam"),
             new TranslationInfo(LanguageCode.ZH, "关岛"),
-        };
+        ];
     }
 }

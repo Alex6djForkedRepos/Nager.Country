@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Mali
@@ -6,8 +6,8 @@ namespace Nager.Country.Translation.CountryTranslations
     public class MaliCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "مالي"),
             new TranslationInfo(LanguageCode.AZ, "Mali"),
             new TranslationInfo(LanguageCode.BE, "Малі"),
@@ -19,7 +19,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.DE, "Mali"),
             new TranslationInfo(LanguageCode.EL, "Μαλί"),
             new TranslationInfo(LanguageCode.EN, "Mali"),
-            new TranslationInfo(LanguageCode.ES, "Malí"),
+            new TranslationInfo(LanguageCode.ES, "Mali"),
             new TranslationInfo(LanguageCode.ET, "Mali"),
             new TranslationInfo(LanguageCode.FA, "مالی"),
             new TranslationInfo(LanguageCode.FI, "Mali"),
@@ -57,6 +57,6 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.UK, "Малі"),
             new TranslationInfo(LanguageCode.UZ, "Mali"),
             new TranslationInfo(LanguageCode.ZH, "马里"),
-        };
+        ];
     }
 }

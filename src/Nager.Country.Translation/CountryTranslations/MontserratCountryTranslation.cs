@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Montserrat
@@ -6,13 +6,13 @@ namespace Nager.Country.Translation.CountryTranslations
     public class MontserratCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "مونتسرات"),
             new TranslationInfo(LanguageCode.AZ, "Monserat"),
             new TranslationInfo(LanguageCode.BE, "Мантсерат"),
             new TranslationInfo(LanguageCode.BG, "Монтсерат"),
-            new TranslationInfo(LanguageCode.BS, "Monserat"),
+            new TranslationInfo(LanguageCode.BS, "Montserrat"),
             new TranslationInfo(LanguageCode.CA, "Montserrat"),
             new TranslationInfo(LanguageCode.CS, "Montserrat"),
             new TranslationInfo(LanguageCode.DA, "Montserrat"),
@@ -51,12 +51,12 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.RU, "Монтсеррат"),
             new TranslationInfo(LanguageCode.SK, "Montserrat"),
             new TranslationInfo(LanguageCode.SL, "Montserrat"),
-            new TranslationInfo(LanguageCode.SR, "Монсерат"),
+            new TranslationInfo(LanguageCode.SR, "Монтсерат"),
             new TranslationInfo(LanguageCode.SV, "Montserrat"),
             new TranslationInfo(LanguageCode.TR, "Montserrat"),
             new TranslationInfo(LanguageCode.UK, "Монтсеррат"),
             new TranslationInfo(LanguageCode.UZ, "Montserrat"),
             new TranslationInfo(LanguageCode.ZH, "蒙特塞拉特"),
-        };
+        ];
     }
 }

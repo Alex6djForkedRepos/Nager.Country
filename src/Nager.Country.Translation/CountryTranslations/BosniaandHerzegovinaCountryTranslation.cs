@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Bosnia and Herzegovina
@@ -6,8 +6,8 @@ namespace Nager.Country.Translation.CountryTranslations
     public class BosniaandHerzegovinaCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "البوسنة والهرسك"),
             new TranslationInfo(LanguageCode.AZ, "Bosniya və Herseqovina"),
             new TranslationInfo(LanguageCode.BE, "Боснія і Герцагавіна"),
@@ -43,7 +43,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MN, "Босни Герцеговин"),
             new TranslationInfo(LanguageCode.NB, "Bosnia-Hercegovina"),
             new TranslationInfo(LanguageCode.NO, "Bosnia-Hercegovina"),
-            new TranslationInfo(LanguageCode.NL, "Bosnië-Herzegovina"),
+            new TranslationInfo(LanguageCode.NL, "Bosnië en Herzegovina"),
             new TranslationInfo(LanguageCode.NN, "Bosnia-Hercegovina"),
             new TranslationInfo(LanguageCode.PL, "Bośnia i Hercegowina"),
             new TranslationInfo(LanguageCode.PT, "Bósnia e Herzegovina"),
@@ -53,10 +53,10 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.SL, "Bosna in Hercegovina"),
             new TranslationInfo(LanguageCode.SR, "Босна и Херцеговина"),
             new TranslationInfo(LanguageCode.SV, "Bosnien och Hercegovina"),
-            new TranslationInfo(LanguageCode.TR, "Bosna Hersek"),
+            new TranslationInfo(LanguageCode.TR, "Bosna-Hersek"),
             new TranslationInfo(LanguageCode.UK, "Боснія і Герцеговина"),
             new TranslationInfo(LanguageCode.UZ, "Bosniya va Gertsegovina"),
             new TranslationInfo(LanguageCode.ZH, "波斯尼亚和黑塞哥维那"),
-        };
+        ];
     }
 }

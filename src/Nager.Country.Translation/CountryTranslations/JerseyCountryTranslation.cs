@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Jersey
@@ -6,8 +6,8 @@ namespace Nager.Country.Translation.CountryTranslations
     public class JerseyCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "جيرزي"),
             new TranslationInfo(LanguageCode.AZ, "Cersi"),
             new TranslationInfo(LanguageCode.BE, "Джэрсі"),
@@ -17,7 +17,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.CS, "Jersey"),
             new TranslationInfo(LanguageCode.DA, "Jersey"),
             new TranslationInfo(LanguageCode.DE, "Jersey"),
-            new TranslationInfo(LanguageCode.EL, "Βαϊλάτο του Τζέρσεϊ"),
+            new TranslationInfo(LanguageCode.EL, "Τζέρσεϊ"),
             new TranslationInfo(LanguageCode.EN, "Jersey"),
             new TranslationInfo(LanguageCode.ES, "Jersey"),
             new TranslationInfo(LanguageCode.ET, "Jersey"),
@@ -34,7 +34,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.JA, "ジャージー"),
             new TranslationInfo(LanguageCode.KA, "ჯერსი"),
             new TranslationInfo(LanguageCode.KK, "Джерси"),
-            new TranslationInfo(LanguageCode.KO, "저지섬"),
+            new TranslationInfo(LanguageCode.KO, "저지 섬"),
             new TranslationInfo(LanguageCode.KY, "Жерси"),
             new TranslationInfo(LanguageCode.LT, "Džersis"),
             new TranslationInfo(LanguageCode.LV, "Džērsija"),
@@ -55,7 +55,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.TR, "Jersey"),
             new TranslationInfo(LanguageCode.UK, "Джерсі"),
             new TranslationInfo(LanguageCode.UZ, "Jersi"),
-            new TranslationInfo(LanguageCode.ZH, "泽西"),
-        };
+            new TranslationInfo(LanguageCode.ZH, "泽西岛"),
+        ];
     }
 }

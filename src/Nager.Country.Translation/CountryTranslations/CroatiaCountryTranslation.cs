@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Croatia
@@ -6,8 +6,8 @@ namespace Nager.Country.Translation.CountryTranslations
     public class CroatiaCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "كرواتيا"),
             new TranslationInfo(LanguageCode.AZ, "Xorvatiya"),
             new TranslationInfo(LanguageCode.BE, "Харватыя"),
@@ -21,7 +21,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.EN, "Croatia"),
             new TranslationInfo(LanguageCode.ES, "Croacia"),
             new TranslationInfo(LanguageCode.ET, "Horvaatia"),
-            new TranslationInfo(LanguageCode.FA, "کرواسی"),
+            new TranslationInfo(LanguageCode.FA, "کرُواسی"),
             new TranslationInfo(LanguageCode.FI, "Kroatia"),
             new TranslationInfo(LanguageCode.FR, "Croatie"),
             new TranslationInfo(LanguageCode.HE, "קרואטיה"),
@@ -57,6 +57,6 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.UK, "Хорватія"),
             new TranslationInfo(LanguageCode.UZ, "Xorvatiya"),
             new TranslationInfo(LanguageCode.ZH, "克罗地亚"),
-        };
+        ];
     }
 }

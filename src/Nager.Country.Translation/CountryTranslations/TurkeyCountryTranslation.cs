@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Turkey
@@ -6,8 +6,8 @@ namespace Nager.Country.Translation.CountryTranslations
     public class TurkeyCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "تركيا"),
             new TranslationInfo(LanguageCode.AZ, "Türkiyə"),
             new TranslationInfo(LanguageCode.BE, "Турцыя"),
@@ -18,7 +18,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.DA, "Tyrkiet"),
             new TranslationInfo(LanguageCode.DE, "Türkei"),
             new TranslationInfo(LanguageCode.EL, "Τουρκία"),
-            new TranslationInfo(LanguageCode.EN, "Turkey"),
+            new TranslationInfo(LanguageCode.EN, "Türkiye"),
             new TranslationInfo(LanguageCode.ES, "Turquía"),
             new TranslationInfo(LanguageCode.ET, "Türgi"),
             new TranslationInfo(LanguageCode.FA, "ترکیه"),
@@ -57,6 +57,6 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.UK, "Турція"),
             new TranslationInfo(LanguageCode.UZ, "Turkiya"),
             new TranslationInfo(LanguageCode.ZH, "土耳其"),
-        };
+        ];
     }
 }

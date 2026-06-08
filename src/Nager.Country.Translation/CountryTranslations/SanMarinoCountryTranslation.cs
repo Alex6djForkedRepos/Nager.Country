@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// San Marino
@@ -6,8 +6,8 @@ namespace Nager.Country.Translation.CountryTranslations
     public class SanMarinoCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "سان مارينو"),
             new TranslationInfo(LanguageCode.AZ, "San-Marino"),
             new TranslationInfo(LanguageCode.BE, "Сан-Марына"),
@@ -21,7 +21,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.EN, "San Marino"),
             new TranslationInfo(LanguageCode.ES, "San Marino"),
             new TranslationInfo(LanguageCode.ET, "San Marino"),
-            new TranslationInfo(LanguageCode.FA, "سان‌مارینو"),
+            new TranslationInfo(LanguageCode.FA, "سان مارینو"),
             new TranslationInfo(LanguageCode.FI, "San Marino"),
             new TranslationInfo(LanguageCode.FR, "Saint-Marin"),
             new TranslationInfo(LanguageCode.HE, "סן מרינו"),
@@ -57,6 +57,6 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.UK, "Сан-Маріно"),
             new TranslationInfo(LanguageCode.UZ, "San-Marino"),
             new TranslationInfo(LanguageCode.ZH, "圣马力诺"),
-        };
+        ];
     }
 }

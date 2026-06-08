@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Suriname
@@ -6,8 +6,8 @@ namespace Nager.Country.Translation.CountryTranslations
     public class SurinameCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "سورينام"),
             new TranslationInfo(LanguageCode.AZ, "Surinam"),
             new TranslationInfo(LanguageCode.BE, "Сурынам"),
@@ -19,11 +19,11 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.DE, "Suriname"),
             new TranslationInfo(LanguageCode.EL, "Σουρινάμ"),
             new TranslationInfo(LanguageCode.EN, "Suriname"),
-            new TranslationInfo(LanguageCode.ES, "Suriname"),
+            new TranslationInfo(LanguageCode.ES, "Surinam"),
             new TranslationInfo(LanguageCode.ET, "Suriname"),
             new TranslationInfo(LanguageCode.FA, "سورینام"),
             new TranslationInfo(LanguageCode.FI, "Suriname"),
-            new TranslationInfo(LanguageCode.FR, "Suriname"),
+            new TranslationInfo(LanguageCode.FR, "Surinam"),
             new TranslationInfo(LanguageCode.HE, "סורינם"),
             new TranslationInfo(LanguageCode.HI, "सूरीनाम"),
             new TranslationInfo(LanguageCode.HR, "Surinam"),
@@ -57,6 +57,6 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.UK, "Суринам"),
             new TranslationInfo(LanguageCode.UZ, "Surinam"),
             new TranslationInfo(LanguageCode.ZH, "苏里南"),
-        };
+        ];
     }
 }

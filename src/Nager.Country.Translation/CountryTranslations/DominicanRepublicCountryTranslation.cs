@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Dominican Republic
@@ -6,14 +6,14 @@ namespace Nager.Country.Translation.CountryTranslations
     public class DominicanRepublicCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "جمهورية الدومينيكان"),
             new TranslationInfo(LanguageCode.AZ, "Dominikan Respublikası"),
             new TranslationInfo(LanguageCode.BE, "Дамініканская Рэспубліка"),
             new TranslationInfo(LanguageCode.BG, "Доминиканска република"),
             new TranslationInfo(LanguageCode.BS, "Dominikanska Republika"),
-            new TranslationInfo(LanguageCode.CA, "Dominicana, República"),
+            new TranslationInfo(LanguageCode.CA, "República Dominicana"),
             new TranslationInfo(LanguageCode.CS, "Dominikánská republika"),
             new TranslationInfo(LanguageCode.DA, "Dominikanske Republik"),
             new TranslationInfo(LanguageCode.DE, "Dominikanische Republik"),
@@ -24,7 +24,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FA, "جمهوری دومینیکن"),
             new TranslationInfo(LanguageCode.FI, "Dominikaaninen tasavalta"),
             new TranslationInfo(LanguageCode.FR, "République Dominicaine"),
-            new TranslationInfo(LanguageCode.HE, "הרפובליקה הדומיניקנית"),
+            new TranslationInfo(LanguageCode.HE, "הרפובليקה הדומיניקנית"),
             new TranslationInfo(LanguageCode.HI, "डोमिनिकन गणराज्य"),
             new TranslationInfo(LanguageCode.HR, "Dominikanska Republika"),
             new TranslationInfo(LanguageCode.HU, "Dominikai Köztársaság"),
@@ -38,14 +38,14 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.KO, "도미니카 공화국"),
             new TranslationInfo(LanguageCode.KY, "Доминика Республикасы"),
             new TranslationInfo(LanguageCode.LT, "Dominikos Respublika"),
-            new TranslationInfo(LanguageCode.LV, "Dominikāna"),
+            new TranslationInfo(LanguageCode.LV, "Dominikānas Republika"),
             new TranslationInfo(LanguageCode.MK, "Доминиканска Република"),
             new TranslationInfo(LanguageCode.MN, "Бүгд Найрамдах Доминикан Улс"),
             new TranslationInfo(LanguageCode.NB, "Den dominikanske republikk"),
             new TranslationInfo(LanguageCode.NO, "Den dominikanske republikk"),
             new TranslationInfo(LanguageCode.NL, "Dominicaanse Republiek"),
             new TranslationInfo(LanguageCode.NN, "Den dominikanske republikken"),
-            new TranslationInfo(LanguageCode.PL, "Dominikana"),
+            new TranslationInfo(LanguageCode.PL, "Republika Dominikańska"),
             new TranslationInfo(LanguageCode.PT, "República Dominicana"),
             new TranslationInfo(LanguageCode.RO, "Republica Dominicană"),
             new TranslationInfo(LanguageCode.RU, "Доминиканская Республика"),
@@ -56,7 +56,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.TR, "Dominik Cumhuriyeti"),
             new TranslationInfo(LanguageCode.UK, "Домініканська Республіка"),
             new TranslationInfo(LanguageCode.UZ, "Dominikan Respublikasi"),
-            new TranslationInfo(LanguageCode.ZH, "多米尼加"),
-        };
+            new TranslationInfo(LanguageCode.ZH, "多明尼加"),
+        ];
     }
 }

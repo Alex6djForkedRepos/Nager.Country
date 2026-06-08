@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Cameroon
@@ -6,8 +6,8 @@ namespace Nager.Country.Translation.CountryTranslations
     public class CameroonCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "الكاميرون"),
             new TranslationInfo(LanguageCode.AZ, "Kamerun"),
             new TranslationInfo(LanguageCode.BE, "Камерун"),
@@ -21,7 +21,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.EN, "Cameroon"),
             new TranslationInfo(LanguageCode.ES, "Camerún"),
             new TranslationInfo(LanguageCode.ET, "Kamerun"),
-            new TranslationInfo(LanguageCode.FA, "کامرون"),
+            new TranslationInfo(LanguageCode.FA, "کامِرون"),
             new TranslationInfo(LanguageCode.FI, "Kamerun"),
             new TranslationInfo(LanguageCode.FR, "Cameroun"),
             new TranslationInfo(LanguageCode.HE, "קמרון"),
@@ -46,7 +46,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.NL, "Kameroen"),
             new TranslationInfo(LanguageCode.NN, "Kamerun"),
             new TranslationInfo(LanguageCode.PL, "Kamerun"),
-            new TranslationInfo(LanguageCode.PT, "República dos Camarões"),
+            new TranslationInfo(LanguageCode.PT, "Camarões"),
             new TranslationInfo(LanguageCode.RO, "Camerun"),
             new TranslationInfo(LanguageCode.RU, "Камерун"),
             new TranslationInfo(LanguageCode.SK, "Kamerun"),
@@ -57,6 +57,6 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.UK, "Камерун"),
             new TranslationInfo(LanguageCode.UZ, "Kamerun"),
             new TranslationInfo(LanguageCode.ZH, "喀麦隆"),
-        };
+        ];
     }
 }

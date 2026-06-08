@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Seychelles
@@ -6,8 +6,8 @@ namespace Nager.Country.Translation.CountryTranslations
     public class SeychellesCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "سيشل"),
             new TranslationInfo(LanguageCode.AZ, "Seyşel adaları"),
             new TranslationInfo(LanguageCode.BE, "Сейшэльскія Астравы"),
@@ -46,7 +46,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.NL, "Seychellen"),
             new TranslationInfo(LanguageCode.NN, "Seychellane"),
             new TranslationInfo(LanguageCode.PL, "Seszele"),
-            new TranslationInfo(LanguageCode.PT, "Seychelles"),
+            new TranslationInfo(LanguageCode.PT, "Seicheles"),
             new TranslationInfo(LanguageCode.RO, "Seychelles"),
             new TranslationInfo(LanguageCode.RU, "Сейшельские Острова"),
             new TranslationInfo(LanguageCode.SK, "Seychely"),
@@ -57,6 +57,6 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.UK, "Сейшельські Острови"),
             new TranslationInfo(LanguageCode.UZ, "Seyshel orollari"),
             new TranslationInfo(LanguageCode.ZH, "塞舌尔"),
-        };
+        ];
     }
 }

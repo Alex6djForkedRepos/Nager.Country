@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Uzbekistan
@@ -6,9 +6,9 @@ namespace Nager.Country.Translation.CountryTranslations
     public class UzbekistanCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
-            new TranslationInfo(LanguageCode.AR, "أوزبكستان"),
+        public TranslationInfo[] Translations =>
+        [
+            new TranslationInfo(LanguageCode.AR, "أوزباكستان"),
             new TranslationInfo(LanguageCode.AZ, "Özbəkistan"),
             new TranslationInfo(LanguageCode.BE, "Узбекістан"),
             new TranslationInfo(LanguageCode.BG, "Узбекистан"),
@@ -57,6 +57,6 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.UK, "Узбекистан"),
             new TranslationInfo(LanguageCode.UZ, "Oʻzbekiston"),
             new TranslationInfo(LanguageCode.ZH, "乌兹别克斯坦"),
-        };
+        ];
     }
 }

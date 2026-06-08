@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Heard Island and McDonald Islands
@@ -6,8 +6,8 @@ namespace Nager.Country.Translation.CountryTranslations
     public class HeardIslandAndMcDonaldIslandsCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new[]
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "جزيرة هيرد وجزر ماكدونالد"),
             new TranslationInfo(LanguageCode.AZ, "Herd və Makdonald adaları"),
             new TranslationInfo(LanguageCode.BE, "Астравы Херд і Макдональд"),
@@ -16,19 +16,19 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.CA, "Heard, illa i McDonald, illes"),
             new TranslationInfo(LanguageCode.CS, "Heardův ostrov a McDonaldovy ostrovy"),
             new TranslationInfo(LanguageCode.DA, "Heard-øen og McDonald-øerne"),
-            new TranslationInfo(LanguageCode.DE, "Heard und McDonaldinseln"),
+            new TranslationInfo(LanguageCode.DE, "Heard und die McDonaldinseln"),
             new TranslationInfo(LanguageCode.EL, "Νήσοι Χερντ και Μακντόναλντ"),
-            new TranslationInfo(LanguageCode.EN, "Heard Island and Mcdonald Islands"),
-            new TranslationInfo(LanguageCode.ES, "Heard e Islas McDonald"),
-            new TranslationInfo(LanguageCode.ET, "Heard ja McDonald saared"),
-            new TranslationInfo(LanguageCode.FA, "جزیرهٔ هرد و جزایر مک‌دونالد"),
+            new TranslationInfo(LanguageCode.EN, "Heard Island and McDonald Islands"),
+            new TranslationInfo(LanguageCode.ES, "Islas Heard y McDonald"),
+            new TranslationInfo(LanguageCode.ET, "Heard ja McDonald"),
+            new TranslationInfo(LanguageCode.FA, "جزیره هرد و جزایر مک‌دونالد"),
             new TranslationInfo(LanguageCode.FI, "Heard ja McDonaldinsaaret"),
             new TranslationInfo(LanguageCode.FR, "Îles Heard-et-MacDonald"),
             new TranslationInfo(LanguageCode.HE, "איי הרד ומקדונלד"),
             new TranslationInfo(LanguageCode.HI, "हर्ड द्वीप और मैकडोनाल्ड द्वीपसमूह"),
-            new TranslationInfo(LanguageCode.HR, "Otoci Heard i McDonald"),
+            new TranslationInfo(LanguageCode.HR, "Otok Heard i otočje McDonald"),
             new TranslationInfo(LanguageCode.HU, "Heard-sziget és McDonald-szigetek"),
-            new TranslationInfo(LanguageCode.HY, "Հերդ կղզի և ՄակԴոնալդի կղզիներ"),
+            new TranslationInfo(LanguageCode.HY, "Հերդ կղզի և ՄակԴონալդի կղզիներ"),
             new TranslationInfo(LanguageCode.ID, "Pulau Heard dan Kepulauan McDonald"),
             new TranslationInfo(LanguageCode.IT, "Isole Heard e McDonald"),
             new TranslationInfo(LanguageCode.JA, "ハード島とマクドナルド諸島"),
@@ -38,24 +38,24 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.KY, "Херд жана Макдоналд аралдары"),
             new TranslationInfo(LanguageCode.LT, "Herdo ir Makdonaldo Salos"),
             new TranslationInfo(LanguageCode.LV, "Hērda sala un Makdonalda salas"),
-            new TranslationInfo(LanguageCode.MK, "Остров Херд и Острови Мекдоналд"),
+            new TranslationInfo(LanguageCode.MK, "Остров Херд и Острови Mекдоналд"),
             new TranslationInfo(LanguageCode.MN, "Хэрд болон Макдоналд арлууд"),
             new TranslationInfo(LanguageCode.NB, "Heard- og McDonald-øyene"),
             new TranslationInfo(LanguageCode.NO, "Heard- og McDonald-øyene"),
-            new TranslationInfo(LanguageCode.NL, "Heard en McDonaldeilanden"),
+            new TranslationInfo(LanguageCode.NL, "Heard-en McDonaldeilanden"),
             new TranslationInfo(LanguageCode.NN, "Heard- og McDonald-øyane"),
             new TranslationInfo(LanguageCode.PL, "Wyspy Heard i McDonalda"),
-            new TranslationInfo(LanguageCode.PT, "Ilha Heard e Ilha McDonald"),
+            new TranslationInfo(LanguageCode.PT, "Ilha Heard e Ilhas McDonald"),
             new TranslationInfo(LanguageCode.RO, "Insula Heard și Insulele McDonald"),
-            new TranslationInfo(LanguageCode.RU, "Херд и Макдональд"),
-            new TranslationInfo(LanguageCode.SK, "Heardov ostrov a Macdonaldove ostrovy"),
+            new TranslationInfo(LanguageCode.RU, "Остров Херд и острова Макдональд"),
+            new TranslationInfo(LanguageCode.SK, "Heardov ostrov a McDonaldove ostrovy"),
             new TranslationInfo(LanguageCode.SL, "Heardov otok in McDonaldovi otoki"),
             new TranslationInfo(LanguageCode.SR, "Острво Херд и Мекдоналдова острва"),
-            new TranslationInfo(LanguageCode.SV, "Heard- och McDonaldsöarna"),
+            new TranslationInfo(LanguageCode.SV, "Heard- och McDonaldöarna"),
             new TranslationInfo(LanguageCode.TR, "Heard Adası ve McDonald Adaları"),
             new TranslationInfo(LanguageCode.UK, "Острів Герд і острови Макдональд"),
             new TranslationInfo(LanguageCode.UZ, "Xerd va Makdonald orollari"),
-            new TranslationInfo(LanguageCode.ZH, "赫德岛和麦克唐纳群岛"),
-        };
+            new TranslationInfo(LanguageCode.ZH, "赫德岛和麦当劳群岛"),
+        ];
     }
 }

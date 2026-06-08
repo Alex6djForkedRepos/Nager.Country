@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Libya
@@ -6,8 +6,8 @@ namespace Nager.Country.Translation.CountryTranslations
     public class LibyaCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "ليبيا"),
             new TranslationInfo(LanguageCode.AZ, "Liviya"),
             new TranslationInfo(LanguageCode.BE, "Лівія"),
@@ -17,7 +17,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.CS, "Libye"),
             new TranslationInfo(LanguageCode.DA, "Libyen"),
             new TranslationInfo(LanguageCode.DE, "Libyen"),
-            new TranslationInfo(LanguageCode.EL, "Κράτος της Λιβύης"),
+            new TranslationInfo(LanguageCode.EL, "Λιβύη"),
             new TranslationInfo(LanguageCode.EN, "Libya"),
             new TranslationInfo(LanguageCode.ES, "Libia"),
             new TranslationInfo(LanguageCode.ET, "Liibüa"),
@@ -29,7 +29,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.HR, "Libija"),
             new TranslationInfo(LanguageCode.HU, "Líbia"),
             new TranslationInfo(LanguageCode.HY, "Լիբիա"),
-            new TranslationInfo(LanguageCode.ID, "Libya"),
+            new TranslationInfo(LanguageCode.ID, "Libia"),
             new TranslationInfo(LanguageCode.IS, "Líbía"),
             new TranslationInfo(LanguageCode.IT, "Libia"),
             new TranslationInfo(LanguageCode.JA, "リビア"),
@@ -57,6 +57,6 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.UK, "Лівія"),
             new TranslationInfo(LanguageCode.UZ, "Liviya"),
             new TranslationInfo(LanguageCode.ZH, "利比亚"),
-        };
+        ];
     }
 }

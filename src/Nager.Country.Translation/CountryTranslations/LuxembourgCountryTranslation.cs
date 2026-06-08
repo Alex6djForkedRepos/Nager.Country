@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Luxembourg
@@ -6,8 +6,8 @@ namespace Nager.Country.Translation.CountryTranslations
     public class LuxembourgCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "لوكسمبورغ"),
             new TranslationInfo(LanguageCode.AZ, "Lüksemburq"),
             new TranslationInfo(LanguageCode.BE, "Люксембург"),
@@ -23,13 +23,13 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.ET, "Luksemburg"),
             new TranslationInfo(LanguageCode.FA, "لوکزامبورگ"),
             new TranslationInfo(LanguageCode.FI, "Luxemburg"),
-            new TranslationInfo(LanguageCode.FR, "Luxembourg, Grand-Duché"),
+            new TranslationInfo(LanguageCode.FR, "Luxembourg"),
             new TranslationInfo(LanguageCode.HE, "לוקסמבורג"),
             new TranslationInfo(LanguageCode.HI, "लक्ज़मबर्ग"),
             new TranslationInfo(LanguageCode.HR, "Luksemburg"),
             new TranslationInfo(LanguageCode.HU, "Luxemburg"),
             new TranslationInfo(LanguageCode.HY, "Լյուքսեմբուրգ"),
-            new TranslationInfo(LanguageCode.ID, "Luxemburg"),
+            new TranslationInfo(LanguageCode.ID, "Luksemburg"),
             new TranslationInfo(LanguageCode.IS, "Lúxemborg"),
             new TranslationInfo(LanguageCode.IT, "Lussemburgo"),
             new TranslationInfo(LanguageCode.JA, "ルクセンブルク"),
@@ -57,6 +57,6 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.UK, "Люксембург"),
             new TranslationInfo(LanguageCode.UZ, "Lyuksemburg"),
             new TranslationInfo(LanguageCode.ZH, "卢森堡"),
-        };
+        ];
     }
 }

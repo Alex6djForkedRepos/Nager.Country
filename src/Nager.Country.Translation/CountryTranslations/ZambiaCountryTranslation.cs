@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Zambia
@@ -6,8 +6,8 @@ namespace Nager.Country.Translation.CountryTranslations
     public class ZambiaCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "زامبيا"),
             new TranslationInfo(LanguageCode.AZ, "Zambiya"),
             new TranslationInfo(LanguageCode.BE, "Замбія"),
@@ -56,7 +56,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.TR, "Zambiya"),
             new TranslationInfo(LanguageCode.UK, "Замбія"),
             new TranslationInfo(LanguageCode.UZ, "Zambiya"),
-            new TranslationInfo(LanguageCode.ZH, "尚比亚"),
-        };
+            new TranslationInfo(LanguageCode.ZH, "赞比亚"),
+        ];
     }
 }

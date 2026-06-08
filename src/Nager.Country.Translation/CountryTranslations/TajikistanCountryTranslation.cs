@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Tajikistan
@@ -6,8 +6,8 @@ namespace Nager.Country.Translation.CountryTranslations
     public class TajikistanCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "طاجيكستان"),
             new TranslationInfo(LanguageCode.AZ, "Tacikistan"),
             new TranslationInfo(LanguageCode.BE, "Таджыкістан"),
@@ -21,12 +21,12 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.EN, "Tajikistan"),
             new TranslationInfo(LanguageCode.ES, "Tayikistán"),
             new TranslationInfo(LanguageCode.ET, "Tadžikistan"),
-            new TranslationInfo(LanguageCode.FA, "تاجیکستان"),
+            new TranslationInfo(LanguageCode.FA, "تاجیکِستان"),
             new TranslationInfo(LanguageCode.FI, "Tadžikistan"),
             new TranslationInfo(LanguageCode.FR, "Tadjikistan"),
             new TranslationInfo(LanguageCode.HE, "טג׳יקיסטן"),
             new TranslationInfo(LanguageCode.HI, "ताजिकिस्तान"),
-            new TranslationInfo(LanguageCode.HR, "Tadžikistan"),
+            new TranslationInfo(LanguageCode.HR, "Tađikistan"),
             new TranslationInfo(LanguageCode.HU, "Tádzsikisztán"),
             new TranslationInfo(LanguageCode.HY, "Տաջիկստան"),
             new TranslationInfo(LanguageCode.ID, "Tajikistan"),
@@ -57,6 +57,6 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.UK, "Таджикистан"),
             new TranslationInfo(LanguageCode.UZ, "Tojikiston"),
             new TranslationInfo(LanguageCode.ZH, "塔吉克斯坦"),
-        };
+        ];
     }
 }

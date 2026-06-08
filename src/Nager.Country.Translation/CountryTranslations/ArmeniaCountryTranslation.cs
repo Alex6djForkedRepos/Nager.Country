@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Armenia
@@ -6,8 +6,8 @@ namespace Nager.Country.Translation.CountryTranslations
     public class ArmeniaCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new[]
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "أرمينيا"),
             new TranslationInfo(LanguageCode.AZ, "Ermənistan"),
             new TranslationInfo(LanguageCode.BE, "Арменія"),
@@ -46,7 +46,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.NL, "Armenië"),
             new TranslationInfo(LanguageCode.NN, "Armenia"),
             new TranslationInfo(LanguageCode.PL, "Armenia"),
-            new TranslationInfo(LanguageCode.PT, "Armênia"),
+            new TranslationInfo(LanguageCode.PT, "Arménia"),
             new TranslationInfo(LanguageCode.RO, "Armenia"),
             new TranslationInfo(LanguageCode.RU, "Армения"),
             new TranslationInfo(LanguageCode.SK, "Arménsko"),
@@ -57,6 +57,6 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.UK, "Арменія"),
             new TranslationInfo(LanguageCode.UZ, "Armaniston"),
             new TranslationInfo(LanguageCode.ZH, "亚美尼亚"),
-        };
+        ];
     }
 }

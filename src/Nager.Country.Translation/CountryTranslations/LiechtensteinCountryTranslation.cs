@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Liechtenstein
@@ -6,8 +6,8 @@ namespace Nager.Country.Translation.CountryTranslations
     public class LiechtensteinCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "ليختنشتاين"),
             new TranslationInfo(LanguageCode.AZ, "Lixtenşteyn"),
             new TranslationInfo(LanguageCode.BE, "Ліхтэнштэйн"),
@@ -17,7 +17,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.CS, "Lichtenštejnsko"),
             new TranslationInfo(LanguageCode.DA, "Liechtenstein"),
             new TranslationInfo(LanguageCode.DE, "Liechtenstein"),
-            new TranslationInfo(LanguageCode.EL, "Πριγκιπάτο του Λίχτενσταϊν"),
+            new TranslationInfo(LanguageCode.EL, "Λίχτενσταϊν"),
             new TranslationInfo(LanguageCode.EN, "Liechtenstein"),
             new TranslationInfo(LanguageCode.ES, "Liechtenstein"),
             new TranslationInfo(LanguageCode.ET, "Liechtenstein"),
@@ -29,7 +29,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.HR, "Lihtenštajn"),
             new TranslationInfo(LanguageCode.HU, "Liechtenstein"),
             new TranslationInfo(LanguageCode.HY, "Լիխտենշտեյն"),
-            new TranslationInfo(LanguageCode.ID, "Liechtenstein"),
+            new TranslationInfo(LanguageCode.ID, "Lihtenstajn"),
             new TranslationInfo(LanguageCode.IS, "Liechtenstein"),
             new TranslationInfo(LanguageCode.IT, "Liechtenstein"),
             new TranslationInfo(LanguageCode.JA, "リヒテンシュタイン"),
@@ -53,10 +53,10 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.SL, "Lihtenštajn"),
             new TranslationInfo(LanguageCode.SR, "Лихтенштајн"),
             new TranslationInfo(LanguageCode.SV, "Liechtenstein"),
-            new TranslationInfo(LanguageCode.TR, "Liechtenstein"),
+            new TranslationInfo(LanguageCode.TR, "Lihtenştayn"),
             new TranslationInfo(LanguageCode.UK, "Ліхтенштейн"),
             new TranslationInfo(LanguageCode.UZ, "Lixtenshteyn"),
-            new TranslationInfo(LanguageCode.ZH, "列支敦斯登"),
-        };
+            new TranslationInfo(LanguageCode.ZH, "列支敦士登"),
+        ];
     }
 }

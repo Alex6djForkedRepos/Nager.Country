@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Rwanda
@@ -6,8 +6,8 @@ namespace Nager.Country.Translation.CountryTranslations
     public class RwandaCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "رواندا"),
             new TranslationInfo(LanguageCode.AZ, "Ruanda"),
             new TranslationInfo(LanguageCode.BE, "Руанда"),
@@ -19,7 +19,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.DE, "Ruanda"),
             new TranslationInfo(LanguageCode.EL, "Ρουάντα"),
             new TranslationInfo(LanguageCode.EN, "Rwanda"),
-            new TranslationInfo(LanguageCode.ES, "Rwanda"),
+            new TranslationInfo(LanguageCode.ES, "Ruanda"),
             new TranslationInfo(LanguageCode.ET, "Rwanda"),
             new TranslationInfo(LanguageCode.FA, "رواندا"),
             new TranslationInfo(LanguageCode.FI, "Ruanda"),
@@ -57,6 +57,6 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.UK, "Руанда"),
             new TranslationInfo(LanguageCode.UZ, "Ruanda"),
             new TranslationInfo(LanguageCode.ZH, "卢旺达"),
-        };
+        ];
     }
 }

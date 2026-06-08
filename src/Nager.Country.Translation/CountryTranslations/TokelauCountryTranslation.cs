@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Tokelau
@@ -6,8 +6,8 @@ namespace Nager.Country.Translation.CountryTranslations
     public class TokelauCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "توكيلاو"),
             new TranslationInfo(LanguageCode.AZ, "Tokelau"),
             new TranslationInfo(LanguageCode.BE, "Такелау"),
@@ -19,7 +19,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.DE, "Tokelau"),
             new TranslationInfo(LanguageCode.EL, "Τοκελάου"),
             new TranslationInfo(LanguageCode.EN, "Tokelau"),
-            new TranslationInfo(LanguageCode.ES, "Tokelau"),
+            new TranslationInfo(LanguageCode.ES, "Islas Tokelau"),
             new TranslationInfo(LanguageCode.ET, "Tokelau"),
             new TranslationInfo(LanguageCode.FA, "توکلائو"),
             new TranslationInfo(LanguageCode.FI, "Tokelau"),
@@ -31,7 +31,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.HY, "Տոկելաու"),
             new TranslationInfo(LanguageCode.ID, "Tokelau"),
             new TranslationInfo(LanguageCode.IS, "Tókelá"),
-            new TranslationInfo(LanguageCode.IT, "Tokelau"),
+            new TranslationInfo(LanguageCode.IT, "Isole Tokelau"),
             new TranslationInfo(LanguageCode.JA, "トケラウ"),
             new TranslationInfo(LanguageCode.KA, "ტოკელაუ"),
             new TranslationInfo(LanguageCode.KK, "Токелау"),
@@ -57,6 +57,6 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.UK, "Токелау"),
             new TranslationInfo(LanguageCode.UZ, "Tokelau"),
             new TranslationInfo(LanguageCode.ZH, "托克劳"),
-        };
+        ];
     }
 }

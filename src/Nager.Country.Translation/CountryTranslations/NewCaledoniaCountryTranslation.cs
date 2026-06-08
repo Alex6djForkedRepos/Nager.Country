@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// New Caledonia
@@ -6,8 +6,8 @@ namespace Nager.Country.Translation.CountryTranslations
     public class NewCaledoniaCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "كاليدونيا الجديدة"),
             new TranslationInfo(LanguageCode.AZ, "Yeni Kaledoniya"),
             new TranslationInfo(LanguageCode.BE, "Новая Каледонія"),
@@ -36,17 +36,17 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.KA, "ახალი კალედონია"),
             new TranslationInfo(LanguageCode.KK, "Жаңа Каледония"),
             new TranslationInfo(LanguageCode.KO, "누벨칼레도니"),
-            new TranslationInfo(LanguageCode.KY, "Жаӊы Каледония"),
+            new TranslationInfo(LanguageCode.KY, "Жаңы Каледония"),
             new TranslationInfo(LanguageCode.LT, "Naujoji Kaledonija"),
             new TranslationInfo(LanguageCode.LV, "Jaunkaledonija"),
             new TranslationInfo(LanguageCode.MK, "Нова Каледонија"),
             new TranslationInfo(LanguageCode.MN, "Шинэ Каледони"),
-            new TranslationInfo(LanguageCode.NB, "Ny-Caledonia"),
-            new TranslationInfo(LanguageCode.NO, "Ny-Caledonia"),
+            new TranslationInfo(LanguageCode.NB, "Ny Kaledonia"),
+            new TranslationInfo(LanguageCode.NO, "Ny Kaledonia"),
             new TranslationInfo(LanguageCode.NL, "Nieuw-Caledonië"),
-            new TranslationInfo(LanguageCode.NN, "Ny-Caledonia"),
+            new TranslationInfo(LanguageCode.NN, "Ny Kaledonia"),
             new TranslationInfo(LanguageCode.PL, "Nowa Kaledonia"),
-            new TranslationInfo(LanguageCode.PT, "Nova Caledônia"),
+            new TranslationInfo(LanguageCode.PT, "Nova Caledónia"),
             new TranslationInfo(LanguageCode.RO, "Noua Caledonie"),
             new TranslationInfo(LanguageCode.RU, "Новая Каледония"),
             new TranslationInfo(LanguageCode.SK, "Nová Kaledónia"),
@@ -57,6 +57,6 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.UK, "Нова Каледонія"),
             new TranslationInfo(LanguageCode.UZ, "Yangi Kaledoniya"),
             new TranslationInfo(LanguageCode.ZH, "新喀里多尼亚"),
-        };
+        ];
     }
 }

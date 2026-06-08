@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Sudan
@@ -6,8 +6,8 @@ namespace Nager.Country.Translation.CountryTranslations
     public class SudanCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "السودان"),
             new TranslationInfo(LanguageCode.AZ, "Sudan"),
             new TranslationInfo(LanguageCode.BE, "Судан"),
@@ -19,7 +19,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.DE, "Sudan"),
             new TranslationInfo(LanguageCode.EL, "Σουδάν"),
             new TranslationInfo(LanguageCode.EN, "Sudan"),
-            new TranslationInfo(LanguageCode.ES, "Sudan"),
+            new TranslationInfo(LanguageCode.ES, "Sudán"),
             new TranslationInfo(LanguageCode.ET, "Sudaan"),
             new TranslationInfo(LanguageCode.FA, "سودان"),
             new TranslationInfo(LanguageCode.FI, "Sudan"),
@@ -57,6 +57,6 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.UK, "Судан"),
             new TranslationInfo(LanguageCode.UZ, "Sudan"),
             new TranslationInfo(LanguageCode.ZH, "苏丹"),
-        };
+        ];
     }
 }

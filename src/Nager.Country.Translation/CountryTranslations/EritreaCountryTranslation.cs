@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Eritrea
@@ -6,8 +6,8 @@ namespace Nager.Country.Translation.CountryTranslations
     public class EritreaCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "إريتريا"),
             new TranslationInfo(LanguageCode.AZ, "Eritreya"),
             new TranslationInfo(LanguageCode.BE, "Эрытрэя"),
@@ -17,7 +17,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.CS, "Eritrea"),
             new TranslationInfo(LanguageCode.DA, "Eritrea"),
             new TranslationInfo(LanguageCode.DE, "Eritrea"),
-            new TranslationInfo(LanguageCode.EL, "Κράτος της Ερυθραίας"),
+            new TranslationInfo(LanguageCode.EL, "Ερυθραία"),
             new TranslationInfo(LanguageCode.EN, "Eritrea"),
             new TranslationInfo(LanguageCode.ES, "Eritrea"),
             new TranslationInfo(LanguageCode.ET, "Eritrea"),
@@ -30,6 +30,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.HU, "Eritrea"),
             new TranslationInfo(LanguageCode.HY, "Էրիթրեա"),
             new TranslationInfo(LanguageCode.ID, "Eritrea"),
+            new TranslationInfo(LanguageCode.IS, "Eritrea"),
             new TranslationInfo(LanguageCode.IT, "Eritrea"),
             new TranslationInfo(LanguageCode.JA, "エリトリア"),
             new TranslationInfo(LanguageCode.KA, "ერიტრეა"),
@@ -56,6 +57,6 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.UK, "Еритрея"),
             new TranslationInfo(LanguageCode.UZ, "Eritreya"),
             new TranslationInfo(LanguageCode.ZH, "厄立特里亚"),
-        };
+        ];
     }
 }

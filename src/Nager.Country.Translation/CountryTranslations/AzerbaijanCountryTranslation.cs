@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Azerbaijan
@@ -6,8 +6,8 @@ namespace Nager.Country.Translation.CountryTranslations
     public class AzerbaijanCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "أذربيجان"),
             new TranslationInfo(LanguageCode.AZ, "Azərbaycan"),
             new TranslationInfo(LanguageCode.BE, "Азербайджан"),
@@ -21,17 +21,17 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.EN, "Azerbaijan"),
             new TranslationInfo(LanguageCode.ES, "Azerbaiyán"),
             new TranslationInfo(LanguageCode.ET, "Aserbaidžaan"),
-            new TranslationInfo(LanguageCode.FA, "جمهوری آذربایجان"),
+            new TranslationInfo(LanguageCode.FA, "آذربایجان"),
             new TranslationInfo(LanguageCode.FI, "Azerbaidžan"),
-            new TranslationInfo(LanguageCode.FR, "Azerbaidjan"),
+            new TranslationInfo(LanguageCode.FR, "Azerbaïdjan"),
             new TranslationInfo(LanguageCode.HE, "אזרבייג׳ן"),
             new TranslationInfo(LanguageCode.HI, "अज़रबैजान"),
             new TranslationInfo(LanguageCode.HR, "Azerbajdžan"),
             new TranslationInfo(LanguageCode.HU, "Azerbajdzsán"),
             new TranslationInfo(LanguageCode.HY, "Ադրբեջան"),
             new TranslationInfo(LanguageCode.ID, "Azerbaijan"),
-            new TranslationInfo(LanguageCode.IS, "Aserb­aísjan"),
-            new TranslationInfo(LanguageCode.IT, "Azerbaigian"),
+            new TranslationInfo(LanguageCode.IS, "Aserbaísjan"),
+            new TranslationInfo(LanguageCode.IT, "Azerbaijan"),
             new TranslationInfo(LanguageCode.JA, "アゼルバイジャン"),
             new TranslationInfo(LanguageCode.KA, "აზერბაიჯანი"),
             new TranslationInfo(LanguageCode.KK, "Әзірбайжан"),
@@ -46,7 +46,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.NL, "Azerbeidzjan"),
             new TranslationInfo(LanguageCode.NN, "Aserbajdsjan"),
             new TranslationInfo(LanguageCode.PL, "Azerbejdżan"),
-            new TranslationInfo(LanguageCode.PT, "Azerbaijão"),
+            new TranslationInfo(LanguageCode.PT, "Azerbeijão"),
             new TranslationInfo(LanguageCode.RO, "Azerbaidjan"),
             new TranslationInfo(LanguageCode.RU, "Азербайджан"),
             new TranslationInfo(LanguageCode.SK, "Azerbajdžan"),
@@ -57,6 +57,6 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.UK, "Азербайджан"),
             new TranslationInfo(LanguageCode.UZ, "Ozarbayjon"),
             new TranslationInfo(LanguageCode.ZH, "阿塞拜疆"),
-        };
+        ];
     }
 }

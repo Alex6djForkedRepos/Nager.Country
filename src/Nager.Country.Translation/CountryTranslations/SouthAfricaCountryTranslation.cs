@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// South Africa
@@ -6,11 +6,11 @@ namespace Nager.Country.Translation.CountryTranslations
     public class SouthAfricaCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "جنوب أفريقيا"),
-            new TranslationInfo(LanguageCode.AZ, "Cənub Afrika"),
-            new TranslationInfo(LanguageCode.BE, "Паўднёваафрыканская Рэспубліка"),
+            new TranslationInfo(LanguageCode.AZ, "Cənubi Afrika"),
+            new TranslationInfo(LanguageCode.BE, "Паўднёва-Афрыканская Рэспубліка"),
             new TranslationInfo(LanguageCode.BG, "Южна Африка"),
             new TranslationInfo(LanguageCode.BS, "Južnoafrička Republika"),
             new TranslationInfo(LanguageCode.CA, "Sud-àfrica"),
@@ -21,13 +21,13 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.EN, "South Africa"),
             new TranslationInfo(LanguageCode.ES, "Sudáfrica"),
             new TranslationInfo(LanguageCode.ET, "Lõuna-Aafrika Vabariik"),
-            new TranslationInfo(LanguageCode.FA, "افریقای جنوبی"),
+            new TranslationInfo(LanguageCode.FA, "آفریقای جنوبی"),
             new TranslationInfo(LanguageCode.FI, "Etelä-Afrikka"),
             new TranslationInfo(LanguageCode.FR, "Afrique du Sud"),
             new TranslationInfo(LanguageCode.HE, "דרום אפריקה"),
             new TranslationInfo(LanguageCode.HI, "दक्षिण अफ़्रीका"),
             new TranslationInfo(LanguageCode.HR, "Južnoafrička Republika"),
-            new TranslationInfo(LanguageCode.HU, "Dél-Afrika"),
+            new TranslationInfo(LanguageCode.HU, "Dél-afrikai Köztársaság"),
             new TranslationInfo(LanguageCode.HY, "Հարավաֆրիկյան Հանրապետություն"),
             new TranslationInfo(LanguageCode.ID, "Afrika Selatan"),
             new TranslationInfo(LanguageCode.IS, "Suður-Afríka"),
@@ -35,12 +35,12 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.JA, "南アフリカ"),
             new TranslationInfo(LanguageCode.KA, "სამხრეთ აფრიკის რესპუბლიკა"),
             new TranslationInfo(LanguageCode.KK, "Оңтүстік Африка Республикасы"),
-            new TranslationInfo(LanguageCode.KO, "남아프리카"),
+            new TranslationInfo(LanguageCode.KO, "남아프리카 공화국"),
             new TranslationInfo(LanguageCode.KY, "Түштүк Африка Республикасы"),
             new TranslationInfo(LanguageCode.LT, "Pietų Afrika"),
             new TranslationInfo(LanguageCode.LV, "Dienvidāfrikas Republika"),
             new TranslationInfo(LanguageCode.MK, "Јужноафриканска Република"),
-            new TranslationInfo(LanguageCode.MN, "Өмнөд Африк тив"),
+            new TranslationInfo(LanguageCode.MN, "Өмнөд Африк"),
             new TranslationInfo(LanguageCode.NB, "Sør-Afrika"),
             new TranslationInfo(LanguageCode.NO, "Sør-Afrika"),
             new TranslationInfo(LanguageCode.NL, "Zuid-Afrika"),
@@ -48,15 +48,15 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.PL, "Południowa Afryka"),
             new TranslationInfo(LanguageCode.PT, "África do Sul"),
             new TranslationInfo(LanguageCode.RO, "Africa de Sud"),
-            new TranslationInfo(LanguageCode.RU, "ЮАР"),
-            new TranslationInfo(LanguageCode.SK, "Južná Afrika"),
+            new TranslationInfo(LanguageCode.RU, "Южно-Африканская Республика"),
+            new TranslationInfo(LanguageCode.SK, "Juhoafrická republika"),
             new TranslationInfo(LanguageCode.SL, "Južnoafriška republika"),
             new TranslationInfo(LanguageCode.SR, "Јужноафричка Република"),
             new TranslationInfo(LanguageCode.SV, "Sydafrika"),
             new TranslationInfo(LanguageCode.TR, "Güney Afrika"),
-            new TranslationInfo(LanguageCode.UK, "ПАР"),
+            new TranslationInfo(LanguageCode.UK, "Південно-Африканська Республіка"),
             new TranslationInfo(LanguageCode.UZ, "Janubiy Afrika Respublikasi"),
             new TranslationInfo(LanguageCode.ZH, "南非"),
-        };
+        ];
     }
 }

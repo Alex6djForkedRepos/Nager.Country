@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Samoa
@@ -6,8 +6,8 @@ namespace Nager.Country.Translation.CountryTranslations
     public class SamoaCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "ساموا"),
             new TranslationInfo(LanguageCode.AZ, "Samoa"),
             new TranslationInfo(LanguageCode.BE, "Самоа"),
@@ -57,6 +57,6 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.UK, "Самоа"),
             new TranslationInfo(LanguageCode.UZ, "Samoa"),
             new TranslationInfo(LanguageCode.ZH, "萨摩亚"),
-        };
+        ];
     }
 }

@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// British Indian Ocean Territory
@@ -6,8 +6,8 @@ namespace Nager.Country.Translation.CountryTranslations
     public class BritishIndianOceanTerritoryCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "إقليم المحيط الهندي البريطاني"),
             new TranslationInfo(LanguageCode.AZ, "Britaniyanın Hind Okeanı Ərazisi"),
             new TranslationInfo(LanguageCode.BE, "Брытанская тэрыторыя ў Індыйскім акіяне"),
@@ -21,16 +21,17 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.EN, "British Indian Ocean Territory"),
             new TranslationInfo(LanguageCode.ES, "Territorio Británico del Océano Índico"),
             new TranslationInfo(LanguageCode.ET, "Briti India ookeani ala"),
-            new TranslationInfo(LanguageCode.FA, "قلمرو بریتانیا در اقیانوس هند"),
+            new TranslationInfo(LanguageCode.FA, "قلمرو بریتانیا در اقیanوس هند"),
             new TranslationInfo(LanguageCode.FI, "Brittiläinen Intian valtameren alue"),
-            new TranslationInfo(LanguageCode.FR, "Océan Indien Britannique"),
-            new TranslationInfo(LanguageCode.HE, "הטריטוריה הבריטית באוקיינוס ההודי"),
+            new TranslationInfo(LanguageCode.FR, "Territoire britannique de l'océan Indien"),
+            new TranslationInfo(LanguageCode.HE, "הטריטוריה הבริטית באוקיינוס ההודי"),
             new TranslationInfo(LanguageCode.HI, "ब्रिटिश हिंद महासागर क्षेत्र"),
             new TranslationInfo(LanguageCode.HR, "Britanski Indijskooceanski teritorij"),
             new TranslationInfo(LanguageCode.HU, "Brit Indiai-óceáni Terület"),
             new TranslationInfo(LanguageCode.HY, "Բրիտանական Տարածք Հնդկական Օվկիանոսում"),
             new TranslationInfo(LanguageCode.ID, "Teritori Samudra Hindia Britania"),
-            new TranslationInfo(LanguageCode.IT, "Territori Britannici dell'Oceano Indiano"),
+            new TranslationInfo(LanguageCode.IS, "Breska Indlandshafssvæðið"),
+            new TranslationInfo(LanguageCode.IT, "Territorio Britannico dell'Oceano Indiano"),
             new TranslationInfo(LanguageCode.JA, "イギリス領インド洋地域"),
             new TranslationInfo(LanguageCode.KA, "ბრიტანეთის ტერიტორია ინდოეთის ოკეანეში"),
             new TranslationInfo(LanguageCode.KK, "Үнді мұхитындағы Британ аймағы"),
@@ -42,7 +43,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MN, "Британийн харьяа Энэтхэгийн далай дахь нутаг дэвсгэрүүд"),
             new TranslationInfo(LanguageCode.NB, "Britisk territorium i Indiahavet"),
             new TranslationInfo(LanguageCode.NO, "Britisk territorium i Indiahavet"),
-            new TranslationInfo(LanguageCode.NL, "Brits Indische oceaan"),
+            new TranslationInfo(LanguageCode.NL, "Brits Territorium in de Indische Oceaan"),
             new TranslationInfo(LanguageCode.NN, "Britisk territorium i Indiahavet"),
             new TranslationInfo(LanguageCode.PL, "Brytyjskie Terytorium Oceanu Indyjskiego"),
             new TranslationInfo(LanguageCode.PT, "Território Britânico do Oceano Índico"),
@@ -56,6 +57,6 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.UK, "Британська Територія в Індійському Океані"),
             new TranslationInfo(LanguageCode.UZ, "Britaniyaning Hind okeanidagi hududi"),
             new TranslationInfo(LanguageCode.ZH, "英属印度洋领地"),
-        };
+        ];
     }
 }

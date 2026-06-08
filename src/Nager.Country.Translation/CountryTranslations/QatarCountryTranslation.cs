@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Qatar
@@ -6,8 +6,8 @@ namespace Nager.Country.Translation.CountryTranslations
     public class QatarCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "قطر"),
             new TranslationInfo(LanguageCode.AZ, "Qətər"),
             new TranslationInfo(LanguageCode.BE, "Катар"),
@@ -19,7 +19,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.DE, "Katar"),
             new TranslationInfo(LanguageCode.EL, "Κατάρ"),
             new TranslationInfo(LanguageCode.EN, "Qatar"),
-            new TranslationInfo(LanguageCode.ES, "Qatar"),
+            new TranslationInfo(LanguageCode.ES, "Catar"),
             new TranslationInfo(LanguageCode.ET, "Katar"),
             new TranslationInfo(LanguageCode.FA, "قطر"),
             new TranslationInfo(LanguageCode.FI, "Qatar"),
@@ -57,6 +57,6 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.UK, "Катар"),
             new TranslationInfo(LanguageCode.UZ, "Qatar"),
             new TranslationInfo(LanguageCode.ZH, "卡塔尔"),
-        };
+        ];
     }
 }

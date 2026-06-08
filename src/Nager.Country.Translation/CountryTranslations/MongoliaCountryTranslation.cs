@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Mongolia
@@ -6,8 +6,8 @@ namespace Nager.Country.Translation.CountryTranslations
     public class MongoliaCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "منغوليا"),
             new TranslationInfo(LanguageCode.AZ, "Monqolustan"),
             new TranslationInfo(LanguageCode.BE, "Манголія"),
@@ -35,7 +35,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.JA, "モンゴル"),
             new TranslationInfo(LanguageCode.KA, "მონღოლეთი"),
             new TranslationInfo(LanguageCode.KK, "Моңғолия"),
-            new TranslationInfo(LanguageCode.KO, "몽골리아"),
+            new TranslationInfo(LanguageCode.KO, "몽골"),
             new TranslationInfo(LanguageCode.KY, "Монголия"),
             new TranslationInfo(LanguageCode.LT, "Mongolija"),
             new TranslationInfo(LanguageCode.LV, "Mongolija"),
@@ -57,6 +57,6 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.UK, "Монголія"),
             new TranslationInfo(LanguageCode.UZ, "Mongoliya"),
             new TranslationInfo(LanguageCode.ZH, "蒙古"),
-        };
+        ];
     }
 }

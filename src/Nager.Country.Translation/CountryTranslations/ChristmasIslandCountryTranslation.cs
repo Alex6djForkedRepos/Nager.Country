@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Christmas Island
@@ -6,14 +6,14 @@ namespace Nager.Country.Translation.CountryTranslations
     public class ChristmasIslandCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
-            new TranslationInfo(LanguageCode.AR, "جزيرة عيد الميلاد"),
+        public TranslationInfo[] Translations =>
+        [
+            new TranslationInfo(LanguageCode.AR, "جزيرة كريسماس"),
             new TranslationInfo(LanguageCode.AZ, "Milad adası"),
             new TranslationInfo(LanguageCode.BE, "Востраў Каляд"),
-            new TranslationInfo(LanguageCode.BG, "остров Рождество"),
+            new TranslationInfo(LanguageCode.BG, "Остров Рождество"),
             new TranslationInfo(LanguageCode.BS, "Božićna Ostrva"),
-            new TranslationInfo(LanguageCode.CA, "Christmas, illa"),
+            new TranslationInfo(LanguageCode.CA, "Illa Christmas"),
             new TranslationInfo(LanguageCode.CS, "Vánoční ostrov"),
             new TranslationInfo(LanguageCode.DA, "Juløen"),
             new TranslationInfo(LanguageCode.DE, "Weihnachtsinsel"),
@@ -28,15 +28,15 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.HI, "क्रिसमस द्वीप"),
             new TranslationInfo(LanguageCode.HR, "Božićni otok"),
             new TranslationInfo(LanguageCode.HU, "Karácsony-sziget"),
-            new TranslationInfo(LanguageCode.HY, "Սուրբ Ծննդյան կղզի"),
+            new TranslationInfo(LanguageCode.HY, "Սուր放 Ծնνդյան կղզի"),
             new TranslationInfo(LanguageCode.ID, "Pulau Natal"),
             new TranslationInfo(LanguageCode.IS, "Jólaey"),
-            new TranslationInfo(LanguageCode.IT, "Isola del Natale"),
+            new TranslationInfo(LanguageCode.IT, "Isola di Natale"),
             new TranslationInfo(LanguageCode.JA, "クリスマス島"),
             new TranslationInfo(LanguageCode.KA, "შობის კუნძული"),
             new TranslationInfo(LanguageCode.KK, "Рождество аралы"),
-            new TranslationInfo(LanguageCode.KO, "크리스마스섬"),
-            new TranslationInfo(LanguageCode.KY, "Крисмас аралы"),
+            new TranslationInfo(LanguageCode.KO, "크리스마스 섬"),
+            new TranslationInfo(LanguageCode.KY, "Кри司马斯 аралы"),
             new TranslationInfo(LanguageCode.LT, "Kalėdų Sala"),
             new TranslationInfo(LanguageCode.LV, "Ziemsvētku sala"),
             new TranslationInfo(LanguageCode.MK, "Божиќен Остров"),
@@ -46,7 +46,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.NL, "Christmaseiland"),
             new TranslationInfo(LanguageCode.NN, "Christmasøya"),
             new TranslationInfo(LanguageCode.PL, "Wyspa Bożego Narodzenia"),
-            new TranslationInfo(LanguageCode.PT, "Ilha Christmas"),
+            new TranslationInfo(LanguageCode.PT, "Ilha do Natal"),
             new TranslationInfo(LanguageCode.RO, "Insula Christmas"),
             new TranslationInfo(LanguageCode.RU, "Остров Рождества"),
             new TranslationInfo(LanguageCode.SK, "Vianočný ostrov"),
@@ -57,6 +57,6 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.UK, "Острів Різдва"),
             new TranslationInfo(LanguageCode.UZ, "Rojdestvo oroli"),
             new TranslationInfo(LanguageCode.ZH, "圣诞岛"),
-        };
+        ];
     }
 }

@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Benin
@@ -6,8 +6,8 @@ namespace Nager.Country.Translation.CountryTranslations
     public class BeninCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "بنين"),
             new TranslationInfo(LanguageCode.AZ, "Benin"),
             new TranslationInfo(LanguageCode.BE, "Бенін"),
@@ -19,7 +19,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.DE, "Benin"),
             new TranslationInfo(LanguageCode.EL, "Μπενίν"),
             new TranslationInfo(LanguageCode.EN, "Benin"),
-            new TranslationInfo(LanguageCode.ES, "Benin"),
+            new TranslationInfo(LanguageCode.ES, "Benín"),
             new TranslationInfo(LanguageCode.ET, "Benin"),
             new TranslationInfo(LanguageCode.FA, "بنین"),
             new TranslationInfo(LanguageCode.FI, "Benin"),
@@ -57,6 +57,6 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.UK, "Бенін"),
             new TranslationInfo(LanguageCode.UZ, "Benin"),
             new TranslationInfo(LanguageCode.ZH, "贝宁"),
-        };
+        ];
     }
 }

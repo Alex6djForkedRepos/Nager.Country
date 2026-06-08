@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Mexico
@@ -6,8 +6,8 @@ namespace Nager.Country.Translation.CountryTranslations
     public class MexicoCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "المكسيك"),
             new TranslationInfo(LanguageCode.AZ, "Meksika"),
             new TranslationInfo(LanguageCode.BE, "Мексіка"),
@@ -57,6 +57,6 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.UK, "Мексика"),
             new TranslationInfo(LanguageCode.UZ, "Meksika"),
             new TranslationInfo(LanguageCode.ZH, "墨西哥"),
-        };
+        ];
     }
 }

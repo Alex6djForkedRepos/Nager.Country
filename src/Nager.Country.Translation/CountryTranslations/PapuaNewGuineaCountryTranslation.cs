@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Papua New Guinea
@@ -6,8 +6,8 @@ namespace Nager.Country.Translation.CountryTranslations
     public class PapuaNewGuineaCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "بابوا غينيا الجديدة"),
             new TranslationInfo(LanguageCode.AZ, "Papua-Yeni Qvineya"),
             new TranslationInfo(LanguageCode.BE, "Папуа-Новая Гвінея"),
@@ -19,9 +19,9 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.DE, "Papua-Neuguinea"),
             new TranslationInfo(LanguageCode.EL, "Παπούα Νέα Γουινέα"),
             new TranslationInfo(LanguageCode.EN, "Papua New Guinea"),
-            new TranslationInfo(LanguageCode.ES, "Papua Nueva Guinea"),
+            new TranslationInfo(LanguageCode.ES, "Papúa Nueva Guinea"),
             new TranslationInfo(LanguageCode.ET, "Paapua Uus-Guinea"),
-            new TranslationInfo(LanguageCode.FA, "پاپوا گینهٔ نو"),
+            new TranslationInfo(LanguageCode.FA, "پاپوآ گینه نو"),
             new TranslationInfo(LanguageCode.FI, "Papua-Uusi-Guinea"),
             new TranslationInfo(LanguageCode.FR, "Papouasie-Nouvelle-Guinée"),
             new TranslationInfo(LanguageCode.HE, "פפואה גינאה החדשה"),
@@ -46,10 +46,10 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.NL, "Papoea-Nieuw-Guinea"),
             new TranslationInfo(LanguageCode.NN, "Papua Ny-Guinea"),
             new TranslationInfo(LanguageCode.PL, "Papua-Nowa Gwinea"),
-            new TranslationInfo(LanguageCode.PT, "Papua-Nova Guiné"),
+            new TranslationInfo(LanguageCode.PT, "Papua Nova Guiné"),
             new TranslationInfo(LanguageCode.RO, "Papua-Noua Guinee"),
-            new TranslationInfo(LanguageCode.RU, "Папуа-Новая Гвинея"),
-            new TranslationInfo(LanguageCode.SK, "Papua Nová Guinea"),
+            new TranslationInfo(LanguageCode.RU, "Папуа — Новая Гвинея"),
+            new TranslationInfo(LanguageCode.SK, "Papua-Nová Guinea"),
             new TranslationInfo(LanguageCode.SL, "Papua Nova Gvineja"),
             new TranslationInfo(LanguageCode.SR, "Папуа Нова Гвинеја"),
             new TranslationInfo(LanguageCode.SV, "Papua Nya Guinea"),
@@ -57,6 +57,6 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.UK, "Папуа Нова Гвінея"),
             new TranslationInfo(LanguageCode.UZ, "Papua-Yangi Gvineya"),
             new TranslationInfo(LanguageCode.ZH, "巴布亚新几内亚"),
-        };
+        ];
     }
 }

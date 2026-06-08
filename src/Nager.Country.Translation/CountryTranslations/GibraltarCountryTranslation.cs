@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Gibraltar
@@ -6,8 +6,8 @@ namespace Nager.Country.Translation.CountryTranslations
     public class GibraltarCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "جبل طارق"),
             new TranslationInfo(LanguageCode.AZ, "Cəbəllütariq"),
             new TranslationInfo(LanguageCode.BE, "Гібралтар"),
@@ -21,7 +21,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.EN, "Gibraltar"),
             new TranslationInfo(LanguageCode.ES, "Gibraltar"),
             new TranslationInfo(LanguageCode.ET, "Gibraltar"),
-            new TranslationInfo(LanguageCode.FA, "جبل‌الطارق"),
+            new TranslationInfo(LanguageCode.FA, "جبل طارق"),
             new TranslationInfo(LanguageCode.FI, "Gibraltar"),
             new TranslationInfo(LanguageCode.FR, "Gibraltar"),
             new TranslationInfo(LanguageCode.HE, "גיברלטר"),
@@ -57,6 +57,6 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.UK, "Гібралтар"),
             new TranslationInfo(LanguageCode.UZ, "Gibraltar"),
             new TranslationInfo(LanguageCode.ZH, "直布罗陀"),
-        };
+        ];
     }
 }

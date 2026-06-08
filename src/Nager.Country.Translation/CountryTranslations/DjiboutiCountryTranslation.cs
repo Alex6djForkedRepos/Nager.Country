@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Djibouti
@@ -6,8 +6,8 @@ namespace Nager.Country.Translation.CountryTranslations
     public class DjiboutiCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "جيبوتي"),
             new TranslationInfo(LanguageCode.AZ, "Cibuti"),
             new TranslationInfo(LanguageCode.BE, "Джыбуці"),
@@ -19,7 +19,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.DE, "Dschibuti"),
             new TranslationInfo(LanguageCode.EL, "Τζιμπουτί"),
             new TranslationInfo(LanguageCode.EN, "Djibouti"),
-            new TranslationInfo(LanguageCode.ES, "Djibouti"),
+            new TranslationInfo(LanguageCode.ES, "Yibuti"),
             new TranslationInfo(LanguageCode.ET, "Djibouti"),
             new TranslationInfo(LanguageCode.FA, "جیبوتی"),
             new TranslationInfo(LanguageCode.FI, "Djibouti"),
@@ -57,6 +57,6 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.UK, "Джибуті"),
             new TranslationInfo(LanguageCode.UZ, "Jibuti"),
             new TranslationInfo(LanguageCode.ZH, "吉布提"),
-        };
+        ];
     }
 }

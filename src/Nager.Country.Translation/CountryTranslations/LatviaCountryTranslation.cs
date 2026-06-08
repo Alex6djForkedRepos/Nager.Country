@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Latvia
@@ -6,8 +6,8 @@ namespace Nager.Country.Translation.CountryTranslations
     public class LatviaCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "لاتفيا"),
             new TranslationInfo(LanguageCode.AZ, "Latviya"),
             new TranslationInfo(LanguageCode.BE, "Латвія"),
@@ -46,7 +46,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.NL, "Letland"),
             new TranslationInfo(LanguageCode.NN, "Latvia"),
             new TranslationInfo(LanguageCode.PL, "Łotwa"),
-            new TranslationInfo(LanguageCode.PT, "Letônia"),
+            new TranslationInfo(LanguageCode.PT, "Letónia"),
             new TranslationInfo(LanguageCode.RO, "Letonia"),
             new TranslationInfo(LanguageCode.RU, "Латвия"),
             new TranslationInfo(LanguageCode.SK, "Lotyšsko"),
@@ -57,6 +57,6 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.UK, "Латвія"),
             new TranslationInfo(LanguageCode.UZ, "Latviya"),
             new TranslationInfo(LanguageCode.ZH, "拉脱维亚"),
-        };
+        ];
     }
 }

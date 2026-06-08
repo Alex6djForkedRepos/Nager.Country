@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Martinique
@@ -6,8 +6,8 @@ namespace Nager.Country.Translation.CountryTranslations
     public class MartiniqueCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "مارتينيك"),
             new TranslationInfo(LanguageCode.AZ, "Martinik"),
             new TranslationInfo(LanguageCode.BE, "Марцініка"),
@@ -19,14 +19,14 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.DE, "Martinique"),
             new TranslationInfo(LanguageCode.EL, "Μαρτινίκα"),
             new TranslationInfo(LanguageCode.EN, "Martinique"),
-            new TranslationInfo(LanguageCode.ES, "Martinique"),
+            new TranslationInfo(LanguageCode.ES, "Martinica"),
             new TranslationInfo(LanguageCode.ET, "Martinique"),
             new TranslationInfo(LanguageCode.FA, "مارتینیک"),
             new TranslationInfo(LanguageCode.FI, "Martinique"),
             new TranslationInfo(LanguageCode.FR, "Martinique"),
             new TranslationInfo(LanguageCode.HE, "מרטיניק"),
-            new TranslationInfo(LanguageCode.HI, "मार्टिनिक"),
-            new TranslationInfo(LanguageCode.HR, "Martinique"),
+            new TranslationInfo(LanguageCode.HI, "मार्टीनिक"),
+            new TranslationInfo(LanguageCode.HR, "Martinik"),
             new TranslationInfo(LanguageCode.HU, "Martinique"),
             new TranslationInfo(LanguageCode.HY, "Մարտինիկա"),
             new TranslationInfo(LanguageCode.ID, "Martinik"),
@@ -57,6 +57,6 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.UK, "Мартиніка"),
             new TranslationInfo(LanguageCode.UZ, "Martinika"),
             new TranslationInfo(LanguageCode.ZH, "马提尼克"),
-        };
+        ];
     }
 }

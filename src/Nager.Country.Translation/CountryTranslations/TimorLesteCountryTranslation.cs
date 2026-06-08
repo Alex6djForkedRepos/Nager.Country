@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Timor-Leste
@@ -6,8 +6,8 @@ namespace Nager.Country.Translation.CountryTranslations
     public class TimorLesteCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "تيمور الشرقية"),
             new TranslationInfo(LanguageCode.AZ, "Şərqi Timor"),
             new TranslationInfo(LanguageCode.BE, "Тымор-Лешці"),
@@ -19,14 +19,14 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.DE, "Osttimor"),
             new TranslationInfo(LanguageCode.EL, "Ανατολικό Τιμόρ"),
             new TranslationInfo(LanguageCode.EN, "Timor-Leste"),
-            new TranslationInfo(LanguageCode.ES, "Timor-Leste"),
+            new TranslationInfo(LanguageCode.ES, "Timor Oriental"),
             new TranslationInfo(LanguageCode.ET, "Ida-Timor"),
-            new TranslationInfo(LanguageCode.FA, "تیمور-لسته"),
+            new TranslationInfo(LanguageCode.FA, "تیمور شرقی"),
             new TranslationInfo(LanguageCode.FI, "Itä-Timor"),
-            new TranslationInfo(LanguageCode.FR, "Timor Leste"),
+            new TranslationInfo(LanguageCode.FR, "Timor oriental"),
             new TranslationInfo(LanguageCode.HE, "טימור לסטה"),
             new TranslationInfo(LanguageCode.HI, "तिमोर-लेस्ते"),
-            new TranslationInfo(LanguageCode.HR, "Timor-Leste"),
+            new TranslationInfo(LanguageCode.HR, "Istočni Timor"),
             new TranslationInfo(LanguageCode.HU, "Kelet-Timor"),
             new TranslationInfo(LanguageCode.HY, "Թիմոր Լեշտի"),
             new TranslationInfo(LanguageCode.ID, "Timor-Leste"),
@@ -39,24 +39,24 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.KY, "Тимор-Лесте"),
             new TranslationInfo(LanguageCode.LT, "Rytų Timoras"),
             new TranslationInfo(LanguageCode.LV, "Austrumtimora"),
-            new TranslationInfo(LanguageCode.MK, "Источен Тимор (Тимор Лесте)"),
+            new TranslationInfo(LanguageCode.MK, "Источен Тимор"),
             new TranslationInfo(LanguageCode.MN, "Тимор-Лесте"),
             new TranslationInfo(LanguageCode.NB, "Øst-Timor"),
             new TranslationInfo(LanguageCode.NO, "Øst-Timor"),
-            new TranslationInfo(LanguageCode.NL, "Timor Leste"),
+            new TranslationInfo(LanguageCode.NL, "Oost-Timor"),
             new TranslationInfo(LanguageCode.NN, "Aust-Timor"),
             new TranslationInfo(LanguageCode.PL, "Timor Wschodni"),
             new TranslationInfo(LanguageCode.PT, "Timor-Leste"),
             new TranslationInfo(LanguageCode.RO, "Timorul de Est"),
             new TranslationInfo(LanguageCode.RU, "Восточный Тимор"),
             new TranslationInfo(LanguageCode.SK, "Východný Timor"),
-            new TranslationInfo(LanguageCode.SL, "Timor-Leste"),
+            new TranslationInfo(LanguageCode.SL, "Vzhodni Timor"),
             new TranslationInfo(LanguageCode.SR, "Источни Тимор"),
             new TranslationInfo(LanguageCode.SV, "Östtimor"),
-            new TranslationInfo(LanguageCode.TR, "Timor-Leste"),
+            new TranslationInfo(LanguageCode.TR, "Doğu Timor"),
             new TranslationInfo(LanguageCode.UK, "Східний Тимор"),
             new TranslationInfo(LanguageCode.UZ, "Timor-Leste"),
             new TranslationInfo(LanguageCode.ZH, "东帝汶"),
-        };
+        ];
     }
 }

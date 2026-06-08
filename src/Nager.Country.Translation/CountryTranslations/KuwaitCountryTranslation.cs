@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Kuwait
@@ -6,8 +6,8 @@ namespace Nager.Country.Translation.CountryTranslations
     public class KuwaitCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "الكويت"),
             new TranslationInfo(LanguageCode.AZ, "Küveyt"),
             new TranslationInfo(LanguageCode.BE, "Кувейт"),
@@ -21,9 +21,9 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.EN, "Kuwait"),
             new TranslationInfo(LanguageCode.ES, "Kuwait"),
             new TranslationInfo(LanguageCode.ET, "Kuveit"),
-            new TranslationInfo(LanguageCode.FA, "کویت"),
+            new TranslationInfo(LanguageCode.FA, "کُویت"),
             new TranslationInfo(LanguageCode.FI, "Kuwait"),
-            new TranslationInfo(LanguageCode.FR, "Koweit"),
+            new TranslationInfo(LanguageCode.FR, "Koweït"),
             new TranslationInfo(LanguageCode.HE, "כווית"),
             new TranslationInfo(LanguageCode.HI, "कुवैत"),
             new TranslationInfo(LanguageCode.HR, "Kuvajt"),
@@ -57,6 +57,6 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.UK, "Кувейт"),
             new TranslationInfo(LanguageCode.UZ, "Quvayt"),
             new TranslationInfo(LanguageCode.ZH, "科威特"),
-        };
+        ];
     }
 }

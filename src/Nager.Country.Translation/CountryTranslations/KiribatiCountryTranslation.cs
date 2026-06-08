@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Kiribati
@@ -6,8 +6,8 @@ namespace Nager.Country.Translation.CountryTranslations
     public class KiribatiCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "كيريباتي"),
             new TranslationInfo(LanguageCode.AZ, "Kiribati"),
             new TranslationInfo(LanguageCode.BE, "Кірыбаці"),
@@ -46,7 +46,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.NL, "Kiribati"),
             new TranslationInfo(LanguageCode.NN, "Kiribati"),
             new TranslationInfo(LanguageCode.PL, "Kiribati"),
-            new TranslationInfo(LanguageCode.PT, "Quiribati"),
+            new TranslationInfo(LanguageCode.PT, "Kiribati"),
             new TranslationInfo(LanguageCode.RO, "Kiribati"),
             new TranslationInfo(LanguageCode.RU, "Кирибати"),
             new TranslationInfo(LanguageCode.SK, "Kiribati"),
@@ -57,6 +57,6 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.UK, "Кірибаті"),
             new TranslationInfo(LanguageCode.UZ, "Kiribati"),
             new TranslationInfo(LanguageCode.ZH, "基里巴斯"),
-        };
+        ];
     }
 }

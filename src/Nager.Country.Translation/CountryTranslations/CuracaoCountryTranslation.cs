@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Curaçao
@@ -6,8 +6,8 @@ namespace Nager.Country.Translation.CountryTranslations
     public class CuracaoCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "كوراساو"),
             new TranslationInfo(LanguageCode.AZ, "Kurasao"),
             new TranslationInfo(LanguageCode.BE, "Кюрасаа"),
@@ -19,7 +19,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.DE, "Curaçao"),
             new TranslationInfo(LanguageCode.EL, "Κουρασάο"),
             new TranslationInfo(LanguageCode.EN, "Curaçao"),
-            new TranslationInfo(LanguageCode.ES, "Curaçao"),
+            new TranslationInfo(LanguageCode.ES, "Curazao"),
             new TranslationInfo(LanguageCode.ET, "Curaçao"),
             new TranslationInfo(LanguageCode.FA, "کوراسائو"),
             new TranslationInfo(LanguageCode.FI, "Curaçao"),
@@ -52,11 +52,11 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.SK, "Curaçao"),
             new TranslationInfo(LanguageCode.SL, "Curaçao"),
             new TranslationInfo(LanguageCode.SR, "Курасао"),
-            new TranslationInfo(LanguageCode.SV, "Curacao"),
+            new TranslationInfo(LanguageCode.SV, "Curaçao"),
             new TranslationInfo(LanguageCode.TR, "Curaçao"),
             new TranslationInfo(LanguageCode.UK, "Кюрасао"),
             new TranslationInfo(LanguageCode.UZ, "Kyurasao"),
             new TranslationInfo(LanguageCode.ZH, "库拉索"),
-        };
+        ];
     }
 }

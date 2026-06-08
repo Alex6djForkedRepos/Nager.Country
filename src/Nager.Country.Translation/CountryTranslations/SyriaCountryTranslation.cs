@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Syria
@@ -6,8 +6,8 @@ namespace Nager.Country.Translation.CountryTranslations
     public class SyriaCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "سوريا"),
             new TranslationInfo(LanguageCode.AZ, "Suriya"),
             new TranslationInfo(LanguageCode.BE, "Сірыя"),
@@ -16,10 +16,10 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.CA, "Síria"),
             new TranslationInfo(LanguageCode.CS, "Sýrie"),
             new TranslationInfo(LanguageCode.DA, "Syrien"),
-            new TranslationInfo(LanguageCode.DE, "Syrien, Arabische Republik"),
-            new TranslationInfo(LanguageCode.EL, "Αραβική Δημοκρατία της Συρίας"),
-            new TranslationInfo(LanguageCode.EN, "Syrian Arab Republic"),
-            new TranslationInfo(LanguageCode.ES, "República Árabe Siria"),
+            new TranslationInfo(LanguageCode.DE, "Syrien"),
+            new TranslationInfo(LanguageCode.EL, "Συρία"),
+            new TranslationInfo(LanguageCode.EN, "Syria"),
+            new TranslationInfo(LanguageCode.ES, "Siria"),
             new TranslationInfo(LanguageCode.ET, "Süüria"),
             new TranslationInfo(LanguageCode.FA, "سوریه"),
             new TranslationInfo(LanguageCode.FI, "Syyria"),
@@ -32,7 +32,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.ID, "Suriah"),
             new TranslationInfo(LanguageCode.IS, "Sýrland"),
             new TranslationInfo(LanguageCode.IT, "Siria"),
-            new TranslationInfo(LanguageCode.JA, "シリア・アラブ共和国"),
+            new TranslationInfo(LanguageCode.JA, "シリア"),
             new TranslationInfo(LanguageCode.KA, "სირია"),
             new TranslationInfo(LanguageCode.KK, "Сирия"),
             new TranslationInfo(LanguageCode.KO, "시리아"),
@@ -57,6 +57,6 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.UK, "Сірія"),
             new TranslationInfo(LanguageCode.UZ, "Suriya"),
             new TranslationInfo(LanguageCode.ZH, "叙利亚"),
-        };
+        ];
     }
 }

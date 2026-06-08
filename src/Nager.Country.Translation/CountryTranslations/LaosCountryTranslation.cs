@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Laos
@@ -6,8 +6,8 @@ namespace Nager.Country.Translation.CountryTranslations
     public class LaosCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "لاوس"),
             new TranslationInfo(LanguageCode.AZ, "Laos"),
             new TranslationInfo(LanguageCode.BE, "Лаос"),
@@ -17,9 +17,9 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.CS, "Laos"),
             new TranslationInfo(LanguageCode.DA, "Laos"),
             new TranslationInfo(LanguageCode.DE, "Laos"),
-            new TranslationInfo(LanguageCode.EL, "Λαϊκή Δημοκρατία του Λάος"),
-            new TranslationInfo(LanguageCode.EN, "Lao People's Democratic Republic"),
-            new TranslationInfo(LanguageCode.ES, "República Democrática Popular de Lao"),
+            new TranslationInfo(LanguageCode.EL, "Λάος"),
+            new TranslationInfo(LanguageCode.EN, "Laos"),
+            new TranslationInfo(LanguageCode.ES, "Laos"),
             new TranslationInfo(LanguageCode.ET, "Laos"),
             new TranslationInfo(LanguageCode.FA, "لائوس"),
             new TranslationInfo(LanguageCode.FI, "Laos"),
@@ -32,7 +32,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.ID, "Laos"),
             new TranslationInfo(LanguageCode.IS, "Laos"),
             new TranslationInfo(LanguageCode.IT, "Laos"),
-            new TranslationInfo(LanguageCode.JA, "ラオス人民民主共和国"),
+            new TranslationInfo(LanguageCode.JA, "ラオス"),
             new TranslationInfo(LanguageCode.KA, "ლაოსი"),
             new TranslationInfo(LanguageCode.KK, "Лаос"),
             new TranslationInfo(LanguageCode.KO, "라오스"),
@@ -57,6 +57,6 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.UK, "Лаос"),
             new TranslationInfo(LanguageCode.UZ, "Laos"),
             new TranslationInfo(LanguageCode.ZH, "老挝"),
-        };
+        ];
     }
 }

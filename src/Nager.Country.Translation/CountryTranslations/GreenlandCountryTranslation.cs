@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Greenland
@@ -6,8 +6,8 @@ namespace Nager.Country.Translation.CountryTranslations
     public class GreenlandCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "جرينلاند"),
             new TranslationInfo(LanguageCode.AZ, "Qrenlandiya"),
             new TranslationInfo(LanguageCode.BE, "Грэнландыя"),
@@ -46,7 +46,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.NL, "Groenland"),
             new TranslationInfo(LanguageCode.NN, "Grønland"),
             new TranslationInfo(LanguageCode.PL, "Grenlandia"),
-            new TranslationInfo(LanguageCode.PT, "Groenlândia"),
+            new TranslationInfo(LanguageCode.PT, "Gronelândia"),
             new TranslationInfo(LanguageCode.RO, "Groenlanda"),
             new TranslationInfo(LanguageCode.RU, "Гренландия"),
             new TranslationInfo(LanguageCode.SK, "Grónsko"),
@@ -57,6 +57,6 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.UK, "Ґренландія"),
             new TranslationInfo(LanguageCode.UZ, "Grenlandiya"),
             new TranslationInfo(LanguageCode.ZH, "格陵兰"),
-        };
+        ];
     }
 }

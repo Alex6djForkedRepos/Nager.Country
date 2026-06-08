@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Palau
@@ -6,8 +6,8 @@ namespace Nager.Country.Translation.CountryTranslations
     public class PalauCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "بالاو"),
             new TranslationInfo(LanguageCode.AZ, "Palau"),
             new TranslationInfo(LanguageCode.BE, "Палау"),
@@ -20,10 +20,10 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.EL, "Παλάου"),
             new TranslationInfo(LanguageCode.EN, "Palau"),
             new TranslationInfo(LanguageCode.ES, "Palau"),
-            new TranslationInfo(LanguageCode.ET, "Belau"),
+            new TranslationInfo(LanguageCode.ET, "Palau"),
             new TranslationInfo(LanguageCode.FA, "پالائو"),
             new TranslationInfo(LanguageCode.FI, "Palau"),
-            new TranslationInfo(LanguageCode.FR, "Palau"),
+            new TranslationInfo(LanguageCode.FR, "Palaos"),
             new TranslationInfo(LanguageCode.HE, "פלאו"),
             new TranslationInfo(LanguageCode.HI, "पलाऊ"),
             new TranslationInfo(LanguageCode.HR, "Palau"),
@@ -56,7 +56,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.TR, "Palau"),
             new TranslationInfo(LanguageCode.UK, "Палау"),
             new TranslationInfo(LanguageCode.UZ, "Palau"),
-            new TranslationInfo(LanguageCode.ZH, "帛琉"),
-        };
+            new TranslationInfo(LanguageCode.ZH, "帕劳"),
+        ];
     }
 }

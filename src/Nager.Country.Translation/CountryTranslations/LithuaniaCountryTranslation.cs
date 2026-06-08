@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Lithuania
@@ -6,8 +6,8 @@ namespace Nager.Country.Translation.CountryTranslations
     public class LithuaniaCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "ليتوانيا"),
             new TranslationInfo(LanguageCode.AZ, "Litva"),
             new TranslationInfo(LanguageCode.BE, "Літва"),
@@ -29,11 +29,11 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.HR, "Litva"),
             new TranslationInfo(LanguageCode.HU, "Litvánia"),
             new TranslationInfo(LanguageCode.HY, "Լիտվա"),
-            new TranslationInfo(LanguageCode.ID, "Lithuania"),
+            new TranslationInfo(LanguageCode.ID, "Lituania"),
             new TranslationInfo(LanguageCode.IS, "Litháen"),
             new TranslationInfo(LanguageCode.IT, "Lituania"),
             new TranslationInfo(LanguageCode.JA, "リトアニア"),
-            new TranslationInfo(LanguageCode.KA, "ლიტვა"),
+            new TranslationInfo(LanguageCode.KA, "ლიეტუვა"),
             new TranslationInfo(LanguageCode.KK, "Литва"),
             new TranslationInfo(LanguageCode.KO, "리투아니아"),
             new TranslationInfo(LanguageCode.KY, "Литва"),
@@ -57,6 +57,6 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.UK, "Литва"),
             new TranslationInfo(LanguageCode.UZ, "Litva"),
             new TranslationInfo(LanguageCode.ZH, "立陶宛"),
-        };
+        ];
     }
 }

@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// South Sudan
@@ -6,8 +6,8 @@ namespace Nager.Country.Translation.CountryTranslations
     public class SouthSudanCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "جنوب السودان"),
             new TranslationInfo(LanguageCode.AZ, "Cənubi Sudan"),
             new TranslationInfo(LanguageCode.BE, "Паўднёвы Судан"),
@@ -23,7 +23,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.ET, "Lõuna-Sudaan"),
             new TranslationInfo(LanguageCode.FA, "سودان جنوبی"),
             new TranslationInfo(LanguageCode.FI, "Etelä-Sudan"),
-            new TranslationInfo(LanguageCode.FR, "Sud-Soudan"),
+            new TranslationInfo(LanguageCode.FR, "Soudan du Sud"),
             new TranslationInfo(LanguageCode.HE, "דרום סודן"),
             new TranslationInfo(LanguageCode.HI, "दक्षिण सूडान"),
             new TranslationInfo(LanguageCode.HR, "Južni Sudan"),
@@ -57,6 +57,6 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.UK, "Південний Судан"),
             new TranslationInfo(LanguageCode.UZ, "Janubiy Sudan"),
             new TranslationInfo(LanguageCode.ZH, "南苏丹"),
-        };
+        ];
     }
 }

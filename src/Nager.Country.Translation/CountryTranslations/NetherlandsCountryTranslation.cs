@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Netherlands
@@ -6,8 +6,8 @@ namespace Nager.Country.Translation.CountryTranslations
     public class NetherlandsCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "هولندا"),
             new TranslationInfo(LanguageCode.AZ, "Niderland"),
             new TranslationInfo(LanguageCode.BE, "Нідэрланды"),
@@ -15,12 +15,12 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.BS, "Holandija"),
             new TranslationInfo(LanguageCode.CA, "Països Baixos"),
             new TranslationInfo(LanguageCode.CS, "Nizozemsko"),
-            new TranslationInfo(LanguageCode.DA, "Holland"),
+            new TranslationInfo(LanguageCode.DA, "Nederlandene"),
             new TranslationInfo(LanguageCode.DE, "Niederlande"),
-            new TranslationInfo(LanguageCode.EL, "Ολλανδία"),
+            new TranslationInfo(LanguageCode.EL, "Κάτω Χώρες"),
             new TranslationInfo(LanguageCode.EN, "Netherlands"),
             new TranslationInfo(LanguageCode.ES, "Países Bajos"),
-            new TranslationInfo(LanguageCode.ET, "Holland"),
+            new TranslationInfo(LanguageCode.ET, "Madalmaad"),
             new TranslationInfo(LanguageCode.FA, "هلند"),
             new TranslationInfo(LanguageCode.FI, "Alankomaat"),
             new TranslationInfo(LanguageCode.FR, "Pays-Bas"),
@@ -30,7 +30,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.HU, "Hollandia"),
             new TranslationInfo(LanguageCode.HY, "Նիդեռլանդներ"),
             new TranslationInfo(LanguageCode.ID, "Belanda"),
-            new TranslationInfo(LanguageCode.IS, "Holland"),
+            new TranslationInfo(LanguageCode.IS, "Niðurlönd"),
             new TranslationInfo(LanguageCode.IT, "Paesi Bassi"),
             new TranslationInfo(LanguageCode.JA, "オランダ"),
             new TranslationInfo(LanguageCode.KA, "ნიდერლანდები"),
@@ -45,11 +45,11 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.NO, "Nederland"),
             new TranslationInfo(LanguageCode.NL, "Nederland"),
             new TranslationInfo(LanguageCode.NN, "Nederland"),
-            new TranslationInfo(LanguageCode.PL, "Holandia"),
-            new TranslationInfo(LanguageCode.PT, "Holanda"),
+            new TranslationInfo(LanguageCode.PL, "Niderlandy"),
+            new TranslationInfo(LanguageCode.PT, "Países Baixos"),
             new TranslationInfo(LanguageCode.RO, "Țările de Jos"),
             new TranslationInfo(LanguageCode.RU, "Нидерланды"),
-            new TranslationInfo(LanguageCode.SK, "Holandsko"),
+            new TranslationInfo(LanguageCode.SK, "Nizozemsko"),
             new TranslationInfo(LanguageCode.SL, "Nizozemska"),
             new TranslationInfo(LanguageCode.SR, "Холандија"),
             new TranslationInfo(LanguageCode.SV, "Nederländerna"),
@@ -57,6 +57,6 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.UK, "Нідерланди"),
             new TranslationInfo(LanguageCode.UZ, "Niderlandiya"),
             new TranslationInfo(LanguageCode.ZH, "荷兰"),
-        };
+        ];
     }
 }

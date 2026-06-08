@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Kazakhstan
@@ -6,8 +6,8 @@ namespace Nager.Country.Translation.CountryTranslations
     public class KazakhstanCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "كازاخستان"),
             new TranslationInfo(LanguageCode.AZ, "Qazaxıstan"),
             new TranslationInfo(LanguageCode.BE, "Казахстан"),
@@ -19,7 +19,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.DE, "Kasachstan"),
             new TranslationInfo(LanguageCode.EL, "Καζακστάν"),
             new TranslationInfo(LanguageCode.EN, "Kazakhstan"),
-            new TranslationInfo(LanguageCode.ES, "Kazajstán"),
+            new TranslationInfo(LanguageCode.ES, "Kazajistán"),
             new TranslationInfo(LanguageCode.ET, "Kasahstan"),
             new TranslationInfo(LanguageCode.FA, "قزاقستان"),
             new TranslationInfo(LanguageCode.FI, "Kazakstan"),
@@ -57,6 +57,6 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.UK, "Казахстан"),
             new TranslationInfo(LanguageCode.UZ, "Qozogʻiston"),
             new TranslationInfo(LanguageCode.ZH, "哈萨克斯坦"),
-        };
+        ];
     }
 }

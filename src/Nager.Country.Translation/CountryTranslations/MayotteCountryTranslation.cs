@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Mayotte
@@ -6,13 +6,13 @@ namespace Nager.Country.Translation.CountryTranslations
     public class MayotteCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "مايوت"),
             new TranslationInfo(LanguageCode.AZ, "Mayot"),
             new TranslationInfo(LanguageCode.BE, "Маёта"),
             new TranslationInfo(LanguageCode.BG, "Майот"),
-            new TranslationInfo(LanguageCode.BS, "Majote"),
+            new TranslationInfo(LanguageCode.BS, "Majota"),
             new TranslationInfo(LanguageCode.CA, "Mayotte"),
             new TranslationInfo(LanguageCode.CS, "Mayotte"),
             new TranslationInfo(LanguageCode.DA, "Mayotte"),
@@ -50,15 +50,13 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.RO, "Mayotte"),
             new TranslationInfo(LanguageCode.RU, "Майотта"),
             new TranslationInfo(LanguageCode.SK, "Mayotte"),
-            new TranslationInfo(LanguageCode.SL, "Mayotte"),
+            new TranslationInfo(LanguageCode.SL, "Majot"),
             new TranslationInfo(LanguageCode.SR, "Мајот"),
             new TranslationInfo(LanguageCode.SV, "Mayotte"),
             new TranslationInfo(LanguageCode.TR, "Mayotte"),
             new TranslationInfo(LanguageCode.UK, "Майотта"),
             new TranslationInfo(LanguageCode.UZ, "Mayotta"),
             new TranslationInfo(LanguageCode.ZH, "马约特"),
-        
-       
-       };
+        ];
     }
 }

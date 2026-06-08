@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Peru
@@ -6,8 +6,8 @@ namespace Nager.Country.Translation.CountryTranslations
     public class PeruCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "بيرو"),
             new TranslationInfo(LanguageCode.AZ, "Peru"),
             new TranslationInfo(LanguageCode.BE, "Перу"),
@@ -46,7 +46,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.NL, "Peru"),
             new TranslationInfo(LanguageCode.NN, "Peru"),
             new TranslationInfo(LanguageCode.PL, "Peru"),
-            new TranslationInfo(LanguageCode.PT, "Peru"),
+            new TranslationInfo(LanguageCode.PT, "Perú"),
             new TranslationInfo(LanguageCode.RO, "Peru"),
             new TranslationInfo(LanguageCode.RU, "Перу"),
             new TranslationInfo(LanguageCode.SK, "Peru"),
@@ -57,6 +57,6 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.UK, "Перу"),
             new TranslationInfo(LanguageCode.UZ, "Peru"),
             new TranslationInfo(LanguageCode.ZH, "秘鲁"),
-        };
+        ];
     }
 }

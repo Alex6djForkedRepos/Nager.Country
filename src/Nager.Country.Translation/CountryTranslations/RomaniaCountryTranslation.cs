@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Romania
@@ -6,8 +6,8 @@ namespace Nager.Country.Translation.CountryTranslations
     public class RomaniaCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "رومانيا"),
             new TranslationInfo(LanguageCode.AZ, "Rumıniya"),
             new TranslationInfo(LanguageCode.BE, "Румынія"),
@@ -46,7 +46,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.NL, "Roemenië"),
             new TranslationInfo(LanguageCode.NN, "Romania"),
             new TranslationInfo(LanguageCode.PL, "Rumunia"),
-            new TranslationInfo(LanguageCode.PT, "Romênia"),
+            new TranslationInfo(LanguageCode.PT, "Roménia"),
             new TranslationInfo(LanguageCode.RO, "România"),
             new TranslationInfo(LanguageCode.RU, "Румыния"),
             new TranslationInfo(LanguageCode.SK, "Rumunsko"),
@@ -57,6 +57,6 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.UK, "Румунія"),
             new TranslationInfo(LanguageCode.UZ, "Ruminiya"),
             new TranslationInfo(LanguageCode.ZH, "罗马尼亚"),
-        };
+        ];
     }
 }

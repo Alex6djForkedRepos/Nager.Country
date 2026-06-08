@@ -6,8 +6,8 @@ namespace Nager.Country.Translation.CountryTranslations
     public class AfghanistanCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "أفغانستان"),
             new TranslationInfo(LanguageCode.AZ, "Əfqanıstan"),
             new TranslationInfo(LanguageCode.BE, "Афганістан"),
@@ -29,8 +29,8 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.HR, "Afganistan"),
             new TranslationInfo(LanguageCode.HU, "Afganisztán"),
             new TranslationInfo(LanguageCode.HY, "Աֆղանստան"),
-            new TranslationInfo(LanguageCode.ID, "Afghanistan"),
-            new TranslationInfo(LanguageCode.IS, "Afgan­i­stan"),
+            new TranslationInfo(LanguageCode.ID, "Afganistan"),
+            new TranslationInfo(LanguageCode.IS, "Afganistan"),
             new TranslationInfo(LanguageCode.IT, "Afghanistan"),
             new TranslationInfo(LanguageCode.JA, "アフガニスタン"),
             new TranslationInfo(LanguageCode.KA, "ავღანეთი"),
@@ -57,6 +57,6 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.UK, "Афганістан"),
             new TranslationInfo(LanguageCode.UZ, "Afgʻoniston"),
             new TranslationInfo(LanguageCode.ZH, "阿富汗"),
-       };
+       ];
     }
 }

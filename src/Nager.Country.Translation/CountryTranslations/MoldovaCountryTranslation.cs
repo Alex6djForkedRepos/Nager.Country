@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Moldova
@@ -6,9 +6,9 @@ namespace Nager.Country.Translation.CountryTranslations
     public class MoldovaCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
-            new TranslationInfo(LanguageCode.AR, "مولدوفا"),
+        public TranslationInfo[] Translations =>
+        [
+            new TranslationInfo(LanguageCode.AR, "مولدوڤا"),
             new TranslationInfo(LanguageCode.AZ, "Moldova"),
             new TranslationInfo(LanguageCode.BE, "Малдова"),
             new TranslationInfo(LanguageCode.BG, "Молдова"),
@@ -17,8 +17,8 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.CS, "Moldavsko"),
             new TranslationInfo(LanguageCode.DA, "Moldova"),
             new TranslationInfo(LanguageCode.DE, "Moldawien"),
-            new TranslationInfo(LanguageCode.EL, "Δημοκρατία της Μολδαβίας"),
-            new TranslationInfo(LanguageCode.EN, "Moldova, Republic of"),
+            new TranslationInfo(LanguageCode.EL, "Μολδαβία"),
+            new TranslationInfo(LanguageCode.EN, "Moldova"),
             new TranslationInfo(LanguageCode.ES, "Moldavia"),
             new TranslationInfo(LanguageCode.ET, "Moldova"),
             new TranslationInfo(LanguageCode.FA, "مولداوی"),
@@ -26,13 +26,13 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FR, "Moldavie"),
             new TranslationInfo(LanguageCode.HE, "מולדובה"),
             new TranslationInfo(LanguageCode.HI, "मोल्दोवा"),
-            new TranslationInfo(LanguageCode.HR, "Moldavija"),
+            new TranslationInfo(LanguageCode.HR, "Moldova"),
             new TranslationInfo(LanguageCode.HU, "Moldova"),
             new TranslationInfo(LanguageCode.HY, "Մոլդովա"),
             new TranslationInfo(LanguageCode.ID, "Moldova"),
             new TranslationInfo(LanguageCode.IS, "Moldóva"),
             new TranslationInfo(LanguageCode.IT, "Moldavia"),
-            new TranslationInfo(LanguageCode.JA, "モルドバ共和国"),
+            new TranslationInfo(LanguageCode.JA, "モルドバ"),
             new TranslationInfo(LanguageCode.KA, "მოლდოვა"),
             new TranslationInfo(LanguageCode.KK, "Молдова"),
             new TranslationInfo(LanguageCode.KO, "몰도바"),
@@ -47,8 +47,8 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.NN, "Moldova"),
             new TranslationInfo(LanguageCode.PL, "Mołdawia"),
             new TranslationInfo(LanguageCode.PT, "Moldávia"),
-            new TranslationInfo(LanguageCode.RO, "Republica Moldova"),
-            new TranslationInfo(LanguageCode.RU, "Молдавия"),
+            new TranslationInfo(LanguageCode.RO, "Moldova"),
+            new TranslationInfo(LanguageCode.RU, "Молдова"),
             new TranslationInfo(LanguageCode.SK, "Moldavsko"),
             new TranslationInfo(LanguageCode.SL, "Moldavija"),
             new TranslationInfo(LanguageCode.SR, "Молдавија"),
@@ -57,6 +57,6 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.UK, "Молдова"),
             new TranslationInfo(LanguageCode.UZ, "Moldova"),
             new TranslationInfo(LanguageCode.ZH, "摩尔多瓦"),
-        };
+        ];
     }
 }

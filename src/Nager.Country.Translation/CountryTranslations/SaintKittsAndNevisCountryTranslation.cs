@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Saint Kitts and Nevis
@@ -6,8 +6,8 @@ namespace Nager.Country.Translation.CountryTranslations
     public class SaintKittsAndNevisCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "سانت كيتس ونيفيس"),
             new TranslationInfo(LanguageCode.AZ, "Sent-Kits və Nevis"),
             new TranslationInfo(LanguageCode.BE, "Сент-Кітс і Невіс"),
@@ -17,22 +17,22 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.CS, "Svatý Kryštof a Nevis"),
             new TranslationInfo(LanguageCode.DA, "Saint Kitts og Nevis"),
             new TranslationInfo(LanguageCode.DE, "St. Kitts und Nevis"),
-            new TranslationInfo(LanguageCode.EL, "Ομοσπονδία Αγίου Χριστόφορου και Νέβις"),
+            new TranslationInfo(LanguageCode.EL, "Άγιος Χριστόφορος και Νέβις"),
             new TranslationInfo(LanguageCode.EN, "Saint Kitts and Nevis"),
-            new TranslationInfo(LanguageCode.ES, "Saint Kitts y Nevis"),
+            new TranslationInfo(LanguageCode.ES, "San Cristóbal y Nieves"),
             new TranslationInfo(LanguageCode.ET, "Saint Kitts ja Nevis"),
             new TranslationInfo(LanguageCode.FA, "سنت کیتس و نویس"),
             new TranslationInfo(LanguageCode.FI, "Saint Kitts ja Nevis"),
             new TranslationInfo(LanguageCode.FR, "Saint-Christophe-et-Niévès"),
             new TranslationInfo(LanguageCode.HE, "סנט קיטס ונוויס"),
             new TranslationInfo(LanguageCode.HI, "सेंट किट्स और नेविस"),
-            new TranslationInfo(LanguageCode.HR, "Sveti Kristofor i Nevis"),
+            new TranslationInfo(LanguageCode.HR, "Sveti Kristof i Nevis"),
             new TranslationInfo(LanguageCode.HU, "Saint Kitts és Nevis"),
             new TranslationInfo(LanguageCode.HY, "Սենտ Քիտս և Նևիս"),
             new TranslationInfo(LanguageCode.ID, "Saint Kitts dan Nevis"),
             new TranslationInfo(LanguageCode.IS, "Sankti Kitts og Nevis"),
             new TranslationInfo(LanguageCode.IT, "Saint Kitts e Nevis"),
-            new TranslationInfo(LanguageCode.JA, "セントクリストファー・ネイビス"),
+            new TranslationInfo(LanguageCode.JA, "セントキッツ・ネーヴィス"),
             new TranslationInfo(LanguageCode.KA, "სენტ-კიტსი და ნევისი"),
             new TranslationInfo(LanguageCode.KK, "Сент-Китс және Невис"),
             new TranslationInfo(LanguageCode.KO, "세인트키츠 네비스"),
@@ -57,6 +57,6 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.UK, "Сент-Кіттс і Невіс"),
             new TranslationInfo(LanguageCode.UZ, "Sent-Kits va Nevis"),
             new TranslationInfo(LanguageCode.ZH, "圣基茨和尼维斯"),
-        };
+        ];
     }
 }

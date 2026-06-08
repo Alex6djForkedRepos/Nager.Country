@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Liberia
@@ -6,8 +6,8 @@ namespace Nager.Country.Translation.CountryTranslations
     public class LiberiaCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "ليبيريا"),
             new TranslationInfo(LanguageCode.AZ, "Liberiya"),
             new TranslationInfo(LanguageCode.BE, "Ліберыя"),
@@ -21,9 +21,9 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.EN, "Liberia"),
             new TranslationInfo(LanguageCode.ES, "Liberia"),
             new TranslationInfo(LanguageCode.ET, "Libeeria"),
-            new TranslationInfo(LanguageCode.FA, "لیبریا"),
+            new TranslationInfo(LanguageCode.FA, "لیبـِریا"),
             new TranslationInfo(LanguageCode.FI, "Liberia"),
-            new TranslationInfo(LanguageCode.FR, "Libéria"),
+            new TranslationInfo(LanguageCode.FR, "Liberia"),
             new TranslationInfo(LanguageCode.HE, "ליבריה"),
             new TranslationInfo(LanguageCode.HI, "लाइबेरिया"),
             new TranslationInfo(LanguageCode.HR, "Liberija"),
@@ -57,6 +57,6 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.UK, "Ліберія"),
             new TranslationInfo(LanguageCode.UZ, "Liberiya"),
             new TranslationInfo(LanguageCode.ZH, "利比里亚"),
-        };
+        ];
     }
 }

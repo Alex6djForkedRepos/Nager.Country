@@ -1,13 +1,13 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
-    /// South Georgia
+    /// South Georgia and the South Sandwich Islands
     /// </summary>
     public class SouthGeorgiaCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "جورجيا الجنوبية وجزر ساندويتش الجنوبية"),
             new TranslationInfo(LanguageCode.AZ, "Cənubi Corciya və Cənubi Sendviç adaları"),
             new TranslationInfo(LanguageCode.BE, "Паўднёвая Джорджыя і Паўднёвыя Сандвічавы астравы"),
@@ -15,18 +15,18 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.BS, "Južna Džordžija i Južna Sendvička Ostrva"),
             new TranslationInfo(LanguageCode.CA, "Geòrgia del Sud i Sandwich del Sud, illes"),
             new TranslationInfo(LanguageCode.CS, "Jižní Georgie a Jižní Sandwichovy ostrovy"),
-            new TranslationInfo(LanguageCode.DA, "South Georgia og South Sandwich Islands"),
+            new TranslationInfo(LanguageCode.DA, "Sydgeorgien og Sydsandwichøerne"),
             new TranslationInfo(LanguageCode.DE, "Südgeorgien und die Südlichen Sandwichinseln"),
-            new TranslationInfo(LanguageCode.EL, "Νότιος Γεωργία και Νότιοι Σάντουιτς Νήσοι"),
-            new TranslationInfo(LanguageCode.EN, "South Georgia and the South Sandwich Islands"),
-            new TranslationInfo(LanguageCode.ES, "Georgia del Sur y las Islas Sandwich del Sur"),
+            new TranslationInfo(LanguageCode.EL, "Νότια Γεωργία και Νότιες Νήσοι Σάντουιτς"),
+            new TranslationInfo(LanguageCode.EN, "South Georgia"),
+            new TranslationInfo(LanguageCode.ES, "Islas Georgias del Sur y Sandwich del Sur"),
             new TranslationInfo(LanguageCode.ET, "Lõuna-Georgia ja Lõuna-Sandwichi saared"),
             new TranslationInfo(LanguageCode.FA, "جزایر جورجیای جنوبی و ساندویچ جنوبی"),
             new TranslationInfo(LanguageCode.FI, "Etelä-Georgia ja Eteläiset Sandwichsaaret"),
             new TranslationInfo(LanguageCode.FR, "Géorgie du Sud-et-les Îles Sandwich du Sud"),
             new TranslationInfo(LanguageCode.HE, "ג׳ורג׳יה הדרומית ואיי סנדוויץ׳ הדרומיים"),
-            new TranslationInfo(LanguageCode.HI, "दक्षिण जॉर्जिया"),
-            new TranslationInfo(LanguageCode.HR, "Južna Georgija i Južni Sendvički Otoci"),
+            new TranslationInfo(LanguageCode.HI, "दक्षिण जॉर्जिया और दक्षिण सैंडविच द्वीपसमूह"),
+            new TranslationInfo(LanguageCode.HR, "Južna Georgija i otočje Južni Sandwich"),
             new TranslationInfo(LanguageCode.HU, "Déli-Georgia és Déli-Sandwich-szigetek"),
             new TranslationInfo(LanguageCode.HY, "Հարավային Ջորջիա և Հարավային Սենդվիչյան կղզիներ"),
             new TranslationInfo(LanguageCode.ID, "Georgia Selatan dan Kepulauan Sandwich Selatan"),
@@ -43,10 +43,10 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MN, "Өмнөд Жоржиа ба Өмнөд Сэндвичийн Арлууд"),
             new TranslationInfo(LanguageCode.NB, "Sør-Georgia og de søre Sandwichøyene"),
             new TranslationInfo(LanguageCode.NO, "Sør-Georgia og de søre Sandwichøyene"),
-            new TranslationInfo(LanguageCode.NL, "Zuid-Georgia en de Zuidelijke Sandwicheilanden"),
+            new TranslationInfo(LanguageCode.NL, "Zuid-Georgia en Zuidelijke Sandwicheilanden"),
             new TranslationInfo(LanguageCode.NN, "Sør-Georgia og de søre Sandwichøyane"),
             new TranslationInfo(LanguageCode.PL, "Georgia Południowa i Sandwich Południowy"),
-            new TranslationInfo(LanguageCode.PT, "Geórgia do Sul e Ilhas Sandwich do Sul"),
+            new TranslationInfo(LanguageCode.PT, "Ilhas Geórgia do Sul e Sandwich do Sul"),
             new TranslationInfo(LanguageCode.RO, "Georgia de Sud și Insulele Sandwich de Sud"),
             new TranslationInfo(LanguageCode.RU, "Южная Георгия и Южные Сандвичевы Острова"),
             new TranslationInfo(LanguageCode.SK, "Južná Georgia a Južné Sandwichove ostrovy"),
@@ -57,6 +57,6 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.UK, "Південна Джорджія та Південні Сандвічеві Острови"),
             new TranslationInfo(LanguageCode.UZ, "Janubiy Georgiya va Janubiy Sendvich orollari"),
             new TranslationInfo(LanguageCode.ZH, "南乔治亚和南桑威奇群岛"),
-        };
+        ];
     }
 }

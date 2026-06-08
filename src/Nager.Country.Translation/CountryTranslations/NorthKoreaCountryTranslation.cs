@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// North Korea
@@ -6,8 +6,8 @@ namespace Nager.Country.Translation.CountryTranslations
     public class NorthKoreaCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "كوريا الشمالية"),
             new TranslationInfo(LanguageCode.AZ, "Şimali Koreya"),
             new TranslationInfo(LanguageCode.BE, "Паўночная Карэя"),
@@ -17,13 +17,13 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.CS, "Severní Korea"),
             new TranslationInfo(LanguageCode.DA, "Nordkorea"),
             new TranslationInfo(LanguageCode.DE, "Nordkorea"),
-            new TranslationInfo(LanguageCode.EL, "Λαοκρατική Δημοκρατία της Κορέας"),
+            new TranslationInfo(LanguageCode.EL, "Βόρεια Κορέα"),
             new TranslationInfo(LanguageCode.EN, "North Korea"),
-            new TranslationInfo(LanguageCode.ES, "República Popular Democrática de Corea"),
+            new TranslationInfo(LanguageCode.ES, "Corea del Norte"),
             new TranslationInfo(LanguageCode.ET, "Põhja-Korea"),
-            new TranslationInfo(LanguageCode.FA, "کرهٔ شمالی"),
-            new TranslationInfo(LanguageCode.FI, "Korean demokraattinen kansantasavalta"),
-            new TranslationInfo(LanguageCode.FR, "Corée du Nord, République populaire démocratique"),
+            new TranslationInfo(LanguageCode.FA, "کُره شمالی"),
+            new TranslationInfo(LanguageCode.FI, "Pohjois-Korea"),
+            new TranslationInfo(LanguageCode.FR, "Corée du Nord"),
             new TranslationInfo(LanguageCode.HE, "קוריאה הצפונית"),
             new TranslationInfo(LanguageCode.HI, "उत्तर कोरिया"),
             new TranslationInfo(LanguageCode.HR, "Sjeverna Koreja"),
@@ -32,10 +32,10 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.ID, "Korea Utara"),
             new TranslationInfo(LanguageCode.IS, "Norður-Kórea"),
             new TranslationInfo(LanguageCode.IT, "Corea del Nord"),
-            new TranslationInfo(LanguageCode.JA, "朝鮮民主主義人民共和国"),
+            new TranslationInfo(LanguageCode.JA, "北朝鮮"),
             new TranslationInfo(LanguageCode.KA, "ჩრდილოეთ კორეა"),
             new TranslationInfo(LanguageCode.KK, "Солтүстік Корея"),
-            new TranslationInfo(LanguageCode.KO, "조선민주주의인민공화국"),
+            new TranslationInfo(LanguageCode.KO, "조선"),
             new TranslationInfo(LanguageCode.KY, "Түндүк Корея"),
             new TranslationInfo(LanguageCode.LT, "Šiaurės Korėja"),
             new TranslationInfo(LanguageCode.LV, "Ziemeļkoreja"),
@@ -48,15 +48,15 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.PL, "Korea Północna"),
             new TranslationInfo(LanguageCode.PT, "Coreia do Norte"),
             new TranslationInfo(LanguageCode.RO, "Coreea de Nord"),
-            new TranslationInfo(LanguageCode.RU, "КНДР (Корейская Народно-Демократическая Республика)"),
+            new TranslationInfo(LanguageCode.RU, "Северная Корея"),
             new TranslationInfo(LanguageCode.SK, "Severná Kórea"),
             new TranslationInfo(LanguageCode.SL, "Severna Koreja"),
             new TranslationInfo(LanguageCode.SR, "Северна Кореја"),
             new TranslationInfo(LanguageCode.SV, "Nordkorea"),
             new TranslationInfo(LanguageCode.TR, "Kuzey Kore"),
-            new TranslationInfo(LanguageCode.UK, "КНДР (Корейська Народно-Демократична Республіка)"),
+            new TranslationInfo(LanguageCode.UK, "Північна Корея"),
             new TranslationInfo(LanguageCode.UZ, "Shimoliy Koreya"),
             new TranslationInfo(LanguageCode.ZH, "朝鲜"),
-        };
+        ];
     }
 }

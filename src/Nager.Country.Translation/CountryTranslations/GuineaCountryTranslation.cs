@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Guinea
@@ -6,14 +6,14 @@ namespace Nager.Country.Translation.CountryTranslations
     public class GuineaCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "غينيا"),
             new TranslationInfo(LanguageCode.AZ, "Qvineya"),
             new TranslationInfo(LanguageCode.BE, "Гвінея"),
             new TranslationInfo(LanguageCode.BG, "Гвинея"),
             new TranslationInfo(LanguageCode.BS, "Gvineja"),
-            new TranslationInfo(LanguageCode.CA, "República de Guinea"),
+            new TranslationInfo(LanguageCode.CA, "Guinea"),
             new TranslationInfo(LanguageCode.CS, "Guinea"),
             new TranslationInfo(LanguageCode.DA, "Guinea"),
             new TranslationInfo(LanguageCode.DE, "Guinea"),
@@ -43,7 +43,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MN, "Гвиней"),
             new TranslationInfo(LanguageCode.NB, "Guinea"),
             new TranslationInfo(LanguageCode.NO, "Guinea"),
-            new TranslationInfo(LanguageCode.NL, "Guinea"),
+            new TranslationInfo(LanguageCode.NL, "Guinee"),
             new TranslationInfo(LanguageCode.NN, "Guinea"),
             new TranslationInfo(LanguageCode.PL, "Gwinea"),
             new TranslationInfo(LanguageCode.PT, "Guiné"),
@@ -57,6 +57,6 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.UK, "Гвінея"),
             new TranslationInfo(LanguageCode.UZ, "Gvineya"),
             new TranslationInfo(LanguageCode.ZH, "几内亚"),
-        };
+        ];
     }
 }

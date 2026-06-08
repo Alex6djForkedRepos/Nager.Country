@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Venezuela
@@ -6,8 +6,8 @@ namespace Nager.Country.Translation.CountryTranslations
     public class VenezuelaCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "فنزويلا"),
             new TranslationInfo(LanguageCode.AZ, "Venesuela"),
             new TranslationInfo(LanguageCode.BE, "Венесуэла"),
@@ -32,7 +32,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.ID, "Venezuela"),
             new TranslationInfo(LanguageCode.IS, "Venesúela"),
             new TranslationInfo(LanguageCode.IT, "Venezuela"),
-            new TranslationInfo(LanguageCode.JA, "ベネズエラ・ボリバル共和国"),
+            new TranslationInfo(LanguageCode.JA, "ベネズエラ"),
             new TranslationInfo(LanguageCode.KA, "ვენესუელა"),
             new TranslationInfo(LanguageCode.KK, "Венесуэла"),
             new TranslationInfo(LanguageCode.KO, "베네수엘라"),
@@ -57,6 +57,6 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.UK, "Венесуела"),
             new TranslationInfo(LanguageCode.UZ, "Venesuela"),
             new TranslationInfo(LanguageCode.ZH, "委内瑞拉"),
-        };
+        ];
     }
 }

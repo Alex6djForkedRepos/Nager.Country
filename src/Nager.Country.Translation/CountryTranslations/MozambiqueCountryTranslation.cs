@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Mozambique
@@ -6,8 +6,8 @@ namespace Nager.Country.Translation.CountryTranslations
     public class MozambiqueCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "موزمبيق"),
             new TranslationInfo(LanguageCode.AZ, "Mozambik"),
             new TranslationInfo(LanguageCode.BE, "Мазамбік"),
@@ -43,7 +43,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.MN, "Мозамбик"),
             new TranslationInfo(LanguageCode.NB, "Mosambik"),
             new TranslationInfo(LanguageCode.NO, "Mosambik"),
-            new TranslationInfo(LanguageCode.NL, "Mozambique"),
+            new TranslationInfo(LanguageCode.NL, "Mosambiek"),
             new TranslationInfo(LanguageCode.NN, "Mosambik"),
             new TranslationInfo(LanguageCode.PL, "Mozambik"),
             new TranslationInfo(LanguageCode.PT, "Moçambique"),
@@ -57,6 +57,6 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.UK, "Мозамбік"),
             new TranslationInfo(LanguageCode.UZ, "Mozambik"),
             new TranslationInfo(LanguageCode.ZH, "莫桑比克"),
-        };
+        ];
     }
 }

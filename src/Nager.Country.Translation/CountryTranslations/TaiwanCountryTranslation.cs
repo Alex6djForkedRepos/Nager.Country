@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Taiwan
@@ -6,8 +6,8 @@ namespace Nager.Country.Translation.CountryTranslations
     public class TaiwanCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "تايوان"),
             new TranslationInfo(LanguageCode.AZ, "Tayvan"),
             new TranslationInfo(LanguageCode.BE, "Тайвань"),
@@ -15,9 +15,9 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.BS, "Tajvan"),
             new TranslationInfo(LanguageCode.CA, "Taiwan"),
             new TranslationInfo(LanguageCode.CS, "Tchaj-wan"),
-            new TranslationInfo(LanguageCode.DA, "Republikken Kina Taiwan"),
+            new TranslationInfo(LanguageCode.DA, "Taiwan"),
             new TranslationInfo(LanguageCode.DE, "Taiwan"),
-            new TranslationInfo(LanguageCode.EL, "Δημοκρατία της Κίνας"),
+            new TranslationInfo(LanguageCode.EL, "Ταϊβάν"),
             new TranslationInfo(LanguageCode.EN, "Taiwan"),
             new TranslationInfo(LanguageCode.ES, "Taiwán"),
             new TranslationInfo(LanguageCode.ET, "Taiwan"),
@@ -31,7 +31,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.HY, "Թայվան"),
             new TranslationInfo(LanguageCode.ID, "Taiwan"),
             new TranslationInfo(LanguageCode.IS, "Taívan"),
-            new TranslationInfo(LanguageCode.IT, "Repubblica di Cina"),
+            new TranslationInfo(LanguageCode.IT, "Taiwan"),
             new TranslationInfo(LanguageCode.JA, "台湾"),
             new TranslationInfo(LanguageCode.KA, "ტაივანი"),
             new TranslationInfo(LanguageCode.KK, "Тайвань"),
@@ -48,15 +48,15 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.PL, "Tajwan"),
             new TranslationInfo(LanguageCode.PT, "Taiwan"),
             new TranslationInfo(LanguageCode.RO, "Taiwan"),
-            new TranslationInfo(LanguageCode.RU, "Китайская Республика"),
+            new TranslationInfo(LanguageCode.RU, "Тайвань"),
             new TranslationInfo(LanguageCode.SK, "Taiwan"),
             new TranslationInfo(LanguageCode.SL, "Tajvan"),
             new TranslationInfo(LanguageCode.SR, "Тајван"),
             new TranslationInfo(LanguageCode.SV, "Taiwan"),
             new TranslationInfo(LanguageCode.TR, "Tayvan"),
-            new TranslationInfo(LanguageCode.UK, "Республіка Китай"),
+            new TranslationInfo(LanguageCode.UK, "Тайвань"),
             new TranslationInfo(LanguageCode.UZ, "Tayvan"),
-            new TranslationInfo(LanguageCode.ZH, "臺湾"),
-        };
+            new TranslationInfo(LanguageCode.ZH, "台灣"),
+        ];
     }
 }

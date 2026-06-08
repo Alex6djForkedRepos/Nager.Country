@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Réunion
@@ -6,19 +6,19 @@ namespace Nager.Country.Translation.CountryTranslations
     public class ReunionCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "لا ريونيون"),
             new TranslationInfo(LanguageCode.AZ, "Reyunyon"),
             new TranslationInfo(LanguageCode.BE, "Рэюньён"),
             new TranslationInfo(LanguageCode.BG, "Реюнион"),
             new TranslationInfo(LanguageCode.BS, "Reunion"),
-            new TranslationInfo(LanguageCode.CA, "Reunió, illa de la"),
+            new TranslationInfo(LanguageCode.CA, "Reunió"),
             new TranslationInfo(LanguageCode.CS, "Réunion"),
             new TranslationInfo(LanguageCode.DA, "Réunion"),
             new TranslationInfo(LanguageCode.DE, "Réunion"),
             new TranslationInfo(LanguageCode.EL, "Ρεϋνιόν"),
-            new TranslationInfo(LanguageCode.EN, "Reunion"),
+            new TranslationInfo(LanguageCode.EN, "Réunion"),
             new TranslationInfo(LanguageCode.ES, "Reunión"),
             new TranslationInfo(LanguageCode.ET, "Réunion"),
             new TranslationInfo(LanguageCode.FA, "رئونیون"),
@@ -31,7 +31,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.HY, "Ռեյունիոն"),
             new TranslationInfo(LanguageCode.ID, "Reunion"),
             new TranslationInfo(LanguageCode.IS, "Réunion"),
-            new TranslationInfo(LanguageCode.IT, "Réunion"),
+            new TranslationInfo(LanguageCode.IT, "Riunione"),
             new TranslationInfo(LanguageCode.JA, "レユニオン"),
             new TranslationInfo(LanguageCode.KA, "რეუნიონი"),
             new TranslationInfo(LanguageCode.KK, "Реюньон"),
@@ -51,12 +51,12 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.RU, "Реюньон"),
             new TranslationInfo(LanguageCode.SK, "Réunion"),
             new TranslationInfo(LanguageCode.SL, "Reunion"),
-            new TranslationInfo(LanguageCode.SR, "Реинион"),
+            new TranslationInfo(LanguageCode.SR, "Реунион"),
             new TranslationInfo(LanguageCode.SV, "Réunion"),
             new TranslationInfo(LanguageCode.TR, "Réunion"),
             new TranslationInfo(LanguageCode.UK, "Реюньйон"),
             new TranslationInfo(LanguageCode.UZ, "Reyunion"),
             new TranslationInfo(LanguageCode.ZH, "留尼汪"),
-        };
+        ];
     }
 }

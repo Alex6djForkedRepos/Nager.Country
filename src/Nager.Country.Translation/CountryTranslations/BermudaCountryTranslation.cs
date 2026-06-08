@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Bermuda
@@ -6,8 +6,8 @@ namespace Nager.Country.Translation.CountryTranslations
     public class BermudaCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "برمودا"),
             new TranslationInfo(LanguageCode.AZ, "Bermud adaları"),
             new TranslationInfo(LanguageCode.BE, "Бермудскія астравы"),
@@ -48,7 +48,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.PL, "Bermudy"),
             new TranslationInfo(LanguageCode.PT, "Bermudas"),
             new TranslationInfo(LanguageCode.RO, "Bermuda"),
-            new TranslationInfo(LanguageCode.RU, "Бермуды"),
+            new TranslationInfo(LanguageCode.RU, "Бермудские Острова"),
             new TranslationInfo(LanguageCode.SK, "Bermudy"),
             new TranslationInfo(LanguageCode.SL, "Bermudi"),
             new TranslationInfo(LanguageCode.SR, "Бермуда"),
@@ -57,6 +57,6 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.UK, "Бермуди"),
             new TranslationInfo(LanguageCode.UZ, "Bermuda orollari"),
             new TranslationInfo(LanguageCode.ZH, "百慕大"),
-        };
+        ];
     }
 }

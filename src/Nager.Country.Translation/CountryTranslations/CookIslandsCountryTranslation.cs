@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Cook Islands
@@ -6,14 +6,14 @@ namespace Nager.Country.Translation.CountryTranslations
     public class CookIslandsCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "جزر كوك"),
             new TranslationInfo(LanguageCode.AZ, "Kuk adaları"),
             new TranslationInfo(LanguageCode.BE, "Астравы Кука"),
-            new TranslationInfo(LanguageCode.BG, "острови Кук"),
+            new TranslationInfo(LanguageCode.BG, "Острови Кук"),
             new TranslationInfo(LanguageCode.BS, "Kukova Ostrva"),
-            new TranslationInfo(LanguageCode.CA, "Cook, illes"),
+            new TranslationInfo(LanguageCode.CA, "Illes Cook"),
             new TranslationInfo(LanguageCode.CS, "Cookovy ostrovy"),
             new TranslationInfo(LanguageCode.DA, "Cookøerne"),
             new TranslationInfo(LanguageCode.DE, "Cookinseln"),
@@ -26,7 +26,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FR, "Îles Cook"),
             new TranslationInfo(LanguageCode.HE, "איי קוק"),
             new TranslationInfo(LanguageCode.HI, "कुक द्वीपसमूह"),
-            new TranslationInfo(LanguageCode.HR, "Cookovi Otoci"),
+            new TranslationInfo(LanguageCode.HR, "Cookovo Otočje"),
             new TranslationInfo(LanguageCode.HU, "Cook-szigetek"),
             new TranslationInfo(LanguageCode.HY, "Կուկի կղզիներ"),
             new TranslationInfo(LanguageCode.ID, "Kepulauan Cook"),
@@ -57,6 +57,6 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.UK, "Острови Кука"),
             new TranslationInfo(LanguageCode.UZ, "Kuk orollari"),
             new TranslationInfo(LanguageCode.ZH, "库克群岛"),
-        };
+        ];
     }
 }

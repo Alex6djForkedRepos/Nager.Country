@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Georgia
@@ -6,8 +6,8 @@ namespace Nager.Country.Translation.CountryTranslations
     public class GeorgiaCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "جورجيا"),
             new TranslationInfo(LanguageCode.AZ, "Gürcüstan"),
             new TranslationInfo(LanguageCode.BE, "Грузія"),
@@ -35,7 +35,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.JA, "ジョージア"),
             new TranslationInfo(LanguageCode.KA, "საქართველო"),
             new TranslationInfo(LanguageCode.KK, "Грузия"),
-            new TranslationInfo(LanguageCode.KO, "그루지야"),
+            new TranslationInfo(LanguageCode.KO, "조지아"),
             new TranslationInfo(LanguageCode.KY, "Грузия"),
             new TranslationInfo(LanguageCode.LT, "Gruzija"),
             new TranslationInfo(LanguageCode.LV, "Gruzija"),
@@ -57,6 +57,6 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.UK, "Грузія"),
             new TranslationInfo(LanguageCode.UZ, "Gruziya"),
             new TranslationInfo(LanguageCode.ZH, "格鲁吉亚"),
-        };
+        ];
     }
 }

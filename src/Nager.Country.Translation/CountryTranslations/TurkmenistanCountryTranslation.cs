@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Turkmenistan
@@ -6,8 +6,8 @@ namespace Nager.Country.Translation.CountryTranslations
     public class TurkmenistanCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "تركمانستان"),
             new TranslationInfo(LanguageCode.AZ, "Türkmənistan"),
             new TranslationInfo(LanguageCode.BE, "Туркменістан"),
@@ -46,7 +46,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.NL, "Turkmenistan"),
             new TranslationInfo(LanguageCode.NN, "Turkmenistan"),
             new TranslationInfo(LanguageCode.PL, "Turkmenistan"),
-            new TranslationInfo(LanguageCode.PT, "Turcomenistão"),
+            new TranslationInfo(LanguageCode.PT, "Turquemenistão"),
             new TranslationInfo(LanguageCode.RO, "Turkmenistan"),
             new TranslationInfo(LanguageCode.RU, "Туркмения"),
             new TranslationInfo(LanguageCode.SK, "Turkménsko"),
@@ -57,6 +57,6 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.UK, "Туркменістан"),
             new TranslationInfo(LanguageCode.UZ, "Turkmaniston"),
             new TranslationInfo(LanguageCode.ZH, "土库曼斯坦"),
-        };
+        ];
     }
 }

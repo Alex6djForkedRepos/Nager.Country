@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Malta
@@ -6,8 +6,8 @@ namespace Nager.Country.Translation.CountryTranslations
     public class MaltaCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "مالطا"),
             new TranslationInfo(LanguageCode.AZ, "Malta"),
             new TranslationInfo(LanguageCode.BE, "Мальта"),
@@ -56,7 +56,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.TR, "Malta"),
             new TranslationInfo(LanguageCode.UK, "Мальта"),
             new TranslationInfo(LanguageCode.UZ, "Malta"),
-            new TranslationInfo(LanguageCode.ZH, "马尔他"),
-        };
+            new TranslationInfo(LanguageCode.ZH, "马耳他"),
+        ];
     }
 }

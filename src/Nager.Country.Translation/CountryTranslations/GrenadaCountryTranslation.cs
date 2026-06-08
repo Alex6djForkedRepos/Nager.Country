@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Grenada
@@ -6,8 +6,8 @@ namespace Nager.Country.Translation.CountryTranslations
     public class GrenadaCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "غرينادا"),
             new TranslationInfo(LanguageCode.AZ, "Qrenada"),
             new TranslationInfo(LanguageCode.BE, "Грэнада"),
@@ -23,7 +23,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.ET, "Grenada"),
             new TranslationInfo(LanguageCode.FA, "گرنادا"),
             new TranslationInfo(LanguageCode.FI, "Grenada"),
-            new TranslationInfo(LanguageCode.FR, "Grenada"),
+            new TranslationInfo(LanguageCode.FR, "Grenade"),
             new TranslationInfo(LanguageCode.HE, "גרנדה"),
             new TranslationInfo(LanguageCode.HI, "ग्रेनाडा"),
             new TranslationInfo(LanguageCode.HR, "Grenada"),
@@ -56,7 +56,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.TR, "Grenada"),
             new TranslationInfo(LanguageCode.UK, "Гренада"),
             new TranslationInfo(LanguageCode.UZ, "Grenada"),
-            new TranslationInfo(LanguageCode.ZH, "格瑞那达"),
-        };
+            new TranslationInfo(LanguageCode.ZH, "格林纳达"),
+        ];
     }
 }

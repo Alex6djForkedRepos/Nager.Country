@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Iraq
@@ -6,8 +6,8 @@ namespace Nager.Country.Translation.CountryTranslations
     public class IraqCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "العراق"),
             new TranslationInfo(LanguageCode.AZ, "İraq"),
             new TranslationInfo(LanguageCode.BE, "Ірак"),
@@ -19,7 +19,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.DE, "Irak"),
             new TranslationInfo(LanguageCode.EL, "Ιράκ"),
             new TranslationInfo(LanguageCode.EN, "Iraq"),
-            new TranslationInfo(LanguageCode.ES, "Iraq"),
+            new TranslationInfo(LanguageCode.ES, "Irak"),
             new TranslationInfo(LanguageCode.ET, "Iraak"),
             new TranslationInfo(LanguageCode.FA, "عراق"),
             new TranslationInfo(LanguageCode.FI, "Irak"),
@@ -57,6 +57,6 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.UK, "Ірак"),
             new TranslationInfo(LanguageCode.UZ, "Iroq"),
             new TranslationInfo(LanguageCode.ZH, "伊拉克"),
-        };
+        ];
     }
 }

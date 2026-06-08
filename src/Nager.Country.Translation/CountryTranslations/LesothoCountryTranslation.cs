@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Lesotho
@@ -6,8 +6,8 @@ namespace Nager.Country.Translation.CountryTranslations
     public class LesothoCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "ليسوتو"),
             new TranslationInfo(LanguageCode.AZ, "Lesoto"),
             new TranslationInfo(LanguageCode.BE, "Лесота"),
@@ -53,10 +53,10 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.SL, "Lesoto"),
             new TranslationInfo(LanguageCode.SR, "Лесото"),
             new TranslationInfo(LanguageCode.SV, "Lesotho"),
-            new TranslationInfo(LanguageCode.TR, "Lesoto"),
+            new TranslationInfo(LanguageCode.TR, "Lesotho"),
             new TranslationInfo(LanguageCode.UK, "Лесото"),
             new TranslationInfo(LanguageCode.UZ, "Lesoto"),
-            new TranslationInfo(LanguageCode.ZH, "赖索托"),
-        };
+            new TranslationInfo(LanguageCode.ZH, "莱索托"),
+        ];
     }
 }

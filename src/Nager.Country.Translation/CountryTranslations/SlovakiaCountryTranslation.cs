@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Slovakia
@@ -6,8 +6,8 @@ namespace Nager.Country.Translation.CountryTranslations
     public class SlovakiaCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "سلوفاكيا"),
             new TranslationInfo(LanguageCode.AZ, "Slovakiya"),
             new TranslationInfo(LanguageCode.BE, "Славакія"),
@@ -21,7 +21,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.EN, "Slovakia"),
             new TranslationInfo(LanguageCode.ES, "Eslovaquia"),
             new TranslationInfo(LanguageCode.ET, "Slovakkia"),
-            new TranslationInfo(LanguageCode.FA, "اسلواکی"),
+            new TranslationInfo(LanguageCode.FA, "اِسلُواکی"),
             new TranslationInfo(LanguageCode.FI, "Slovakia"),
             new TranslationInfo(LanguageCode.FR, "Slovaquie"),
             new TranslationInfo(LanguageCode.HE, "סלובקיה"),
@@ -57,6 +57,6 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.UK, "Словаччина"),
             new TranslationInfo(LanguageCode.UZ, "Slovakiya"),
             new TranslationInfo(LanguageCode.ZH, "斯洛伐克"),
-        };
+        ];
     }
 }

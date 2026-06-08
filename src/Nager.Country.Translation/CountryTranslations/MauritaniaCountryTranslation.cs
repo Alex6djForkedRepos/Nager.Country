@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Mauritania
@@ -6,8 +6,8 @@ namespace Nager.Country.Translation.CountryTranslations
     public class MauritaniaCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "موريتانيا"),
             new TranslationInfo(LanguageCode.AZ, "Mavritaniya"),
             new TranslationInfo(LanguageCode.BE, "Маўрытанія"),
@@ -26,7 +26,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.FR, "Mauritanie"),
             new TranslationInfo(LanguageCode.HE, "מאוריטניה"),
             new TranslationInfo(LanguageCode.HI, "मॉरिटानिया"),
-            new TranslationInfo(LanguageCode.HR, "Mauretanija"),
+            new TranslationInfo(LanguageCode.HR, "Mauritanija"),
             new TranslationInfo(LanguageCode.HU, "Mauritánia"),
             new TranslationInfo(LanguageCode.HY, "Մավրիտանիա"),
             new TranslationInfo(LanguageCode.ID, "Mauritania"),
@@ -57,6 +57,6 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.UK, "Мавританія"),
             new TranslationInfo(LanguageCode.UZ, "Mavritaniya"),
             new TranslationInfo(LanguageCode.ZH, "毛里塔尼亚"),
-        };
+        ];
     }
 }

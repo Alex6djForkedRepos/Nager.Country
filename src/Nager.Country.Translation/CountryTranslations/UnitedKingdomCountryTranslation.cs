@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// United Kingdom
@@ -6,8 +6,8 @@ namespace Nager.Country.Translation.CountryTranslations
     public class UnitedKingdomCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "المملكة المتحدة"),
             new TranslationInfo(LanguageCode.AZ, "Birləşmiş Krallıq"),
             new TranslationInfo(LanguageCode.BE, "Вялікабрытанія"),
@@ -21,7 +21,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.EN, "United Kingdom"),
             new TranslationInfo(LanguageCode.ES, "Reino Unido"),
             new TranslationInfo(LanguageCode.ET, "Suurbritannia"),
-            new TranslationInfo(LanguageCode.FA, "بریتانیا"),
+            new TranslationInfo(LanguageCode.FA, "بریتانیای کبیر"),
             new TranslationInfo(LanguageCode.FI, "Yhdistynyt kuningaskunta"),
             new TranslationInfo(LanguageCode.FR, "Royaume-Uni"),
             new TranslationInfo(LanguageCode.HE, "הממלכה המאוחדת"),
@@ -45,7 +45,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.NO, "Storbritannia"),
             new TranslationInfo(LanguageCode.NL, "Verenigd Koninkrijk"),
             new TranslationInfo(LanguageCode.NN, "Storbritannia"),
-            new TranslationInfo(LanguageCode.PL, "Wielka Brytania"),
+            new TranslationInfo(LanguageCode.PL, "Zjednoczone Królestwo"),
             new TranslationInfo(LanguageCode.PT, "Reino Unido"),
             new TranslationInfo(LanguageCode.RO, "Regatul Unit"),
             new TranslationInfo(LanguageCode.RU, "Великобритания"),
@@ -55,8 +55,8 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.SV, "Storbritannien"),
             new TranslationInfo(LanguageCode.TR, "Birleşik Krallık"),
             new TranslationInfo(LanguageCode.UK, "Великобританія"),
-            new TranslationInfo(LanguageCode.UZ, "Buyuk Britaniya"),
+            new TranslationInfo(LanguageCode.UZ, "Birlashgan Qirollik"),
             new TranslationInfo(LanguageCode.ZH, "英国"),
-        };
+        ];
     }
 }

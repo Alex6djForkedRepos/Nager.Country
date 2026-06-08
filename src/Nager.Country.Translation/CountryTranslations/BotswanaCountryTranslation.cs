@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Botswana
@@ -6,8 +6,8 @@ namespace Nager.Country.Translation.CountryTranslations
     public class BotswanaCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "بوتسوانا"),
             new TranslationInfo(LanguageCode.AZ, "Botsvana"),
             new TranslationInfo(LanguageCode.BE, "Батсвана"),
@@ -46,7 +46,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.NL, "Botswana"),
             new TranslationInfo(LanguageCode.NN, "Botswana"),
             new TranslationInfo(LanguageCode.PL, "Botswana"),
-            new TranslationInfo(LanguageCode.PT, "Botsuana"),
+            new TranslationInfo(LanguageCode.PT, "Botswana"),
             new TranslationInfo(LanguageCode.RO, "Botswana"),
             new TranslationInfo(LanguageCode.RU, "Ботсвана"),
             new TranslationInfo(LanguageCode.SK, "Botswana"),
@@ -57,6 +57,6 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.UK, "Ботсвана"),
             new TranslationInfo(LanguageCode.UZ, "Botsvana"),
             new TranslationInfo(LanguageCode.ZH, "博茨瓦纳"),
-        };
+        ];
     }
 }

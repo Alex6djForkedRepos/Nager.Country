@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Poland
@@ -6,8 +6,8 @@ namespace Nager.Country.Translation.CountryTranslations
     public class PolandCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "بولندا"),
             new TranslationInfo(LanguageCode.AZ, "Polşa"),
             new TranslationInfo(LanguageCode.BE, "Польшча"),
@@ -46,7 +46,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.NL, "Polen"),
             new TranslationInfo(LanguageCode.NN, "Polen"),
             new TranslationInfo(LanguageCode.PL, "Polska"),
-            new TranslationInfo(LanguageCode.PT, "Polônia"),
+            new TranslationInfo(LanguageCode.PT, "Polónia"),
             new TranslationInfo(LanguageCode.RO, "Polonia"),
             new TranslationInfo(LanguageCode.RU, "Польша"),
             new TranslationInfo(LanguageCode.SK, "Poľsko"),
@@ -57,6 +57,6 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.UK, "Польша"),
             new TranslationInfo(LanguageCode.UZ, "Polsha"),
             new TranslationInfo(LanguageCode.ZH, "波兰"),
-        };
+        ];
     }
 }

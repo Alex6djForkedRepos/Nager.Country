@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Puerto Rico
@@ -6,9 +6,9 @@ namespace Nager.Country.Translation.CountryTranslations
     public class PuertoRicoCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
-            new TranslationInfo(LanguageCode.AR, "بورتوريكو"),
+        public TranslationInfo[] Translations =>
+        [
+            new TranslationInfo(LanguageCode.AR, "بويرتوريكو"),
             new TranslationInfo(LanguageCode.AZ, "Puerto Riko"),
             new TranslationInfo(LanguageCode.BE, "Пуэрта-Рыка"),
             new TranslationInfo(LanguageCode.BG, "Пуерто Рико"),
@@ -57,6 +57,6 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.UK, "Пуерто-Ріко"),
             new TranslationInfo(LanguageCode.UZ, "Puerto-Riko"),
             new TranslationInfo(LanguageCode.ZH, "波多黎各"),
-        };
+        ];
     }
 }

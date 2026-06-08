@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Sierra Leone
@@ -6,8 +6,8 @@ namespace Nager.Country.Translation.CountryTranslations
     public class SierraLeoneCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "سيراليون"),
             new TranslationInfo(LanguageCode.AZ, "Syerra-Leone"),
             new TranslationInfo(LanguageCode.BE, "Сьера-Леонэ"),
@@ -19,7 +19,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.DE, "Sierra Leone"),
             new TranslationInfo(LanguageCode.EL, "Σιέρα Λεόνε"),
             new TranslationInfo(LanguageCode.EN, "Sierra Leone"),
-            new TranslationInfo(LanguageCode.ES, "Sierra Leona"),
+            new TranslationInfo(LanguageCode.ES, "Sierra Leone"),
             new TranslationInfo(LanguageCode.ET, "Sierra Leone"),
             new TranslationInfo(LanguageCode.FA, "سیرالئون"),
             new TranslationInfo(LanguageCode.FI, "Sierra Leone"),
@@ -57,6 +57,6 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.UK, "Сьєрра-Леоне"),
             new TranslationInfo(LanguageCode.UZ, "Syerra-Leone"),
             new TranslationInfo(LanguageCode.ZH, "塞拉利昂"),
-        };
+        ];
     }
 }

@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Greece
@@ -6,8 +6,8 @@ namespace Nager.Country.Translation.CountryTranslations
     public class GreeceCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "اليونان"),
             new TranslationInfo(LanguageCode.AZ, "Yunanıstan"),
             new TranslationInfo(LanguageCode.BE, "Грэцыя"),
@@ -57,6 +57,6 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.UK, "Греція"),
             new TranslationInfo(LanguageCode.UZ, "Gretsiya"),
             new TranslationInfo(LanguageCode.ZH, "希腊"),
-        };
+        ];
     }
 }

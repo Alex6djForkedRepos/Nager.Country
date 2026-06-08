@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Comoros
@@ -6,8 +6,8 @@ namespace Nager.Country.Translation.CountryTranslations
     public class ComorosCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "جزر القمر"),
             new TranslationInfo(LanguageCode.AZ, "Komor adaları"),
             new TranslationInfo(LanguageCode.BE, "Каморскія Астравы"),
@@ -17,11 +17,11 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.CS, "Komory"),
             new TranslationInfo(LanguageCode.DA, "Comorerne"),
             new TranslationInfo(LanguageCode.DE, "Komoren"),
-            new TranslationInfo(LanguageCode.EL, "Ένωση των Κομορών"),
+            new TranslationInfo(LanguageCode.EL, "Κομόρες"),
             new TranslationInfo(LanguageCode.EN, "Comoros"),
             new TranslationInfo(LanguageCode.ES, "Comoras"),
             new TranslationInfo(LanguageCode.ET, "Komoorid"),
-            new TranslationInfo(LanguageCode.FA, "کومورو"),
+            new TranslationInfo(LanguageCode.FA, "کومور"),
             new TranslationInfo(LanguageCode.FI, "Komorit"),
             new TranslationInfo(LanguageCode.FR, "Comores"),
             new TranslationInfo(LanguageCode.HE, "קומורו"),
@@ -32,11 +32,11 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.ID, "Komoro"),
             new TranslationInfo(LanguageCode.IS, "Kómorur"),
             new TranslationInfo(LanguageCode.IT, "Comore"),
-            new TranslationInfo(LanguageCode.JA, "小諸"),
+            new TranslationInfo(LanguageCode.JA, "コモロ"),
             new TranslationInfo(LanguageCode.KA, "კომორის კუნძულები"),
             new TranslationInfo(LanguageCode.KK, "Комор аралдары"),
             new TranslationInfo(LanguageCode.KO, "코모로"),
-            new TranslationInfo(LanguageCode.KY, "Коморос"),
+            new TranslationInfo(LanguageCode.KY, "Ко모рос"),
             new TranslationInfo(LanguageCode.LT, "Komorai"),
             new TranslationInfo(LanguageCode.LV, "Komoru salas"),
             new TranslationInfo(LanguageCode.MK, "Коморски Острови"),
@@ -57,6 +57,6 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.UK, "Коморські Острови"),
             new TranslationInfo(LanguageCode.UZ, "Komor orollari"),
             new TranslationInfo(LanguageCode.ZH, "科摩罗"),
-        };
+        ];
     }
 }

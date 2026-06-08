@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Central African Republic
@@ -6,25 +6,25 @@ namespace Nager.Country.Translation.CountryTranslations
     public class CentralAfricanRepublicCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "جمهورية أفريقيا الوسطى"),
             new TranslationInfo(LanguageCode.AZ, "Mərkəzi Afrika Respublikası"),
             new TranslationInfo(LanguageCode.BE, "Цэнтральнаафрыканская Рэспубліка"),
             new TranslationInfo(LanguageCode.BG, "Централноафриканска република"),
             new TranslationInfo(LanguageCode.BS, "Centralnoafrička Republika"),
-            new TranslationInfo(LanguageCode.CA, "Centreafricana, República"),
+            new TranslationInfo(LanguageCode.CA, "República Centreafricana"),
             new TranslationInfo(LanguageCode.CS, "Středoafrická republika"),
             new TranslationInfo(LanguageCode.DA, "Den Centralafrikanske Republik"),
             new TranslationInfo(LanguageCode.DE, "Zentralafrikanische Republik"),
-            new TranslationInfo(LanguageCode.EL, "Κεντροαφρικανική Δημοκρατίαc"),
+            new TranslationInfo(LanguageCode.EL, "Κεντροαφρικανική Δημοκρατία"),
             new TranslationInfo(LanguageCode.EN, "Central African Republic"),
             new TranslationInfo(LanguageCode.ES, "República Centroafricana"),
             new TranslationInfo(LanguageCode.ET, "Kesk-Aafrika Vabariik"),
-            new TranslationInfo(LanguageCode.FA, "جمهوری افریقای مرکزی"),
+            new TranslationInfo(LanguageCode.FA, "جمهوری آفریقای مرکزی"),
             new TranslationInfo(LanguageCode.FI, "Keski-Afrikan tasavalta"),
-            new TranslationInfo(LanguageCode.FR, "Centrafricaine, République"),
-            new TranslationInfo(LanguageCode.HE, "הרפובליקה של מרכז אפריקה"),
+            new TranslationInfo(LanguageCode.FR, "République centrafricaine"),
+            new TranslationInfo(LanguageCode.HE, "הרפובليקה של מרכז אפריקה"),
             new TranslationInfo(LanguageCode.HI, "मध्य अफ़्रीकी गणराज्य"),
             new TranslationInfo(LanguageCode.HR, "Srednjoafrička Republika"),
             new TranslationInfo(LanguageCode.HU, "Közép-afrikai Köztársaság"),
@@ -48,7 +48,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.PL, "Republika Środkowoafrykańska"),
             new TranslationInfo(LanguageCode.PT, "República Centro-Africana"),
             new TranslationInfo(LanguageCode.RO, "Republica Centrafricană"),
-            new TranslationInfo(LanguageCode.RU, "ЦАР"),
+            new TranslationInfo(LanguageCode.RU, "Центральноафриканская Республика"),
             new TranslationInfo(LanguageCode.SK, "Stredoafrická republika"),
             new TranslationInfo(LanguageCode.SL, "Centralnoafriška republika"),
             new TranslationInfo(LanguageCode.SR, "Централноафричка Република"),
@@ -56,7 +56,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.TR, "Orta Afrika Cumhuriyeti"),
             new TranslationInfo(LanguageCode.UK, "Центральноафриканська Республіка"),
             new TranslationInfo(LanguageCode.UZ, "Markaziy Afrika Respublikasi"),
-            new TranslationInfo(LanguageCode.ZH, "中非"),
-        };
+            new TranslationInfo(LanguageCode.ZH, "中非共和国"),
+        ];
     }
 }

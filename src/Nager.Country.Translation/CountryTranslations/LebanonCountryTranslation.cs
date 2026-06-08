@@ -1,4 +1,4 @@
-namespace Nager.Country.Translation.CountryTranslations
+﻿namespace Nager.Country.Translation.CountryTranslations
 {
     /// <summary>
     /// Lebanon
@@ -6,8 +6,8 @@ namespace Nager.Country.Translation.CountryTranslations
     public class LebanonCountryTranslation : ICountryTranslation
     {
         /// <inheritdoc/>
-        public TranslationInfo[] Translations => new []
-        {
+        public TranslationInfo[] Translations =>
+        [
             new TranslationInfo(LanguageCode.AR, "لبنان"),
             new TranslationInfo(LanguageCode.AZ, "Livan"),
             new TranslationInfo(LanguageCode.BE, "Ліван"),
@@ -17,7 +17,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.CS, "Libanon"),
             new TranslationInfo(LanguageCode.DA, "Libanon"),
             new TranslationInfo(LanguageCode.DE, "Libanon"),
-            new TranslationInfo(LanguageCode.EL, "Λίβανο"),
+            new TranslationInfo(LanguageCode.EL, "Λίβανος"),
             new TranslationInfo(LanguageCode.EN, "Lebanon"),
             new TranslationInfo(LanguageCode.ES, "Líbano"),
             new TranslationInfo(LanguageCode.ET, "Liibanon"),
@@ -29,7 +29,7 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.HR, "Libanon"),
             new TranslationInfo(LanguageCode.HU, "Libanon"),
             new TranslationInfo(LanguageCode.HY, "Լիբանան"),
-            new TranslationInfo(LanguageCode.ID, "Lebanon"),
+            new TranslationInfo(LanguageCode.ID, "Libanon"),
             new TranslationInfo(LanguageCode.IS, "Líbanon"),
             new TranslationInfo(LanguageCode.IT, "Libano"),
             new TranslationInfo(LanguageCode.JA, "レバノン"),
@@ -57,6 +57,6 @@ namespace Nager.Country.Translation.CountryTranslations
             new TranslationInfo(LanguageCode.UK, "Ліван"),
             new TranslationInfo(LanguageCode.UZ, "Livan"),
             new TranslationInfo(LanguageCode.ZH, "黎巴嫩"),
-        };
+        ];
     }
 }
