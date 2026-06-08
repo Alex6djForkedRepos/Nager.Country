@@ -7,10 +7,11 @@ The dataset includes **250 countries and territories** with detailed information
 - ✅ Official country names  
 - 🌐 ISO 3166 Alpha-2, Alpha-3, and numeric country codes  
 - 💱 Associated currencies and ISO 4217 currency codes  
-- 🗣️ Official and spoken languages (ISO 639)  
 - 🌍 Continent and subregion classification  
 - 🌐 Country borders
 - 🌏 Translations in multiple languages
+- 🗣️ Official and spoken languages (ISO 639)  (not yet available)
+
 
 ## 📦 Access & Installation
 
