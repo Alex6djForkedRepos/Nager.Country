@@ -43,7 +43,7 @@ PM> install-package Nager.Country
 
 ### 🌐 Optional Package – `Nager.Country.Translation`
 
-Provides localized country names (translations in multiple languages).
+Provides localized country names (translations based on the `commonName` in multiple languages).
 
 🔗 [View on NuGet.org →](https://www.nuget.org/packages/Nager.Country.Translation)
 
