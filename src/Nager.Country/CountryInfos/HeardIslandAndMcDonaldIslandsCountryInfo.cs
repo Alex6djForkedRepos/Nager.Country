@@ -1,6 +1,4 @@
-﻿using Nager.Country.Currencies;
-
-namespace Nager.Country.CountryInfos
+﻿namespace Nager.Country.CountryInfos
 {
     /// <summary>
     /// Heard Island and McDonald Islands

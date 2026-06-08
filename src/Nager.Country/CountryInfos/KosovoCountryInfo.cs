@@ -1,6 +1,4 @@
-﻿using Nager.Country.Currencies;
-
-namespace Nager.Country.CountryInfos
+﻿namespace Nager.Country.CountryInfos
 {
     /// <summary>
     /// Kosovo (partially recognized; not a UN member state)
